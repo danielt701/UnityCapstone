@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 20ac103f44a65a042af387d88a3e2d29
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6439173066615615093
+    second: clyde_sprite_sheet2_0
+  - first:
+      213: 7061668674304525484
+    second: clyde_sprite_sheet2_1
+  - first:
+      213: -9101485124862954696
+    second: clyde_sprite_sheet2_2
+  - first:
+      213: 3456381165962137385
+    second: clyde_sprite_sheet2_3
+  - first:
+      213: -6740431397252684320
+    second: clyde_sprite_sheet2_4
+  - first:
+      213: -4760042955511711709
+    second: clyde_sprite_sheet2_5
+  - first:
+      213: -3129862651284324042
+    second: clyde_sprite_sheet2_6
+  - first:
+      213: -6533910843176059604
+    second: clyde_sprite_sheet2_7
+  - first:
+      213: -418905790019656133
+    second: clyde_sprite_sheet2_8
+  - first:
+      213: 7915614438187351865
+    second: clyde_sprite_sheet2_9
+  - first:
+      213: 1815496955698269608
+    second: clyde_sprite_sheet2_10
+  - first:
+      213: -1896313436663568107
+    second: clyde_sprite_sheet2_11
+  - first:
+      213: -8589347043470516363
+    second: clyde_sprite_sheet2_12
+  - first:
+      213: 6732221078616302959
+    second: clyde_sprite_sheet2_13
+  - first:
+      213: 8764044297659747661
+    second: clyde_sprite_sheet2_14
+  - first:
+      213: 4707070141070083376
+    second: clyde_sprite_sheet2_15
+  - first:
+      213: 7832320741147609538
+    second: clyde_sprite_sheet2_16
+  - first:
+      213: 4810601716897173489
+    second: clyde_sprite_sheet2_17
+  - first:
+      213: -1379086535870357179
+    second: clyde_sprite_sheet2_18
+  - first:
+      213: 1374338396338363737
+    second: clyde_sprite_sheet2_19
+  - first:
+      213: -8792323532149292682
+    second: clyde_sprite_sheet2_20
+  - first:
+      213: 7655039868858002379
+    second: clyde_sprite_sheet2_21
+  - first:
+      213: 7631341336152653738
+    second: clyde_sprite_sheet2_22
+  - first:
+      213: -2897142723766599642
+    second: clyde_sprite_sheet2_23
+  - first:
+      213: -834580649526272681
+    second: clyde_sprite_sheet2_24
+  - first:
+      213: -7719758493696228394
+    second: clyde_sprite_sheet2_25
+  - first:
+      213: 6177085941169966751
+    second: clyde_sprite_sheet2_26
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clyde_sprite_sheet2_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 873
+        width: 151
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ee2e2b9c98c5950800000000000000
+      internalID: 6439173066615615093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde_sprite_sheet2_1
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 866
+        width: 153
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4cc65be36100260800000000000000
+      internalID: 7061668674304525484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde_sprite_sheet2_2
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 866
+        width: 159
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833ba0c208701b180800000000000000
+      internalID: -9101485124862954696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde_sprite_sheet2_3
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 865
+        width: 160
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f06859b5887ff20800000000000000
+      internalID: 3456381165962137385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde_sprite_sheet2_4
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 861
+        width: 159
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e52dd54b5d2572a0800000000000000
+      internalID: -6740431397252684320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde_sprite_sheet2_5
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 991
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328bf19d62ee0fdb0800000000000000
+      internalID: -4760042955511711709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde_sprite_sheet2_6
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 865
+        width: 160
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6318f6a508e7094d0800000000000000
+      internalID: -3129862651284324042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde_sprite_sheet2_7
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 866
+        width: 159
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2dfa6ec4b2e255a0800000000000000
+      internalID: -6533910843176059604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde_sprite_sheet2_8
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 726
+        width: 153
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b362687476fbf2af0800000000000000
+      internalID: -418905790019656133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde_sprite_sheet2_9
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 722
+        width: 151
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f3c1f8469e9dd60800000000000000
+      internalID: 7915614438187351865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde_sprite_sheet2_10
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 538
+        width: 151
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adc23fbcd0f13910800000000000000
+      internalID: 1815496955698269608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde_sprite_sheet2_11
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 538
+        width: 151
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5192ed8f9f0fea5e0800000000000000
+      internalID: -1896313436663568107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde_sprite_sheet2_12
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 538
+        width: 150
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f536d4f528cc880800000000000000
+      internalID: -8589347043470516363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde_sprite_sheet2_13
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 530
+        width: 148
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f656254f667ad6d50800000000000000
+      internalID: 6732221078616302959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde_sprite_sheet2_14
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 530
+        width: 147
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d0cc5dad320a970800000000000000
+      internalID: 8764044297659747661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde_sprite_sheet2_15
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 530
+        width: 148
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035845baa5fd25140800000000000000
+      internalID: 4707070141070083376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde_sprite_sheet2_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 387
+        width: 151
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c90707773ef1bc60800000000000000
+      internalID: 7832320741147609538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde_sprite_sheet2_17
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 387
+        width: 150
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff4a8b16c0b2c240800000000000000
+      internalID: 4810601716897173489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde_sprite_sheet2_18
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 387
+        width: 151
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5416ce23a108cdce0800000000000000
+      internalID: -1379086535870357179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde_sprite_sheet2_19
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 195
+        width: 151
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d9dea6d71a21310800000000000000
+      internalID: 1374338396338363737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde_sprite_sheet2_20
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 193
+        width: 151
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6710febc4546bf580800000000000000
+      internalID: -8792323532149292682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde_sprite_sheet2_21
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 193
+        width: 150
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbebbcd33a2c3a60800000000000000
+      internalID: 7655039868858002379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde_sprite_sheet2_22
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 193
+        width: 149
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf322d3388f7e960800000000000000
+      internalID: 7631341336152653738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde_sprite_sheet2_23
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 191
+        width: 147
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620c84eda084bc7d0800000000000000
+      internalID: -2897142723766599642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde_sprite_sheet2_24
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 194
+        width: 154
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d52903259fa64f0800000000000000
+      internalID: -834580649526272681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde_sprite_sheet2_25
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 284
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d38e6f0d88edd490800000000000000
+      internalID: -7719758493696228394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde_sprite_sheet2_26
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 195
+        width: 158
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ece769fea69b550800000000000000
+      internalID: 6177085941169966751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
