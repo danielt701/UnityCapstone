@@ -9,6 +9,8 @@ TagManager:
   - Enemy
   - Bone
   - SpeedBoost
+  - Shield
+  - shield
   layers:
   - Default
   - TransparentFX
