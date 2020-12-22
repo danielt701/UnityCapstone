@@ -7,6 +7,9 @@ public class Pickup : MonoBehaviour
     private Inventory inventory;
     public GameObject itemButton;
 
+    public AudioSource audioSource;
+    public AudioClip PowerUpGet;
+
     private void Start()
     {
         inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
@@ -21,6 +24,8 @@ public class Pickup : MonoBehaviour
                 if (inventory.isFull[i] == false)
                 {
                     Destroy(gameObject);
+
+                    audioSource.PlayOneShot(PowerUpGet, 0.8f);
                    
                 }
             }

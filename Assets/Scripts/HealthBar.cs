@@ -14,17 +14,27 @@ public class HealthBar : MonoBehaviour
 
     float Life = 1f;  // life between 0 and 1
 
+    public AudioSource audioSource;
+    public AudioClip ClydeYelp;
+    public AudioClip EnemyAttack;
+    public AudioClip PowerUpUse;
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag.Equals ("Enemy"))
         {
             RemoveLife();
+
+            audioSource.PlayOneShot(ClydeYelp, 0.8f);
+            audioSource.PlayOneShot(EnemyAttack, 0.7f);
         }
 
         if (other.tag.Equals ("Bone"))
         {
             AddLife();
+
+            audioSource.PlayOneShot(PowerUpUse, 2.0f);
         }
 
        

@@ -1179,6 +1179,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemButton: {fileID: 8170581521910282682, guid: 1ab9ff5a6a404994db8987fcdfb8baf2, type: 3}
+  audioSource: {fileID: 1727694849}
+  PowerUpGet: {fileID: 8300000, guid: b79389f09b4df1541a5421aaee6a4fef, type: 3}
 --- !u!1 &290261738
 GameObject:
   m_ObjectHideFlags: 0
@@ -2324,6 +2326,26 @@ PrefabInstance:
       propertyPath: jumpForce
       value: 18
       objectReference: {fileID: 0}
+    - target: {fileID: 4170597930317025008, guid: 7a17bbe64471f894f9639c43de886f5e, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1727694849}
+    - target: {fileID: 4170597930317025008, guid: 7a17bbe64471f894f9639c43de886f5e, type: 3}
+      propertyPath: ClydeJump
+      value: 
+      objectReference: {fileID: 8300000, guid: 47b651aa11bdb814d82222ff59d5ed37, type: 3}
+    - target: {fileID: 4170597930317025008, guid: 7a17bbe64471f894f9639c43de886f5e, type: 3}
+      propertyPath: ClydeBark
+      value: 
+      objectReference: {fileID: 8300000, guid: d7672c1bdf364404e9e8a5c409eb6250, type: 3}
+    - target: {fileID: 4170597930317025008, guid: 7a17bbe64471f894f9639c43de886f5e, type: 3}
+      propertyPath: ClydeWalk
+      value: 
+      objectReference: {fileID: 8300000, guid: 36509d31222a50a4783474bef3375ecf, type: 3}
+    - target: {fileID: 4170597930317025008, guid: 7a17bbe64471f894f9639c43de886f5e, type: 3}
+      propertyPath: ClydeYelp
+      value: 
+      objectReference: {fileID: 8300000, guid: f3cf29c9684315e4283ed14e500ab4e8, type: 3}
     - target: {fileID: 4170597930317025009, guid: 7a17bbe64471f894f9639c43de886f5e, type: 3}
       propertyPath: m_Name
       value: Player (1)
@@ -2388,6 +2410,22 @@ PrefabInstance:
       propertyPath: LifeFill
       value: 
       objectReference: {fileID: 433946293}
+    - target: {fileID: 4170597930317025017, guid: 7a17bbe64471f894f9639c43de886f5e, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1727694849}
+    - target: {fileID: 4170597930317025017, guid: 7a17bbe64471f894f9639c43de886f5e, type: 3}
+      propertyPath: ClydeYelp
+      value: 
+      objectReference: {fileID: 8300000, guid: f3cf29c9684315e4283ed14e500ab4e8, type: 3}
+    - target: {fileID: 4170597930317025017, guid: 7a17bbe64471f894f9639c43de886f5e, type: 3}
+      propertyPath: EnemyAttack
+      value: 
+      objectReference: {fileID: 8300000, guid: 3ce82921911b20f4bb7b2294ddb3ca54, type: 3}
+    - target: {fileID: 4170597930317025017, guid: 7a17bbe64471f894f9639c43de886f5e, type: 3}
+      propertyPath: PowerUpUse
+      value: 
+      objectReference: {fileID: 8300000, guid: cab5f18022dd28c4b8a54c9822a12d1e, type: 3}
     - target: {fileID: 4170597930317025018, guid: 7a17bbe64471f894f9639c43de886f5e, type: 3}
       propertyPath: slots.Array.data[0]
       value: 
@@ -7571,6 +7609,102 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4170597930317025009, guid: 7a17bbe64471f894f9639c43de886f5e, type: 3}
   m_PrefabInstance: {fileID: 717888874}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1727694849
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727694848}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: f71518785a6950943bd0e58caf9ffc61, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &1727694857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8706,6 +8840,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemButton: {fileID: 502586251252236659, guid: 80e8d86b8acd1d74dbfd98e0db12922f, type: 3}
+  audioSource: {fileID: 0}
+  PowerUpGet: {fileID: 0}
 --- !u!1 &2062985747
 GameObject:
   m_ObjectHideFlags: 0

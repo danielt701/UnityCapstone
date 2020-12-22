@@ -45,6 +45,11 @@ public class Player : MonoBehaviour
     [System.Serializable]
     public class BoolEvent : UnityEvent<bool> { }
 
+    public AudioSource audioSource;
+    public AudioClip ClydeJump;
+    public AudioClip ClydeBark;
+    public AudioClip ClydeWalk;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -139,6 +144,7 @@ public class Player : MonoBehaviour
         {
             Jump();
             animator.SetBool("isJumping", true);
+            audioSource.PlayOneShot(ClydeJump, 1.0f);
         }
         
 
