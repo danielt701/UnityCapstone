@@ -13,7 +13,14 @@ public class Player : MonoBehaviour
 
     // speed boost stuff
 
-    
+
+    private float JumpTimer;
+    private bool jumpinghigh;
+
+    // High Jump stuff 
+
+
+
     private float movementInputDirections;
 
     private int amountOfJumpsLeft;
@@ -61,6 +68,11 @@ public class Player : MonoBehaviour
         // speed boost timer 
         BoostTimer = 0;
         boosting = false;
+
+        // super jump timer 
+
+        JumpTimer = 0;
+        jumpinghigh = false;
     }
 
     // Update is called once per frame
@@ -81,7 +93,7 @@ public class Player : MonoBehaviour
         }
 
         //boost movement 
-        if(boosting)
+        if (boosting)
         {
             BoostTimer += Time.deltaTime;
             if (BoostTimer >= 3)
@@ -91,17 +103,43 @@ public class Player : MonoBehaviour
                 boosting = false;
             }
         }
+
+        if (jumpinghigh)
+        {
+            JumpTimer += Time.deltaTime;
+            if (JumpTimer >= 4)
+            {
+                jumpForce = 18.0f;
+                JumpTimer = 0;
+                jumpinghigh = false;
+            }
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.tag == "SpeedBoost")
+        if (other.tag == "SpeedBoost")
         {
             boosting = true;
             movementSpeed = 20;
             Destroy(other.gameObject);
         }
+
+        // Jump Higher boost
+
+        if (other.tag == "SuperJump")
+        {
+
+            jumpinghigh = true;
+            jumpForce = 30.0f;
+            Destroy(other.gameObject);
+
+        }
     }
+
+  
+
+
 
     private void FixedUpdate()
     {
