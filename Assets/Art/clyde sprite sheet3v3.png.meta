@@ -1,0 +1,718 @@
+fileFormatVersion: 2
+guid: e63edb01cd20aa044b191298e543dc35
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3196309976598955479
+    second: clyde sprite sheet3v3_0
+  - first:
+      213: -3135363820614216887
+    second: clyde sprite sheet3v3_1
+  - first:
+      213: -520864214674276188
+    second: clyde sprite sheet3v3_2
+  - first:
+      213: 233324814023421182
+    second: clyde sprite sheet3v3_3
+  - first:
+      213: 6997326726994010091
+    second: clyde sprite sheet3v3_4
+  - first:
+      213: -6270201368072436721
+    second: clyde sprite sheet3v3_5
+  - first:
+      213: -3761298639496124837
+    second: clyde sprite sheet3v3_6
+  - first:
+      213: -1054901591511747191
+    second: clyde sprite sheet3v3_7
+  - first:
+      213: 6680752254807620400
+    second: clyde sprite sheet3v3_8
+  - first:
+      213: -1819843087854813941
+    second: clyde sprite sheet3v3_9
+  - first:
+      213: 4372816694802271707
+    second: clyde sprite sheet3v3_10
+  - first:
+      213: 8673858406997362516
+    second: clyde sprite sheet3v3_11
+  - first:
+      213: -4858720426555734052
+    second: clyde sprite sheet3v3_12
+  - first:
+      213: -1799504942331217855
+    second: clyde sprite sheet3v3_13
+  - first:
+      213: -2912501027244636124
+    second: clyde sprite sheet3v3_14
+  - first:
+      213: 2453242364041264338
+    second: clyde sprite sheet3v3_15
+  - first:
+      213: 3858776526860384723
+    second: clyde sprite sheet3v3_16
+  - first:
+      213: 3428465765453219106
+    second: clyde sprite sheet3v3_17
+  - first:
+      213: -3071430723431740235
+    second: clyde sprite sheet3v3_18
+  - first:
+      213: -5024583474434259287
+    second: clyde sprite sheet3v3_19
+  - first:
+      213: 5623145030037172784
+    second: clyde sprite sheet3v3_20
+  - first:
+      213: -6222352942469958022
+    second: clyde sprite sheet3v3_21
+  - first:
+      213: -3205241640531609
+    second: clyde sprite sheet3v3_22
+  - first:
+      213: 3985682913159406615
+    second: clyde sprite sheet3v3_23
+  - first:
+      213: -211612290809262049
+    second: clyde sprite sheet3v3_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clyde sprite sheet3v3_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 860
+        width: 108
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a38c4d20d64a3d0800000000000000
+      internalID: -3196309976598955479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde sprite sheet3v3_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 859
+        width: 110
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9439dae8733fc74d0800000000000000
+      internalID: -3135363820614216887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde sprite sheet3v3_2
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 855
+        width: 114
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a08024a1c485c8f0800000000000000
+      internalID: -520864214674276188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde sprite sheet3v3_3
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 858
+        width: 115
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc6621aeafec3300800000000000000
+      internalID: 233324814023421182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde sprite sheet3v3_4
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 853
+        width: 112
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef13d3b59f7b1160800000000000000
+      internalID: 6997326726994010091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde sprite sheet3v3_5
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 858
+        width: 115
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04cfd1a315cbf8a0800000000000000
+      internalID: -6270201368072436721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde sprite sheet3v3_6
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 858
+        width: 115
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b566caac0de2dcbc0800000000000000
+      internalID: -3761298639496124837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde sprite sheet3v3_7
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 759
+        width: 110
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985b2f4779c3c51f0800000000000000
+      internalID: -1054901591511747191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde sprite sheet3v3_8
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 758
+        width: 109
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bb23497ccc6bc50800000000000000
+      internalID: 6680752254807620400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde sprite sheet3v3_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 621
+        width: 108
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0db6718a5e9eb6e0800000000000000
+      internalID: -1819843087854813941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde sprite sheet3v3_10
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 621
+        width: 109
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5038204, y: 0.51772034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd4691ad9d5fac30800000000000000
+      internalID: 4372816694802271707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde sprite sheet3v3_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 620
+        width: 107
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4570d1dd34cbf5870800000000000000
+      internalID: 8673858406997362516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde sprite sheet3v3_12
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 620
+        width: 106
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd70630c38b529cb0800000000000000
+      internalID: -4858720426555734052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde sprite sheet3v3_13
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 620
+        width: 105
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148b9c40acfd607e0800000000000000
+      internalID: -1799504942331217855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde sprite sheet3v3_14
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 620
+        width: 107
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4288f1f2fb7b497d0800000000000000
+      internalID: -2912501027244636124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde sprite sheet3v3_15
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 518
+        width: 109
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc7e98aeeaab0220800000000000000
+      internalID: 2453242364041264338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde sprite sheet3v3_16
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 518
+        width: 108
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9f0277ec02d8530800000000000000
+      internalID: 3858776526860384723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde sprite sheet3v3_17
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 519
+        width: 108
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2254d6ae27b549f20800000000000000
+      internalID: 3428465765453219106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde sprite sheet3v3_18
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 381
+        width: 108
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc41a9b7061065d0800000000000000
+      internalID: -3071430723431740235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde sprite sheet3v3_19
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 380
+        width: 110
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a64c0e83f7154ab0800000000000000
+      internalID: -5024583474434259287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde sprite sheet3v3_20
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 379
+        width: 107
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0327ed3bc9c690e40800000000000000
+      internalID: 5623145030037172784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde sprite sheet3v3_21
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 379
+        width: 107
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76b8fc57f2c5a9a0800000000000000
+      internalID: -6222352942469958022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde sprite sheet3v3_22
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 376
+        width: 107
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769c89689dc94fff0800000000000000
+      internalID: -3205241640531609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde sprite sheet3v3_23
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 377
+        width: 112
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714e5321e7dff4730800000000000000
+      internalID: 3985682913159406615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clyde sprite sheet3v3_24
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 378
+        width: 112
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1015302eb3301df0800000000000000
+      internalID: -211612290809262049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
