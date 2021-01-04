@@ -160,7 +160,7 @@ TextureImporter:
         serializedVersion: 2
         x: 172
         y: 598
-        width: 154
+        width: 151
         height: 138
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -179,9 +179,9 @@ TextureImporter:
       name: clyde_sprite_sheet3_2
       rect:
         serializedVersion: 2
-        x: 326
+        x: 327
         y: 598
-        width: 154
+        width: 151
         height: 140
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -200,9 +200,9 @@ TextureImporter:
       name: clyde_sprite_sheet3_3
       rect:
         serializedVersion: 2
-        x: 482
+        x: 484
         y: 605
-        width: 159
+        width: 153
         height: 141
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -286,7 +286,7 @@ TextureImporter:
         serializedVersion: 2
         x: 23
         y: 283
-        width: 154
+        width: 153
         height: 136
       alignment: 0
       pivot: {x: 0.5, y: 0.5}

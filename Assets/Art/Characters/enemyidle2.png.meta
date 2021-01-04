@@ -1,40 +1,34 @@
 fileFormatVersion: 2
-guid: cc9a1ec88b0580841a0b038773a1c679
+guid: 44404c1cb1196594e94bf6cfc2d756a0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3295986903275517785
-    second: clyde sprite sheet3v2_0
+      213: -3318007214645083915
+    second: enemyidle2_0
   - first:
-      213: 6971309370658386419
-    second: clyde sprite sheet3v2_1
+      213: -7105085543583137847
+    second: enemyidle2_1
   - first:
-      213: 6454217179809789093
-    second: clyde sprite sheet3v2_2
+      213: -563490454799217309
+    second: enemyidle2_2
   - first:
-      213: 2218480646994496630
-    second: clyde sprite sheet3v2_3
+      213: 9108330841544308083
+    second: enemyidle2_3
   - first:
-      213: 2533941821533773670
-    second: clyde sprite sheet3v2_4
+      213: 9213567636883522533
+    second: enemyidle2_4
   - first:
-      213: 1681098459822167983
-    second: clyde sprite sheet3v2_5
+      213: -6664682826594999913
+    second: enemyidle2_5
   - first:
-      213: 1347091598789009047
-    second: clyde sprite sheet3v2_6
+      213: -3024238467453921017
+    second: enemyidle2_6
   - first:
-      213: -3145736194984123316
-    second: clyde sprite sheet3v2_7
+      213: 2484840769936432144
+    second: enemyidle2_7
   - first:
-      213: 3402884516992492524
-    second: clyde sprite sheet3v2_8
-  - first:
-      213: 988496385753063692
-    second: clyde sprite sheet3v2_9
-  - first:
-      213: -8884452119644895193
-    second: clyde sprite sheet3v2_10
+      213: -792309686508589079
+    second: enemyidle2_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -134,76 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: clyde sprite sheet3v2_0
+      name: enemyidle2_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 859
-        width: 104
-        height: 94
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 957b31a20a2bdbd20800000000000000
-      internalID: 3295986903275517785
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clyde sprite sheet3v2_1
-      rect:
-        serializedVersion: 2
-        x: 124
-        y: 858
-        width: 104
-        height: 94
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f1f171efe01fb060800000000000000
-      internalID: 6971309370658386419
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clyde sprite sheet3v2_2
-      rect:
-        serializedVersion: 2
-        x: 231
-        y: 858
-        width: 103
-        height: 94
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a439c1445cf19950800000000000000
-      internalID: 6454217179809789093
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clyde sprite sheet3v2_3
-      rect:
-        serializedVersion: 2
-        x: 339
+        x: 17
         y: 866
-        width: 105
-        height: 94
+        width: 167
+        height: 151
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67c8f29f460a9ce10800000000000000
-      internalID: 2218480646994496630
+      spriteID: 5f085e0940214f1d0800000000000000
+      internalID: -3318007214645083915
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clyde sprite sheet3v2_4
+      name: enemyidle2_1
       rect:
         serializedVersion: 2
-        x: 462
-        y: 879
-        width: 106
-        height: 94
+        x: 211
+        y: 866
+        width: 167
+        height: 151
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66fd60a49ae5a2320800000000000000
-      internalID: 2533941821533773670
+      spriteID: 9cfb6fba75aa56d90800000000000000
+      internalID: -7105085543583137847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clyde sprite sheet3v2_5
+      name: enemyidle2_2
       rect:
         serializedVersion: 2
-        x: 581
-        y: 921
-        width: 105
-        height: 94
+        x: 402
+        y: 867
+        width: 161
+        height: 151
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa718227426745710800000000000000
-      internalID: 1681098459822167983
+      spriteID: 36d8e57ba641e28f0800000000000000
+      internalID: -563490454799217309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clyde sprite sheet3v2_6
+      name: enemyidle2_3
       rect:
         serializedVersion: 2
-        x: 707
-        y: 879
-        width: 106
-        height: 94
+        x: 583
+        y: 867
+        width: 152
+        height: 151
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -274,20 +205,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79e5bb10ca4d1b210800000000000000
-      internalID: 1347091598789009047
+      spriteID: 375bbf274aa476e70800000000000000
+      internalID: 9108330841544308083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clyde sprite sheet3v2_7
+      name: enemyidle2_4
       rect:
         serializedVersion: 2
-        x: 22
-        y: 642
-        width: 105
-        height: 95
+        x: 770
+        y: 868
+        width: 154
+        height: 151
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -295,20 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c44e1e4f8991854d0800000000000000
-      internalID: -3145736194984123316
+      spriteID: 5e34a7e33fa2ddf70800000000000000
+      internalID: 9213567636883522533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clyde sprite sheet3v2_8
+      name: enemyidle2_5
       rect:
         serializedVersion: 2
-        x: 155
-        y: 640
-        width: 104
-        height: 95
+        x: 946
+        y: 866
+        width: 152
+        height: 151
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,20 +247,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce3a30f5079793f20800000000000000
-      internalID: 3402884516992492524
+      spriteID: 791a82cb74a4283a0800000000000000
+      internalID: -6664682826594999913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clyde sprite sheet3v2_9
+      name: enemyidle2_6
       rect:
         serializedVersion: 2
-        x: 277
-        y: 641
-        width: 104
-        height: 94
+        x: 400
+        y: 703
+        width: 168
+        height: 151
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -337,20 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c01a19eb938d7bd00800000000000000
-      internalID: 988496385753063692
+      spriteID: 709565f032fb706d0800000000000000
+      internalID: -3024238467453921017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clyde sprite sheet3v2_10
+      name: enemyidle2_7
       rect:
         serializedVersion: 2
-        x: 411
-        y: 640
-        width: 104
-        height: 95
+        x: 17
+        y: 709
+        width: 160
+        height: 151
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,8 +289,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72889987ed514b480800000000000000
-      internalID: -8884452119644895193
+      spriteID: 01c1877d38deb7220800000000000000
+      internalID: 2484840769936432144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyidle2_8
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 705
+        width: 167
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efed87b9862105f0800000000000000
+      internalID: -792309686508589079
       vertices: []
       indices: 
       edges: []

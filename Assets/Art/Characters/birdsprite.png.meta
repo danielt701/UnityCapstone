@@ -145,7 +145,7 @@ TextureImporter:
         serializedVersion: 2
         x: 262
         y: 771
-        width: 141
+        width: 140
         height: 143
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -164,9 +164,9 @@ TextureImporter:
       name: birdsprite_2
       rect:
         serializedVersion: 2
-        x: 481
+        x: 482
         y: 771
-        width: 141
+        width: 137
         height: 143
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -185,9 +185,9 @@ TextureImporter:
       name: birdsprite_3
       rect:
         serializedVersion: 2
-        x: 690
+        x: 691
         y: 771
-        width: 141
+        width: 139
         height: 143
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -208,7 +208,7 @@ TextureImporter:
         serializedVersion: 2
         x: 922
         y: 771
-        width: 141
+        width: 142
         height: 143
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
