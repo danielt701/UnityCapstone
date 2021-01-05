@@ -34,7 +34,7 @@ public class Player : MonoBehaviour
     public int amountOfJumps = 1;
 
     public float movementSpeed = 10.0f;
-    public float jumpForce = 16.0f;
+    public float jumpForce = 18.0f;
     public float groundCheckRadius;
 
     public LayerMask whatIsGround;
