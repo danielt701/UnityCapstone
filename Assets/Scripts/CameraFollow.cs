@@ -5,12 +5,15 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
 
-    public Transform playerDog;
+    public Transform target;
 
-    private void FixedUpdate()
+    public float smoothSpeed = 0.125f;
+
+    public Vector3 offset;
+
+    private void LateUpdate()
     {
-        transform.position =  new Vector3(playerDog.position.x, playerDog.position.y, transform.position.z);
+        transform.position = target.position + offset;
     }
-
 
 }
