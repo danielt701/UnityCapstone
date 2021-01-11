@@ -2231,7 +2231,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 574465414}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.97, y: 0.55, z: 0}
+  m_LocalPosition: {x: -9.24, y: 7.28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3551,7 +3551,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
-<<<<<<< HEAD
 --- !u!1 &891925610
 GameObject:
   m_ObjectHideFlags: 0
@@ -3609,8 +3608,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> parent of 962091c... Merge branch 'main' of https://github.com/danielt701/UnityCapstone into main
 --- !u!1 &895964435
 GameObject:
   m_ObjectHideFlags: 0
@@ -5111,7 +5108,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1318336853}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.46, y: -3.12, z: -250.51343}
+  m_LocalPosition: {x: -6.46, y: -3.12, z: -0.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -9420,7 +9417,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b31adc628375652449a30305e6de9327, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerDog: {fileID: 4170597930749432734}
+  target: {fileID: 4170597930749432734}
+  smoothSpeed: 0.125
+  offset: {x: 3, y: 1.5, z: -3}
 --- !u!1 &2140369091
 GameObject:
   m_ObjectHideFlags: 0
