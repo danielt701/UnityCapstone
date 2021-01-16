@@ -116,12 +116,12 @@ TextureImporter:
       name: enemysprite4_0
       rect:
         serializedVersion: 2
-        x: 77
+        x: 93
         y: 694
-        width: 274
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5675849, y: 0.3158271}
+        width: 262
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -137,12 +137,12 @@ TextureImporter:
       name: enemysprite4_1
       rect:
         serializedVersion: 2
-        x: 571
+        x: 446
         y: 694
-        width: 264
-        height: 270
-      alignment: 9
-      pivot: {x: 0.6499178, y: 0.3212461}
+        width: 262
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -158,12 +158,12 @@ TextureImporter:
       name: enemysprite4_2
       rect:
         serializedVersion: 2
-        x: 322
-        y: 293
-        width: 264
-        height: 270
-      alignment: 9
-      pivot: {x: 0.6499178, y: 0.3212461}
+        x: 758
+        y: 694
+        width: 262
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -179,12 +179,12 @@ TextureImporter:
       name: enemysprite4_3
       rect:
         serializedVersion: 2
-        x: 863
-        y: 289
-        width: 264
-        height: 270
-      alignment: 9
-      pivot: {x: 0.6499178, y: 0.3212461}
+        x: 90
+        y: 412
+        width: 262
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
