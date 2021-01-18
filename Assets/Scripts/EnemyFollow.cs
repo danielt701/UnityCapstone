@@ -4,31 +4,22 @@ using UnityEngine;
 
 public class EnemyFollow : MonoBehaviour
 {
-
     public float speed;
 
-   
     private Transform target;
 
     private Transform Enemystay;
 
-
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
- 
 
         Enemystay = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Transform>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-       
-
-        if (Vector2.Distance(transform.position, target.position) > 3)
+        if(Vector2.Distance(transform.position, target.position) > 3)
         {
             transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
         }
