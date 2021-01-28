@@ -10,6 +10,7 @@ public class EnemyFollow : MonoBehaviour
 
     private Transform Enemystay;
 
+
     private void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
@@ -24,4 +25,5 @@ public class EnemyFollow : MonoBehaviour
             transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
         }
     }
+
 }
