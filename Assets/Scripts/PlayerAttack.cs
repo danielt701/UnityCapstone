@@ -14,6 +14,8 @@ public class PlayerAttack : MonoBehaviour
 
     public Animator animator;
 
+    
+
     // Update is called once per frame
     void Update()
     {
@@ -21,6 +23,7 @@ public class PlayerAttack : MonoBehaviour
         {
             if(Input.GetKey(KeyCode.V))
             {
+                animator.SetTrigger("isBarking");
                 Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);
                 for (int i = 0; i < enemiesToDamage.Length; i++)
                 {
@@ -29,11 +32,17 @@ public class PlayerAttack : MonoBehaviour
             }
 
             timeBtwAttack = startTimeBtwAttack;
+            
+
         }
         else
         {
             timeBtwAttack -= Time.deltaTime;
         }
+        
+
+
+
     }
 
     void OnDrawGizmosSelected()
@@ -41,4 +50,6 @@ public class PlayerAttack : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(attackPos.position, attackRange);
     }
+
+
 }

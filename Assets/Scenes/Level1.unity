@@ -3476,7 +3476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f96cea811d3030044989cacb0f45777c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 2
+  health: 1
 --- !u!61 &841562054
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9442,7 +9442,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2007851182}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.03, y: -0.33, z: 0}
+  m_LocalPosition: {x: 1.18, y: -0.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4170597930749432734}
@@ -10417,6 +10417,11 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 2356271449722986093, guid: 8a1cc1c335f3b9841b469ac83c9c8019, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8a1cc1c335f3b9841b469ac83c9c8019, type: 3}
+--- !u!95 &2356271449231627880 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1825040724267369973, guid: 8a1cc1c335f3b9841b469ac83c9c8019, type: 3}
+  m_PrefabInstance: {fileID: 2356271449231627879}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4170597930749432731 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1825040724267369980, guid: 8a1cc1c335f3b9841b469ac83c9c8019, type: 3}
@@ -10446,13 +10451,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 199fc2eaa6fc7cf4482e3e0b374b3221, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startTimeBtwAttack: 0.3
+  startTimeBtwAttack: 0.2
   attackPos: {fileID: 2007851183}
   whatIsEnemies:
     serializedVersion: 2
     m_Bits: 4096
-  attackRange: 1
+  attackRange: 1.6
   damage: 1
+  animator: {fileID: 2356271449231627880}
 --- !u!4 &4170597930749432734 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1825040724267369977, guid: 8a1cc1c335f3b9841b469ac83c9c8019, type: 3}
