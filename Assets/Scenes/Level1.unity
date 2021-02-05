@@ -943,7 +943,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 99027068}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 35814a4722d2e1f41a34aa682b9fb6cd, type: 3}
   m_Name: 
@@ -1017,10 +1017,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 99027068}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.27, y: 2.87, z: -0.2}
+  m_LocalPosition: {x: 19.94, y: 4.41, z: -0.2}
   m_LocalScale: {x: 1.3567178, y: 0.8366651, z: 4.311318}
-  m_Children:
-  - {fileID: 290261739}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1709,36 +1708,6 @@ MonoBehaviour:
   itemButton: {fileID: 8170581521910282682, guid: 1ab9ff5a6a404994db8987fcdfb8baf2, type: 3}
   audioSource: {fileID: 1727694849}
   PowerUpGet: {fileID: 8300000, guid: b79389f09b4df1541a5421aaee6a4fef, type: 3}
---- !u!1 &290261738
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 290261739}
-  m_Layer: 8
-  m_Name: Ground Detection
-  m_TagString: Untagged
-  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &290261739
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 290261738}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.221, y: -0.06494533, z: -0.29375517}
-  m_LocalScale: {x: 0.23194765, y: 0.23194765, z: 0.23194765}
-  m_Children: []
-  m_Father: {fileID: 99027072}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &347009322
 GameObject:
   m_ObjectHideFlags: 0
