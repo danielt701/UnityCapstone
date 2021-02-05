@@ -2117,6 +2117,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4170597930317025017, guid: 7a17bbe64471f894f9639c43de886f5e, type: 3}
+      propertyPath: PowerUpUse
+      value: 
+      objectReference: {fileID: 8300000, guid: cab5f18022dd28c4b8a54c9822a12d1e, type: 3}
+    - target: {fileID: 4170597930317025017, guid: 7a17bbe64471f894f9639c43de886f5e, type: 3}
+      propertyPath: ClydeYelp
+      value: 
+      objectReference: {fileID: 8300000, guid: f3cf29c9684315e4283ed14e500ab4e8, type: 3}
+    - target: {fileID: 4170597930317025017, guid: 7a17bbe64471f894f9639c43de886f5e, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1392962175}
+    - target: {fileID: 4170597930317025017, guid: 7a17bbe64471f894f9639c43de886f5e, type: 3}
+      propertyPath: EnemyAttack
+      value: 
+      objectReference: {fileID: 8300000, guid: e9f1e1ab6e049c749943f86a4102a794, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a17bbe64471f894f9639c43de886f5e, type: 3}
 --- !u!4 &1879099481 stripped
