@@ -13,6 +13,7 @@ TagManager:
   - shield
   - SuperJump
   - GM
+  - GameManager
   layers:
   - Default
   - TransparentFX
