@@ -12,6 +12,8 @@ public class FollowPath : MonoBehaviour
 
     private int waypointIndex = 0;
 
+    private int numberofmovements = 3;
+
     private void Start()
     {
         transform.position = waypoints[waypointIndex].transform.position;
@@ -19,11 +21,15 @@ public class FollowPath : MonoBehaviour
 
     private void Update()
     {
+
         Move();
+            
     }
 
     private void Move()
     {
+
+
         if(waypointIndex <= waypoints.Length -1)
         {
             transform.position = Vector2.MoveTowards(transform.position, waypoints[waypointIndex].transform.position, moveSpeed * Time.deltaTime);
