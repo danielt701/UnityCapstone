@@ -5,15 +5,17 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
 
-    public Transform target;
+    [SerializeField]
+    private Transform targetToFollow;
 
-    public float smoothSpeed = 0.125f;
+    
 
-    public Vector3 offset;
-
-    private void LateUpdate()
+    private void Update()
     {
-        transform.position = target.position + offset;
+        transform.position = new Vector3(Mathf.Clamp(targetToFollow.position.x, -15.9f, 262.8f),
+                                         Mathf.Clamp(targetToFollow.position.y, -4.15f, 2.35f),
+                                         transform.position.z);
     }
 
+   
 }

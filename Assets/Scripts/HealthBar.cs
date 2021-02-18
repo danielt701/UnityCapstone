@@ -63,7 +63,7 @@ public class HealthBar : MonoBehaviour
         if (Life <= 0f)
         {
             animator.SetTrigger("isDead");
-            SceneManager.LoadScene("PickUpTest 1");
+            SceneManager.LoadScene("Level1");
         }
 
 
