@@ -4,37 +4,30 @@ using UnityEngine;
 
 public class ControlPoints : MonoBehaviour
 {
+    public float speed;
 
-    [SerializeField]
-    Transform[] waypoints;
+    private bool movingRight = true;
 
-    [SerializeField]
-    float moveSpeed = 2f;
+    public Transform enemyDetection;
 
-    int waypointIndex = 0;
-
-    // Start is called before the first frame update
-    void Start()
+    private void Update()
     {
-        transform.position = waypoints[waypointIndex].transform.position;
-    }
+        transform.Translate(Vector2.right * speed * Time.deltaTime);
 
-    // Update is called once per frame
-    void Update()
-    {
-        Movement();
-    }
-
-    void Movement()
-    {
-        transform.position = Vector3.MoveTowards(transform.position, waypoints[waypointIndex].transform.position, moveSpeed * Time.deltaTime);
-
-        if (transform.position == waypoints [waypointIndex].transform.position)
+        RaycastHit2D groundInfo = Physics2D.Raycast(enemyDetection.position, Vector2.down, 2f);
+        if(groundInfo.collider == false)
         {
-            waypointIndex += 1;
+            if(movingRight == true)
+            {
+                transform.eulerAngles = new Vector3(0, -180, 0);
+                movingRight = false;
+            }
+            else
+            {
+                transform.eulerAngles = new Vector3(0, 0, 0);
+                movingRight = true;
+            }
         }
-
-        if (waypointIndex == waypoints.Length)
-            waypointIndex = 0;
     }
+
 }
