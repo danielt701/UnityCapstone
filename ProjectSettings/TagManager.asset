@@ -15,6 +15,7 @@ TagManager:
   - GM
   - GameManager
   - EndBlock
+  - Platform
   layers:
   - Default
   - TransparentFX
