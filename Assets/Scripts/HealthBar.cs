@@ -37,6 +37,8 @@ public class HealthBar : MonoBehaviour
             audioSource.PlayOneShot(PowerUpUse, 2.0f);
         }
 
+      
+
        
     }
 
