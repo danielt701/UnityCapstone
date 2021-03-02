@@ -10,6 +10,9 @@ public class Invisibility : MonoBehaviour
     private float activationtime;
     private bool invisible;
 
+    public GameObject vet;
+    public GameObject enemy;
+
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +32,7 @@ public class Invisibility : MonoBehaviour
             invisible = false;
             col.a = 1;
             character.color = col;
+            vet.GetComponent<Collider2D>().enabled = true;
         }
     }
 
@@ -40,6 +44,11 @@ public class Invisibility : MonoBehaviour
             activationtime = 0;
             col.a = .2f;
             character.color = col;
+
+            // hiding the player damage
+
+            vet.GetComponent<Collider2D>().enabled = false;
+         
         }
     }
 }
