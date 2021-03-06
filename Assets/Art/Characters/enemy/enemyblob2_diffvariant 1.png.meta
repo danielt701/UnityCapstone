@@ -1,0 +1,724 @@
+fileFormatVersion: 2
+guid: 1ecce2eeeea456d4aa0787e9d0d2a79c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2655882026119820839
+    second: enemyblob2_diffvariant 1_0
+  - first:
+      213: -2774191213961132212
+    second: enemyblob2_diffvariant 1_1
+  - first:
+      213: -7565406357944158394
+    second: enemyblob2_diffvariant 1_2
+  - first:
+      213: -2276421045848932241
+    second: enemyblob2_diffvariant 1_3
+  - first:
+      213: -1837550485427565635
+    second: enemyblob2_diffvariant 1_4
+  - first:
+      213: -8436664143151249956
+    second: enemyblob2_diffvariant 1_5
+  - first:
+      213: 4440013923613185553
+    second: enemyblob2_diffvariant 1_6
+  - first:
+      213: 5093266558001279238
+    second: enemyblob2_diffvariant 1_7
+  - first:
+      213: -7679740196760343479
+    second: enemyblob2_diffvariant 1_8
+  - first:
+      213: -8666416737335769794
+    second: enemyblob2_diffvariant 1_9
+  - first:
+      213: -4339592116434670112
+    second: enemyblob2_diffvariant 1_10
+  - first:
+      213: -4478068502520687666
+    second: enemyblob2_diffvariant 1_11
+  - first:
+      213: 3410939934187356493
+    second: enemyblob2_diffvariant 1_12
+  - first:
+      213: 8907761006044976295
+    second: enemyblob2_diffvariant 1_13
+  - first:
+      213: 6929495223294559403
+    second: enemyblob2_diffvariant 1_14
+  - first:
+      213: -2731843732939678123
+    second: enemyblob2_diffvariant 1_15
+  - first:
+      213: 2012633411582644482
+    second: enemyblob2_diffvariant 1_16
+  - first:
+      213: -1316577176380321496
+    second: enemyblob2_diffvariant 1_17
+  - first:
+      213: 3795559126013010945
+    second: enemyblob2_diffvariant 1_18
+  - first:
+      213: -8983991254282877976
+    second: enemyblob2_diffvariant 1_19
+  - first:
+      213: 5136124146462460496
+    second: enemyblob2_diffvariant 1_20
+  - first:
+      213: 8676535909936206088
+    second: enemyblob2_diffvariant 1_21
+  - first:
+      213: 8525058273960868729
+    second: enemyblob2_diffvariant 1_22
+  - first:
+      213: -4398737649481886928
+    second: enemyblob2_diffvariant 1_23
+  - first:
+      213: 5351838248534721530
+    second: enemyblob2_diffvariant 1_24
+  - first:
+      213: -5999914287186246511
+    second: enemyblob2_diffvariant 1_25
+  - first:
+      213: -3526142795591266742
+    second: enemyblob2_diffvariant 1_26
+  - first:
+      213: 5080943381205502989
+    second: enemyblob2_diffvariant 1_27
+  - first:
+      213: -4492420002298560186
+    second: enemyblob2_diffvariant 1_28
+  - first:
+      213: 5576158634979268666
+    second: enemyblob2_diffvariant 1_29
+  - first:
+      213: 2639916050835241805
+    second: enemyblob2_diffvariant 1_30
+  - first:
+      213: 8784767338918480698
+    second: enemyblob2_diffvariant 1_31
+  - first:
+      213: 4687159986575642228
+    second: enemyblob2_diffvariant 1_32
+  - first:
+      213: 7640922260518555114
+    second: enemyblob2_diffvariant 1_33
+  - first:
+      213: 304043069202133390
+    second: enemyblob2_diffvariant 1_34
+  - first:
+      213: -1611011416460717047
+    second: enemyblob2_diffvariant 1_35
+  - first:
+      213: -2419346983452187444
+    second: enemyblob2_diffvariant 1_36
+  - first:
+      213: -2391620382701159996
+    second: enemyblob2_diffvariant 1_37
+  - first:
+      213: 3425242486484361594
+    second: enemyblob2_diffvariant 1_38
+  - first:
+      213: -5780812991587362244
+    second: enemyblob2_diffvariant 1_39
+  - first:
+      213: -8312038230946492959
+    second: enemyblob2_diffvariant 1_40
+  - first:
+      213: 1375946320363042449
+    second: enemyblob2_diffvariant 1_41
+  - first:
+      213: -8475026445520626894
+    second: enemyblob2_diffvariant 1_42
+  - first:
+      213: -5211960393488186167
+    second: enemyblob2_diffvariant 1_43
+  - first:
+      213: -5383423517856456161
+    second: enemyblob2_diffvariant 1_44
+  - first:
+      213: -9155574117120048069
+    second: enemyblob2_diffvariant 1_45
+  - first:
+      213: -7564796843069257637
+    second: enemyblob2_diffvariant 1_46
+  - first:
+      213: -3857772923259287166
+    second: enemyblob2_diffvariant 1_47
+  - first:
+      213: 1349730451221945383
+    second: enemyblob2_diffvariant 1_48
+  - first:
+      213: -6092455026035088553
+    second: enemyblob2_diffvariant 1_49
+  - first:
+      213: -7805516534779584525
+    second: enemyblob2_diffvariant 1_50
+  - first:
+      213: 2326059033534105846
+    second: enemyblob2_diffvariant 1_51
+  - first:
+      213: -5594945657932002046
+    second: enemyblob2_diffvariant 1_52
+  - first:
+      213: 2590890540406028901
+    second: enemyblob2_diffvariant 1_53
+  - first:
+      213: 4280803875594352814
+    second: enemyblob2_diffvariant 1_54
+  - first:
+      213: 1210322139433709953
+    second: enemyblob2_diffvariant 1_55
+  - first:
+      213: 4180665069800370233
+    second: enemyblob2_diffvariant 1_56
+  - first:
+      213: 4395612648190349202
+    second: enemyblob2_diffvariant 1_57
+  - first:
+      213: -5024313021611106848
+    second: enemyblob2_diffvariant 1_58
+  - first:
+      213: 5341102275272754883
+    second: enemyblob2_diffvariant 1_59
+  - first:
+      213: -5047874659592473026
+    second: enemyblob2_diffvariant 1_60
+  - first:
+      213: 2439908885251565193
+    second: enemyblob2_diffvariant 1_61
+  - first:
+      213: 3107021943487932246
+    second: enemyblob2_diffvariant 1_62
+  - first:
+      213: 21611080779463631
+    second: enemyblob2_diffvariant 1_63
+  - first:
+      213: -7781287538057467295
+    second: enemyblob2_diffvariant 1_64
+  - first:
+      213: -2462795785071228441
+    second: enemyblob2_diffvariant 1_65
+  - first:
+      213: -818386984802845718
+    second: enemyblob2_diffvariant 1_66
+  - first:
+      213: 8584667724676131800
+    second: enemyblob2_diffvariant 1_67
+  - first:
+      213: -712549412277680776
+    second: enemyblob2_diffvariant 1_68
+  - first:
+      213: 8075748053516846123
+    second: enemyblob2_diffvariant 1_69
+  - first:
+      213: 751392498824714068
+    second: enemyblob2_diffvariant 1_70
+  - first:
+      213: 692771964905663013
+    second: enemyblob2_diffvariant 1_71
+  - first:
+      213: 8971631801078145670
+    second: enemyblob2_diffvariant 1_72
+  - first:
+      213: 7785013417928413673
+    second: enemyblob2_diffvariant 1_73
+  - first:
+      213: 4361092896006094516
+    second: enemyblob2_diffvariant 1_74
+  - first:
+      213: 5078571639541552330
+    second: enemyblob2_diffvariant 1_75
+  - first:
+      213: -6475510740245637039
+    second: enemyblob2_diffvariant 1_76
+  - first:
+      213: -8910396105322435355
+    second: enemyblob2_diffvariant 1_77
+  - first:
+      213: 8255898411990598108
+    second: enemyblob2_diffvariant 1_78
+  - first:
+      213: 4677281806384716541
+    second: enemyblob2_diffvariant 1_79
+  - first:
+      213: -119880209702440196
+    second: enemyblob2_diffvariant 1_80
+  - first:
+      213: -5479558022198339404
+    second: enemyblob2_diffvariant 1_81
+  - first:
+      213: 6674228211766040545
+    second: enemyblob2_diffvariant 1_82
+  - first:
+      213: -401972097919441746
+    second: enemyblob2_diffvariant 1_83
+  - first:
+      213: 335657952837691235
+    second: enemyblob2_diffvariant 1_84
+  - first:
+      213: -2517103825512664962
+    second: enemyblob2_diffvariant 1_85
+  - first:
+      213: 6885653240747692200
+    second: enemyblob2_diffvariant 1_86
+  - first:
+      213: -7899072297866695650
+    second: enemyblob2_diffvariant 1_87
+  - first:
+      213: 5134317058798496784
+    second: enemyblob2_diffvariant 1_88
+  - first:
+      213: 3799458704143418367
+    second: enemyblob2_diffvariant 1_89
+  - first:
+      213: -8843626916697916792
+    second: enemyblob2_diffvariant 1_90
+  - first:
+      213: -6065946685141609166
+    second: enemyblob2_diffvariant 1_91
+  - first:
+      213: 519208049884883282
+    second: enemyblob2_diffvariant 1_92
+  - first:
+      213: 5925044130588342018
+    second: enemyblob2_diffvariant 1_93
+  - first:
+      213: 3749197654592979321
+    second: enemyblob2_diffvariant 1_94
+  - first:
+      213: 7660181873898073487
+    second: enemyblob2_diffvariant 1_95
+  - first:
+      213: 5256827918301724448
+    second: enemyblob2_diffvariant 1_96
+  - first:
+      213: -8138929870874047048
+    second: enemyblob2_diffvariant 1_97
+  - first:
+      213: -8368655996341118208
+    second: enemyblob2_diffvariant 1_98
+  - first:
+      213: 4826241811437204609
+    second: enemyblob2_diffvariant 1_99
+  - first:
+      213: -2489620671227818808
+    second: enemyblob2_diffvariant 1_100
+  - first:
+      213: -762238759929845794
+    second: enemyblob2_diffvariant 1_101
+  - first:
+      213: 6985286937525974782
+    second: enemyblob2_diffvariant 1_102
+  - first:
+      213: -3278325837475364287
+    second: enemyblob2_diffvariant 1_103
+  - first:
+      213: -8346680466354813833
+    second: enemyblob2_diffvariant 1_104
+  - first:
+      213: 3842180921545308350
+    second: enemyblob2_diffvariant 1_105
+  - first:
+      213: -857492455898542879
+    second: enemyblob2_diffvariant 1_106
+  - first:
+      213: -4070889612724717411
+    second: enemyblob2_diffvariant 1_107
+  - first:
+      213: -4244760261298894312
+    second: enemyblob2_diffvariant 1_108
+  - first:
+      213: 1347346230681149697
+    second: enemyblob2_diffvariant 1_109
+  - first:
+      213: -3982414267223789515
+    second: enemyblob2_diffvariant 1_110
+  - first:
+      213: -5497296352759362791
+    second: enemyblob2_diffvariant 1_111
+  - first:
+      213: 2097904026486143453
+    second: enemyblob2_diffvariant 1_112
+  - first:
+      213: 1365724160925271157
+    second: enemyblob2_diffvariant 1_113
+  - first:
+      213: 2498681946483531133
+    second: enemyblob2_diffvariant 1_114
+  - first:
+      213: 2865706728049991766
+    second: enemyblob2_diffvariant 1_115
+  - first:
+      213: 6355494340487139965
+    second: enemyblob2_diffvariant 1_116
+  - first:
+      213: -7158589003385251066
+    second: enemyblob2_diffvariant 1_117
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemyblob2_diffvariant 1_0
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 715
+        width: 202
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d988c36e59642bd0800000000000000
+      internalID: -2655882026119820839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyblob2_diffvariant 1_2
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 716
+        width: 202
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647b14d2007420790800000000000000
+      internalID: -7565406357944158394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyblob2_diffvariant 1_4
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 717
+        width: 202
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb4e3bb195bf76e0800000000000000
+      internalID: -1837550485427565635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyblob2_diffvariant 1_24
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 556
+        width: 202
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3c243288c854a40800000000000000
+      internalID: 5351838248534721530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyblob2_diffvariant 1_26
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 561
+        width: 202
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4eca794fcf901fc0800000000000000
+      internalID: -3526142795591266742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyblob2_diffvariant 1_28
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 562
+        width: 202
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641822d4fc7b7a1c0800000000000000
+      internalID: -4492420002298560186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyblob2_diffvariant 1_41
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 340
+        width: 202
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196be3763e7581310800000000000000
+      internalID: 1375946320363042449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyblob2_diffvariant 1_42
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 346
+        width: 202
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b93b4b958a26a80800000000000000
+      internalID: -8475026445520626894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyblob2_diffvariant 1_43
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 345
+        width: 202
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c44bb2e2a56ba7b0800000000000000
+      internalID: -5211960393488186167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyblob2_diffvariant 1_80
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 182
+        width: 202
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2361d9599165ef0800000000000000
+      internalID: -119880209702440196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyblob2_diffvariant 1_81
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 189
+        width: 202
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8d9b0c203b4f3b0800000000000000
+      internalID: -5479558022198339404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyblob2_diffvariant 1_82
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 188
+        width: 202
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e79430723f9f9c50800000000000000
+      internalID: 6674228211766040545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
