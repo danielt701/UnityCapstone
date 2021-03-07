@@ -131,7 +131,7 @@ public class Player : MonoBehaviour
         {
 
             jumpinghigh = true;
-            jumpForce = 30.0f;
+            jumpForce = 25.0f;
             Destroy(other.gameObject);
 
         }
