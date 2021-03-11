@@ -13,8 +13,9 @@ public class PlayerAttack : MonoBehaviour
     public int damage;
 
     public Animator animator;
+    public AudioSource audioSource;
+    public AudioClip ClydeBark;
 
-    
 
     // Update is called once per frame
     void Update()
