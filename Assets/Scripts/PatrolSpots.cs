@@ -7,17 +7,19 @@ public class PatrolSpots : MonoBehaviour
     public float speed;
     private float waitTime;
     public float startWaitTime;
+    public bool mustPatrol;
 
     public Transform[] moveSpots;
     private int randomSpot;
     
    
-
+    
 
     // Start is called before the first frame update
     void Start()
     {
         randomSpot = Random.Range(0, moveSpots.Length);
+        mustPatrol = true;
     }
 
     // Update is called once per frame
@@ -37,6 +39,13 @@ public class PatrolSpots : MonoBehaviour
                 waitTime -= Time.deltaTime;
             }
         }
+    }
+
+    void Flip()
+    {
+        mustPatrol = false;
+        transform.localScale = new Vector2(transform.localScale.x * -1, transform.localScale.y);
+        mustPatrol = true;
     }
 
 
