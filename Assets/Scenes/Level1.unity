@@ -3396,7 +3396,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -4022,6 +4022,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 411828740368812353, guid: 559942f15b9336e4a9f0e224de032e40, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 411828740368812355, guid: 559942f15b9336e4a9f0e224de032e40, type: 3}
+      propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 411828740368812356, guid: 559942f15b9336e4a9f0e224de032e40, type: 3}
