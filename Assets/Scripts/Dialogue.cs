@@ -12,16 +12,38 @@ public class Dialogue : MonoBehaviour
 
     public GameObject continueButton;
 
+    private bool hasCoroutineStarted = false;
+
+    public GameObject dialogueManager;
+    public DialogueManager ManagerScript;
+    public GameObject thisdialogue;
+
     private void Start()
     {
-        StartCoroutine(Type());
+        //StartCoroutine(Type());
+        
     }
 
     private void Update()
     {
-        if(textDisplay.text == sentences[index])
+        if (ManagerScript == null)
+        {
+            Debug.Log(dialogueManager);
+            DialogueManager ManagerScript = dialogueManager.GetComponent<DialogueManager>();
+        }
+        if (textDisplay.text == sentences[index])
         {
             continueButton.SetActive(true);
+        }
+    }
+
+    public void OnTriggerStay2D(Collider2D collision)
+    {
+        if(collision.CompareTag("Player") && !hasCoroutineStarted)
+        {
+            ManagerScript.currentDialogue = thisdialogue;
+            hasCoroutineStarted = true;
+            StartCoroutine(Type());
         }
     }
 
@@ -32,11 +54,12 @@ public class Dialogue : MonoBehaviour
             textDisplay.text += letter;
             yield return new WaitForSeconds(typingSpeed);
         }
+        yield return null;
     }
 
     public void NextSentence()
     {
-        continueButton.SetActive(false);
+        continueButton.SetActive(true);
 
         if(index < sentences.Length - 1)
         {
