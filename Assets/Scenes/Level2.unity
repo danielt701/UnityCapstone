@@ -1696,8 +1696,8 @@ EdgeCollider2D:
   - {x: 135.69972, y: 5.841254}
   - {x: 135.70688, y: 8.199904}
   - {x: 116.786804, y: 8.27251}
-  - {x: 116.77605, y: 5.301046}
-  - {x: 127.87379, y: 5.222899}
+  - {x: 116.79264, y: 5.1517215}
+  - {x: 127.94016, y: 5.1233487}
   - {x: 128.23944, y: 4.99925}
   - {x: 116.52539, y: 4.9965854}
   - {x: 116.49, y: 2.68441}
@@ -1741,22 +1741,22 @@ EdgeCollider2D:
   - {x: 76.703896, y: 2.2062669}
   - {x: 101.69613, y: 2.4211156}
   - {x: 102.37151, y: 2.2463748}
-  - {x: 102.32414, y: -3.2260594}
-  - {x: 116.35433, y: -3.2310724}
-  - {x: 130.87987, y: -3.2362626}
+  - {x: 102.293884, y: -3.6495583}
+  - {x: 116.35433, y: -3.594071}
+  - {x: 130.87987, y: -3.5085123}
   - {x: 130.8714, y: 2.3219972}
   - {x: 119.945786, y: 2.4207652}
-  - {x: 119.647606, y: 2.5924902}
-  - {x: 131.95993, y: 2.5468752}
+  - {x: 119.68079, y: 2.5095322}
+  - {x: 131.95993, y: 2.5302832}
   - {x: 131.92076, y: 4.7557726}
   - {x: 133.25253, y: 4.729931}
   - {x: 133.20906, y: -3.326033}
   - {x: 175.58847, y: -3.4390876}
-  - {x: 175.66066, y: 1.7824352}
-  - {x: 172.5613, y: 3.9195867}
-  - {x: 172.62175, y: 4.0109425}
-  - {x: 174.2417, y: 2.8562431}
-  - {x: 182.53545, y: -2.1555474}
+  - {x: 175.61339, y: 0.15982604}
+  - {x: 175.31384, y: 0.7298906}
+  - {x: 175.19202, y: 1.4409598}
+  - {x: 172.65579, y: 3.5306368}
+  - {x: 182.60835, y: -2.5929914}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -3261,7 +3261,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 411828740368812357, guid: 559942f15b9336e4a9f0e224de032e40, type: 3}
       propertyPath: movementSpeed
-      value: 5
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 411828740368812357, guid: 559942f15b9336e4a9f0e224de032e40, type: 3}
+      propertyPath: amountOfJumps
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 411828740368812364, guid: 559942f15b9336e4a9f0e224de032e40, type: 3}
       propertyPath: LifeFill
@@ -4169,7 +4173,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.8571873, y: 1.0723004}
+  m_Offset: {x: 1.8571873, y: 1.0285847}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -4180,7 +4184,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 9.720026, y: 4.286434}
+  m_Size: {x: 9.720026, y: 4.199003}
   m_EdgeRadius: 0
 --- !u!212 &1094712780
 SpriteRenderer:
@@ -7042,7 +7046,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.19709855, y: 0.0025929213}
+  m_Offset: {x: 0.19709855, y: -0.01885742}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -7053,7 +7057,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.386995, y: 0.7}
+  m_Size: {x: 1.386995, y: 0.65709937}
   m_EdgeRadius: 0
 --- !u!212 &1651716736
 SpriteRenderer:
@@ -7877,11 +7881,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1544318001793611088, guid: 831c4d4351f55664083c0e51706e2a8a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 154.06
+      value: 153.29
       objectReference: {fileID: 0}
     - target: {fileID: 1544318001793611088, guid: 831c4d4351f55664083c0e51706e2a8a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.38
+      value: 3.02
       objectReference: {fileID: 0}
     - target: {fileID: 1544318001793611088, guid: 831c4d4351f55664083c0e51706e2a8a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8282,7 +8286,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.54823685, y: -0.047191724}
+  m_Offset: {x: 0.58034617, y: -0.04719174}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -8293,7 +8297,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.0964737, y: 0.9056165}
+  m_Size: {x: 2.0322552, y: 0.9056165}
   m_EdgeRadius: 0
 --- !u!212 &1903737179
 SpriteRenderer:
