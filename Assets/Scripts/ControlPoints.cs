@@ -5,6 +5,7 @@ using UnityEngine;
 public class ControlPoints : MonoBehaviour
 {
     public float speed;
+    public float distance;
 
     private bool movingRight = true;
 
@@ -14,7 +15,7 @@ public class ControlPoints : MonoBehaviour
     {
         transform.Translate(Vector2.right * speed * Time.deltaTime);
 
-        RaycastHit2D groundInfo = Physics2D.Raycast(enemyDetection.position, Vector2.down, 2f);
+        RaycastHit2D groundInfo = Physics2D.Raycast(enemyDetection.position, Vector2.down, distance);
         if(groundInfo.collider == false)
         {
             if(movingRight == true)

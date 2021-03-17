@@ -3057,6 +3057,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
+  distance: 0
   enemyDetection: {fileID: 1144118753}
 --- !u!212 &382399920
 SpriteRenderer:
@@ -3657,6 +3658,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
+  distance: 0
   enemyDetection: {fileID: 1392899349}
 --- !u!212 &520183916
 SpriteRenderer:
@@ -9304,6 +9306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
+  distance: 1
   enemyDetection: {fileID: 1674531661}
 --- !u!212 &1156243380
 SpriteRenderer:
@@ -14272,6 +14275,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3.5
+  distance: 0
   enemyDetection: {fileID: 2104016501}
 --- !u!212 &1705740503
 SpriteRenderer:
