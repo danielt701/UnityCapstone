@@ -50,14 +50,14 @@ public class UpPlatform : MonoBehaviour
 
                 transform.position = Vector3.Lerp(departTarget.position, destinationTarget.position, fractionOfJourney);
             }
+            else
+            {
+                isWaiting = true;
+                StartCoroutine(changeDelay());
+            }
 
         }
-        else
-        {
-            isWaiting = true;
-            StartCoroutine(changeDelay());
-        }
-           
+       
     }
 
     void ChangeDestination()
