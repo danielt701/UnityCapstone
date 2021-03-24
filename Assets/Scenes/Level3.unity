@@ -12260,26 +12260,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1381512502 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 44557939315580953, guid: 9a3d69b435ce7f145b7af2f761261534, type: 3}
-  m_PrefabInstance: {fileID: 44557939128851198}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1381512503
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1381512502}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc89003de225eea4e8ca36e63007df1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 2
-  distance: 1
-  groundDetection: {fileID: 188090443}
 --- !u!4 &1381512507 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 44557939315580949, guid: 9a3d69b435ce7f145b7af2f761261534, type: 3}
