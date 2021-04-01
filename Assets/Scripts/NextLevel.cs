@@ -13,7 +13,7 @@ public class NextLevel : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    void OnCollisionEnter2D (Collision2D other)
     {
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
