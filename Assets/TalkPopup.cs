@@ -9,7 +9,7 @@ public class TalkPopup : MonoBehaviour
     public string popUp;
 
     public AudioSource audioSource;
-    public AudioClip NPC2Voice;
+    public AudioClip NPCVoice;
 
     // Update is called once per frame
     void Update()
@@ -18,7 +18,7 @@ public class TalkPopup : MonoBehaviour
         {
             PopupSystem pop = GameObject.FindGameObjectWithTag("GameManager").GetComponent<PopupSystem>();
             pop.PopUp(popUp);
-            audioSource.PlayOneShot(NPC2Voice, 1.0f);
+            audioSource.PlayOneShot(NPCVoice, 1.0f);
         }
     }
 }
