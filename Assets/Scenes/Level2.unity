@@ -4236,12 +4236,25 @@ MonoBehaviour:
   sentences:
   - 'Fox Lady: Welcome to the place that you have dreaded the most...in other words,
     the Veterinarian Office.'
-  - 'Fox Lady: Whether you have fond or terrible memories of this place...well, I
-    suppose here doesn''t matter. Hm?'
-  - 'Fox Lady: After all, this isn''t the same veterinarian office that you''re used
-    to.'
-  - 'Fox Lady: It is too early to tell you what this world consists of yet...'
+  - 'Fox Lady: ...Fufufu. You turned pretty pale when I said that. Do not fret. There
+    will be no shots here for you.'
+  - 'Fox Lady: ...Yet, that is.'
+  - 'Fox Lady: In any case, whether you have fond or terrible memories of this place...well,
+    I suppose here doesn''t matter. '
+  - 'Fox Lady: After all, this place is not to be trifled with.'
+  - 'Fox Lady: This place will be a bit different from the previous place that you
+    were in.'
+  - 'Fox Lady: How it is different...well, I won''t say.'
   - 'Fox Lady: But you do look a bit clueless, so allow me to give you a hint.'
+  - 'Fox Lady: If you are stuck in any shape, or form, simple press the ''TAB'' button
+    on the keyboard.'
+  - 'Fox Lady: This will restart the entire level, and you will have the ability
+    to restart, should you be stuck.'
+  - 'Fox Lady: Isn''t that such a nifty ability? Be grateful that I''ve decided to
+    give it to you.'
+  - 'Fox Lady: ...''Thank you'', you say? Such wonderful manners, good boy!'
+  - 'Fox Lady: Now then, enough chatter. Keep on going, till you reach the end.'
+  - 'Fox Lady: Good luck~!'
   typingSpeed: 0.02
   continueButton: {fileID: 529104579}
   dialogueManager: {fileID: 1404448097}
@@ -7852,14 +7865,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1466499754}
   sentences:
-  - '???: Well, HELLO THERE! ACK! ACK! Who are you?'
-  - '???: ...mm? Not the talkative type.'
-  - 'Phillip: That''s ok. ACK! I''m Phillip'
-  - 'Phillip: Excuse my cough, but that''s why I''m here. '
-  - 'Phillip: Doc says I''ll be just fine soon...'
-  - 'Phillip: But what about you? You seem healthy to me.'
-  - 'Phillip: ACK! ACK! Hm. Not my business. Well, word of advice. If you''re gonna
-    travel through the vents, take care not to loose your way.'
+  - '???: Well, hello there--*COUGH COUGH*...Who are you?'
+  - '???: ...Mm? Not the talkative type, are you? Rather, you seem to be very quiet...'
+  - 'Phillip: That''s alright. It''s good to be wary of strangers. *COUGH* I''m...hmmm...call
+    me Phillip!'
+  - 'Phillip: Oh my...excuse my loud cough, but that is why I''m here. '
+  - 'Phillip: The doctor says I''ll be just fine soon...though, with how this cough
+    is getting worse...*COUGH COUGH*...'
+  - 'Phillip: ...Ah, nevermind me. What about you? You seem perfectly healthy to
+    me.'
+  - 'Phillip: ...''You''re trying to leave''...? Ah, that''s a wonderful idea.'
+  - 'Phillip: Someone as lively and sprightly as you shouldn''t be--*COUGH COUGH*
+    here...'
+  - 'Phillip: You should leave soon, before the doctor thinks that you''re another
+    patient.'
+  - 'Phillip: He''s a merciless one when he sees animals here...but, that is a living.'
+  - 'Phillip: If we have to suffer to be healed, that is what we must go through.
+    Even if it is a measly shot or two, hohoho!'
+  - 'Phillip: *COUGH COUGH*...Hm...however, even then, this place...'
+  - 'Phillip: Ah, forgive me for rambling. This place was a bit different from last
+    time.'
+  - 'Phillip: This place'
+  - 'Phillip: Be careful, now. There are certain obstacles that might hinder your
+    journey, like those dangerous spikes!'
+  - m. Not my business. Well, word of advice. If you're gonna travel through the
+    vents, take care not to loose your way.
+  - m. Not my business. Well, word of advice. If you're gonna travel through the
+    vents, take care not to loose your way.
+  - m. Not my business. Well, word of advice. If you're gonna travel through the
+    vents, take care not to loose your way.
+  - m. Not my business. Well, word of advice. If you're gonna travel through the
+    vents, take care not to loose your way.
+  - m. Not my business. Well, word of advice. If you're gonna travel through the
+    vents, take care not to loose your way.
   typingSpeed: 0.02
   continueButton: {fileID: 0}
   dialogueManager: {fileID: 1404448097}
