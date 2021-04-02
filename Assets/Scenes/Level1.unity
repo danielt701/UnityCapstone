@@ -1226,7 +1226,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1137973975}
   sentences:
-  - ...Oh, you
+  - 'Fox Lady: ...Oh, you managed to get here without any complications. What a good
+    boy, you are~!'
+  - 'Fox Lady: Hm? ''How are you here so quickly''...is what you asked?'
+  - 'Fox Lady: Dear Clyde, did I not already tell you that I will record your progress?'
+  - 'Fox Lady: Every blunder you make. Every decision you choose. I will record it
+    all.'
+  - 'Fox Lady: And if you mess up...your little, fluffy body will appear in front
+    of me.'
+  - 'Fox Lady: Consider it a small gift from me, from when I save you from the clutches
+    of the enemy.'
+  - 'Fox Lady: Make sure not to mess up TOO much now, okay~?'
   typingSpeed: 0.02
   continueButton: {fileID: 1302558898}
   dialogueManager: {fileID: 253581131}
@@ -3367,6 +3377,104 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 848146145}
   m_CullTransparentMesh: 0
+--- !u!1 &860444465
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 860444466}
+  - component: {fileID: 860444468}
+  - component: {fileID: 860444467}
+  m_Layer: 5
+  m_Name: Dialogue Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &860444466
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860444465}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.15, y: 0.03, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 925491725}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &860444467
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860444465}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.81, y: 3.63}
+  m_EdgeRadius: 0
+--- !u!114 &860444468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860444465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c47711c1c39bba47b9ebb7e7ffb416f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDisplay: {fileID: 1137973975}
+  sentences:
+  - 'Fox Lady: Ah, yes. You must be sick and tired of me now, but this is important.'
+  - 'Fox Lady: At the end of your journey, you will come across a cat-like item at
+    the end of the level.'
+  - 'Fox Lady: I am sure you will recognize it. It''s your personal, chew-toy after
+    all.'
+  - 'Fox Lady: Mr. Cat, the name of your chew-toy, will await for you at the end.'
+  - 'Fox Lady: The moment you touch him, you''ll be sent to your next destination.'
+  - 'Fox Lady: ...I believe that is all I will be able to explain to you--for now,
+    that is.'
+  - 'Fox Lady: Now, just simply walk through the rest of this place and...'
+  - 'Fox Lady: ...You look unsatisfied. Very well, I''ll offer a sliver of advice.'
+  - 'Fox Lady: Beware, young pup. This place is defined as it is because YOU have
+    caused it.'
+  - 'Fox Lady: How you have caused it, you will have to reach to the end to find
+    out.'
+  - 'Fox Lady: Will you be the one to offer yourself salvation? Or will you offer
+    yourself destruction?'
+  - 'Fox Lady: I cannot wait to see what will be found in this journey of yours...fufufu...'
+  - 'Fox Lady: ...'
+  - 'Fox Lady: ...Don''t just stand there, pup. Now, hop to it. Don''t waste any
+    time.'
+  typingSpeed: 0.02
+  continueButton: {fileID: 1302558898}
+  dialogueManager: {fileID: 253581131}
+  ManagerScript: {fileID: 253581133}
+  thisdialogue: {fileID: 860444465}
 --- !u!1 &891925610
 GameObject:
   m_ObjectHideFlags: 0
@@ -3774,7 +3882,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1740057754180603910, guid: 04dec29f82a35be4b988f4ad1f80ca9a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3794,9 +3902,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 925491721}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 200.94, y: -3.03, z: 0}
+  m_LocalPosition: {x: 200.94, y: -3.38, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 860444466}
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5660,7 +5769,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.32902777, y: 0.020569265}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -5671,7 +5780,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.81, y: 3.63}
+  m_Size: {x: 3.1519444, y: 2.87578}
   m_EdgeRadius: 0
 --- !u!114 &1282129377
 MonoBehaviour:
@@ -6007,85 +6116,6 @@ MonoBehaviour:
   itemButton: {fileID: 502586251252236659, guid: 80e8d86b8acd1d74dbfd98e0db12922f, type: 3}
   audioSource: {fileID: 0}
   PowerUpGet: {fileID: 0}
---- !u!1 &1314379034
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1314379035}
-  - component: {fileID: 1314379037}
-  - component: {fileID: 1314379036}
-  m_Layer: 5
-  m_Name: Dialogue Trigger
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1314379035
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1314379034}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2052005727}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1314379036
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1314379034}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c47711c1c39bba47b9ebb7e7ffb416f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textDisplay: {fileID: 1137973975}
-  sentences:
-  - Power ups will help you as you try to get to the end.
-  - This power up gives you an extra heart.
-  typingSpeed: 0.02
-  continueButton: {fileID: 1302558898}
-  dialogueManager: {fileID: 253581131}
-  ManagerScript: {fileID: 253581133}
-  thisdialogue: {fileID: 1314379034}
---- !u!61 &1314379037
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1314379034}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 3.23, y: 1.62}
-  m_EdgeRadius: 0
 --- !u!1 &1346785035
 GameObject:
   m_ObjectHideFlags: 0
@@ -7517,6 +7547,166 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1715873768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1715873769}
+  - component: {fileID: 1715873770}
+  - component: {fileID: 1715873771}
+  m_Layer: 5
+  m_Name: Dialogue Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1715873769
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715873768}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.06, y: -0.36, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2052005727}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1715873770
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715873768}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.81, y: 3.63}
+  m_EdgeRadius: 0
+--- !u!114 &1715873771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715873768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c47711c1c39bba47b9ebb7e7ffb416f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDisplay: {fileID: 1137973975}
+  sentences:
+  - Keep an eye out for these power-ups! Power-ups will help you as you try to get
+    to the end!
+  - This particular, power-up gives you an extra heart.
+  typingSpeed: 0.02
+  continueButton: {fileID: 1302558898}
+  dialogueManager: {fileID: 253581131}
+  ManagerScript: {fileID: 253581133}
+  thisdialogue: {fileID: 1715873768}
+--- !u!1 &1757321179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1757321182}
+  - component: {fileID: 1757321181}
+  - component: {fileID: 1757321180}
+  m_Layer: 5
+  m_Name: Dialogue Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1757321180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757321179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c47711c1c39bba47b9ebb7e7ffb416f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDisplay: {fileID: 1137973975}
+  sentences:
+  - Keep an eye out for these power-ups! Power-ups will help you as you try to get
+    to the end!
+  - This particular, power-up gives you an extra heart.
+  typingSpeed: 0.02
+  continueButton: {fileID: 1302558898}
+  dialogueManager: {fileID: 253581131}
+  ManagerScript: {fileID: 253581133}
+  thisdialogue: {fileID: 1757321179}
+--- !u!61 &1757321181
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757321179}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.064303994, y: -0.4490369}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.8616903, y: 1.5244607}
+  m_EdgeRadius: 0
+--- !u!4 &1757321182
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757321179}
+  m_LocalRotation: {x: -0, y: -0, z: 0.004031549, w: 0.99999195}
+  m_LocalPosition: {x: 28.891798, y: -1.441894, z: 0}
+  m_LocalScale: {x: 1.39, y: 1.1899999, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 63
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1789691234
 GameObject:
   m_ObjectHideFlags: 0
@@ -8763,11 +8953,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1544318001793611088, guid: 831c4d4351f55664083c0e51706e2a8a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.2
+      value: 202.59
       objectReference: {fileID: 0}
     - target: {fileID: 1544318001793611088, guid: 831c4d4351f55664083c0e51706e2a8a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.63
+      value: -3.83
       objectReference: {fileID: 0}
     - target: {fileID: 1544318001793611088, guid: 831c4d4351f55664083c0e51706e2a8a, type: 3}
       propertyPath: m_LocalPosition.z
