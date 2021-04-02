@@ -14,6 +14,8 @@ public class Dialogue : MonoBehaviour
 
     private bool hasCoroutineStarted = false;
 
+    private bool isCompleted = false;
+
     public GameObject dialogueManager;
     public DialogueManager ManagerScript;
     public GameObject thisdialogue;
@@ -51,27 +53,34 @@ public class Dialogue : MonoBehaviour
     {
         foreach(char letter in sentences[index].ToCharArray())
         {
+            isCompleted = false;
             textDisplay.text += letter;
             yield return new WaitForSeconds(typingSpeed);
         }
+        isCompleted = true;
+
         yield return null;
     }
 
     public void NextSentence()
     {
-        continueButton.SetActive(true);
+        if(isCompleted == true)
+        {
+            continueButton.SetActive(true);
 
-        if(index < sentences.Length - 1)
-        {
-            index++;
-            textDisplay.text = "";
-            StartCoroutine(Type());
+            if (index < sentences.Length - 1)
+            {
+                index++;
+                textDisplay.text = "";
+                StartCoroutine(Type());
+            }
+            else
+            {
+                textDisplay.text = "";
+                continueButton.SetActive(false);
+            }
         }
-        else
-        {
-            textDisplay.text = "";
-            continueButton.SetActive(false);
-        }
+            
     }
     
 }

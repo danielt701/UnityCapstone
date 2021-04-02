@@ -123,6 +123,72 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &39588053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 39588056}
+  - component: {fileID: 39588055}
+  - component: {fileID: 39588054}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &39588054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39588053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &39588055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39588053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &39588056
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39588053}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 42
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &39612690
 GameObject:
   m_ObjectHideFlags: 0
@@ -2732,92 +2798,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.82, y: -1.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 929752188}
   m_Father: {fileID: 0}
   m_RootOrder: 29
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &606996674
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 606996677}
-  - component: {fileID: 606996676}
-  - component: {fileID: 606996675}
-  m_Layer: 5
-  m_Name: Dialogue Trigger
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!61 &606996675
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 606996674}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 3.81, y: 3.63}
-  m_EdgeRadius: 0
---- !u!114 &606996676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 606996674}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c47711c1c39bba47b9ebb7e7ffb416f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textDisplay: {fileID: 1466499754}
-  sentences:
-  - 'Phillip: They said I''d be fine...ACK! ACK!'
-  - 'Phillip: Right as rain in within a week...'
-  - 'Phillip: Hey, if its OUT you''re looking for, you''re almost there...'
-  - 'Phillip: There''s a garbage chute up ahead. Its a bit of a jump, but I think
-    you''ll make it.'
-  - 'Phillip: Good lu- ACK! ACK! Eh! Hm...eh...good luck...'
-  typingSpeed: 0.02
-  continueButton: {fileID: 529104579}
-  dialogueManager: {fileID: 1404448097}
-  ManagerScript: {fileID: 1404448099}
-  thisdialogue: {fileID: 606996674}
---- !u!4 &606996677
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 606996674}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 138.1, y: 7.1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &607602548
 GameObject:
@@ -2859,8 +2843,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -27.77, y: -2.12, z: -424.93185}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1316801714}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3557,7 +3540,7 @@ MonoBehaviour:
     animals out and about.'
   - 'Phillip: But, no worries. I left something down there to help you out. ACK!'
   typingSpeed: 0.02
-  continueButton: {fileID: 529104579}
+  continueButton: {fileID: 0}
   dialogueManager: {fileID: 1404448097}
   ManagerScript: {fileID: 1404448099}
   thisdialogue: {fileID: 801748181}
@@ -3979,7 +3962,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c47711c1c39bba47b9ebb7e7ffb416f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textDisplay: {fileID: 0}
+  textDisplay: {fileID: 1466499754}
   sentences:
   - 'Fox Lady: Welcome to the place that you have dreaded the most...in other words,
     the Veterinarian Office.'
@@ -3990,15 +3973,12 @@ MonoBehaviour:
   - 'Fox Lady: It is too early to tell you what this world consists of yet...'
   - 'Fox Lady: But you do look a bit clueless, so allow me to give you a hint.'
   - 'Fox Lady: This place is fickle. '
-  - 
-  - 
-  - 
   - 'Fox Lady: Pay attention, now. This ''place'' that you''re in, is not similar
     to the ''place''  you know.'
   typingSpeed: 0.02
-  continueButton: {fileID: 0}
-  dialogueManager: {fileID: 0}
-  ManagerScript: {fileID: 0}
+  continueButton: {fileID: 529104579}
+  dialogueManager: {fileID: 1404448097}
+  ManagerScript: {fileID: 1404448099}
   thisdialogue: {fileID: 878044497}
 --- !u!1 &892646645
 GameObject:
@@ -4208,6 +4188,91 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &929752187
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 929752188}
+  - component: {fileID: 929752190}
+  - component: {fileID: 929752189}
+  m_Layer: 0
+  m_Name: Dialogue Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &929752188
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929752187}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 572382712}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &929752189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929752187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c47711c1c39bba47b9ebb7e7ffb416f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDisplay: {fileID: 1466499754}
+  sentences:
+  - 'Fox Lady: Welcome to the place that you have dreaded the most...in other words,
+    the Veterinarian Office.'
+  - 'Fox Lady: Whether you have fond or terrible memories of this place...well, I
+    suppose here doesn''t matter. Hm?'
+  - 'Fox Lady: After all, this isn''t the same veterinarian office that you''re used
+    to.'
+  - 'Fox Lady: It is too early to tell you what this world consists of yet...'
+  - 'Fox Lady: But you do look a bit clueless, so allow me to give you a hint.'
+  typingSpeed: 0.02
+  continueButton: {fileID: 529104579}
+  dialogueManager: {fileID: 1404448097}
+  ManagerScript: {fileID: 1404448099}
+  thisdialogue: {fileID: 929752187}
+--- !u!61 &929752190
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929752187}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.41, y: 3.21}
+  m_EdgeRadius: 0
 --- !u!1 &971197591
 GameObject:
   m_ObjectHideFlags: 0
@@ -4614,7 +4679,7 @@ MonoBehaviour:
     you''ll make it.'
   - 'Phillip: Good lu- ACK! ACK! Eh! Hm...eh...good luck...'
   typingSpeed: 0.02
-  continueButton: {fileID: 529104579}
+  continueButton: {fileID: 0}
   dialogueManager: {fileID: 1404448097}
   ManagerScript: {fileID: 1404448099}
   thisdialogue: {fileID: 1091912886}
@@ -5805,97 +5870,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1316801713
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1316801714}
-  - component: {fileID: 1316801716}
-  - component: {fileID: 1316801715}
-  m_Layer: 5
-  m_Name: Dialogue Trigger
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1316801714
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1316801713}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20.259998, y: 0.21999991, z: 424.93185}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 607602550}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1316801715
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1316801713}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 3.81, y: 3.63}
-  m_EdgeRadius: 0
---- !u!114 &1316801716
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1316801713}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c47711c1c39bba47b9ebb7e7ffb416f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textDisplay: {fileID: 0}
-  sentences:
-  - 'Fox Lady: Welcome to the place that you have dreaded the most...in other words,
-    the Veterinarian Office.'
-  - 'Fox Lady: Whether you have fond or terrible memories of this place...well, I
-    suppose here doesn''t matter. Hm?'
-  - 'Fox Lady: After all, this isn''t the same veterinarian office that you''re used
-    to.'
-  - 'Fox Lady: It is too early to tell you what this world consists of yet...'
-  - 'Fox Lady: But you do look a bit clueless, so allow me to give you a hint.'
-  - 'Fox Lady: This place is fickle. '
-  - 
-  - 
-  - 
-  - 'Fox Lady: Pay attention, now. This ''place'' that you''re in, is not similar
-    to the ''place''  you know.'
-  typingSpeed: 0.02
-  continueButton: {fileID: 0}
-  dialogueManager: {fileID: 0}
-  ManagerScript: {fileID: 0}
-  thisdialogue: {fileID: 1316801713}
 --- !u!1 &1329662802
 GameObject:
   m_ObjectHideFlags: 0
@@ -7887,7 +7861,7 @@ MonoBehaviour:
   - 'Phillip: ACK! ACK! Hm. Not my business. Well, word of advice. If you''re gonna
     travel through the vents, take care not to loose your way.'
   typingSpeed: 0.02
-  continueButton: {fileID: 529104579}
+  continueButton: {fileID: 0}
   dialogueManager: {fileID: 1404448097}
   ManagerScript: {fileID: 1404448099}
   thisdialogue: {fileID: 1611937131}
