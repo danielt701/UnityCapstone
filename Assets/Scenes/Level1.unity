@@ -1154,6 +1154,84 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 292062599}
   m_CullTransparentMesh: 0
+--- !u!1 &305610406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 305610407}
+  - component: {fileID: 305610409}
+  - component: {fileID: 305610408}
+  m_Layer: 5
+  m_Name: Dialogue Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &305610407
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305610406}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.05, y: -0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1080269165}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &305610408
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305610406}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.81, y: 3.63}
+  m_EdgeRadius: 0
+--- !u!114 &305610409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305610406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c47711c1c39bba47b9ebb7e7ffb416f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDisplay: {fileID: 1137973975}
+  sentences:
+  - ...Oh, you
+  typingSpeed: 0.02
+  continueButton: {fileID: 1302558898}
+  dialogueManager: {fileID: 253581131}
+  ManagerScript: {fileID: 253581133}
+  thisdialogue: {fileID: 305610406}
 --- !u!1 &331799448
 GameObject:
   m_ObjectHideFlags: 0
@@ -4296,7 +4374,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 90.7, y: 2.69, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 305610407}
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5608,18 +5687,51 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1137973975}
   sentences:
-  - '???: Hello Clyde.'
-  - '???: I know you are wondering where you are, or who I am, but do not be afraid.
-    I am here to help you.'
-  - 'Foxlady: Let me introduce myself. I am The Fox Lady. I guide lost souls through
-    this world to their place of rest.'
-  - "Foxlady: I wish to bring you to your family. They are waiting for you\u2026
-    But you must reach them. "
-  - 'Foxlady: Be careful Clyde. Ahead, are just a few of the many beings who seek
-    to impede you.'
-  - 'Foxlady: To move, press your WASD key.'
-  - 'Foxlady: To jump, press the spacebar'
-  - 'Foxlady: To attack, press the V key'
+  - '???: ...Oh my. A small dog such as yourself shouldn''t be here...hello there,
+    Clyde.'
+  - '???: ...Oh? You say I look a bit familiar to someone you know? Then this form
+    was the right one to choose, indeed.'
+  - 'Fox Lady: Allow me to properly introduce myself. I am known as the Fox Lady.
+    Consider me as...your spiritual guide.'
+  - 'Fox Lady: A world such as this is not suited for a small pup, such as yourself.
+    You must leave quickly.'
+  - 'Fox Lady: ...Oh dear. That adorably, questionable look on your face must mean
+    that'
+  - you have no idea what it is that I am talking about.
+  - 'Fox Lady: In due time, you will know. But for now, you must go through this
+    area.'
+  - 'Fox Lady: ...? ''You''ve been here before''...? ''This place isn''t dangerous'',
+    you say?'
+  - 'Fox Lady: ...Ah. You must be confusing this place for somewhere else.'
+  - 'Fox Lady: Pay attention, now. This ''place'' that you''re in, is not similar
+    to the ''place''  you know.'
+  - 'Fox Lady: To you, this may be the beach that you''ve often visited with your
+    owner. A place where many, beautiful...'
+  - memories were made between the two of you.
+  - 'Fox Lady: Unfortunately for you, that is not the case. This beach has been corrupted.'
+  - 'Fox Lady: This beach has been corrupted by these...beasts. And unfortunately
+    for you, this beach has been...'
+  - taken over by them. In the end, this beach will end up destroying you, if you
+    are not careful.
+  - 'Fox Lady: ...''How do I know this'', you ask?'
+  - 'Fox Lady: ...I will reveal all in the end. But until then, this journey must
+    be completed by you, and you, alone.'
+  - 'Fox Lady: ...Enough chatter. You have work to do. I will simply record your
+    progress from here on.'
+  - 'Fox Lady: Up ahead, there will be enemies that will hinder you on your journey.'
+  - 'Fox Lady: As you have already done, simply move with the WASD keypads.'
+  - 'Fox Lady: There will be platforms to jump on. To jump with those little paws
+    of yours, press the Spacebar key.'
+  - 'Fox Lady: To defeat those enemies, simply bark at them, with the V key.'
+  - 'Fox Lady: Sounds simple, yes?'
+  - 'Fox Lady: ...From that blank expression of yours, you seem to understand. Good.
+    Such an obedient pup.'
+  - 'Fox Lady: Now, run along now. Reach to the end, and return back from whence
+    you came.'
+  - 'Fox Lady: Just as a reminder. Move with the WASD keys. Bark with the V key.
+    Jump with the Spacebar.'
+  - 'Fox Lady: Good luck, now. Fufufufu...'
+  - 'Fox Lady: Ad finem huius somnum exterreri solebat, Clyde.'
   typingSpeed: 0.02
   continueButton: {fileID: 1302558898}
   dialogueManager: {fileID: 253581131}
