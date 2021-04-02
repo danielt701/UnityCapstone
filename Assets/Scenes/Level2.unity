@@ -2202,7 +2202,7 @@ RectTransform:
   m_LocalScale: {x: 0.55555916, y: 0.55555916, z: 0.55555916}
   m_Children: []
   m_Father: {fileID: 854765239}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -2860,7 +2860,7 @@ Transform:
   m_LocalPosition: {x: -27.77, y: -2.12, z: -424.93185}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1492067590}
+  - {fileID: 1316801714}
   m_Father: {fileID: 0}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3822,9 +3822,9 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1153925144}
-  - {fileID: 529104580}
   - {fileID: 1466499752}
   - {fileID: 1404448098}
+  - {fileID: 529104580}
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3909,6 +3909,97 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &878044497
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 878044498}
+  - component: {fileID: 878044500}
+  - component: {fileID: 878044499}
+  m_Layer: 5
+  m_Name: Dialogue Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &878044498
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878044497}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.14, y: 0.24, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2023428313}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &878044499
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878044497}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.81, y: 3.63}
+  m_EdgeRadius: 0
+--- !u!114 &878044500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878044497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c47711c1c39bba47b9ebb7e7ffb416f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDisplay: {fileID: 0}
+  sentences:
+  - 'Fox Lady: Welcome to the place that you have dreaded the most...in other words,
+    the Veterinarian Office.'
+  - 'Fox Lady: Whether you have fond or terrible memories of this place...well, I
+    suppose here doesn''t matter. Hm?'
+  - 'Fox Lady: After all, this isn''t the same veterinarian office that you''re used
+    to.'
+  - 'Fox Lady: It is too early to tell you what this world consists of yet...'
+  - 'Fox Lady: But you do look a bit clueless, so allow me to give you a hint.'
+  - 'Fox Lady: This place is fickle. '
+  - 
+  - 
+  - 
+  - 'Fox Lady: Pay attention, now. This ''place'' that you''re in, is not similar
+    to the ''place''  you know.'
+  typingSpeed: 0.02
+  continueButton: {fileID: 0}
+  dialogueManager: {fileID: 0}
+  ManagerScript: {fileID: 0}
+  thisdialogue: {fileID: 878044497}
 --- !u!1 &892646645
 GameObject:
   m_ObjectHideFlags: 0
@@ -5740,10 +5831,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1316801713}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -75.18, y: -5.77, z: 0}
+  m_LocalPosition: {x: 20.259998, y: 0.21999991, z: 424.93185}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2023428313}
+  m_Father: {fileID: 607602550}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1316801715
@@ -5786,51 +5877,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 0}
   sentences:
-  - '???: ...Oh my. A small dog such as yourself shouldn''t be here...hello there,
-    Clyde.'
-  - '???: ...Oh? You say I look a bit familiar to someone you know? Then this form
-    was the right one to choose, indeed.'
-  - 'Fox Lady: Allow me to properly introduce myself. I am known as the Fox Lady.
-    Consider me as...your spiritual guide.'
-  - 'Fox Lady: A world such as this is not suited for a small pup, such as yourself.
-    You must leave quickly.'
-  - 'Fox Lady: ...Oh dear. That adorably, questionable look on your face must mean
-    that'
-  - you have no idea what it is that I am talking about.
-  - 'Fox Lady: In due time, you will know. But for now, you must go through this
-    area.'
-  - 'Fox Lady: ...? ''You''ve been here before''...? ''This place isn''t dangerous'',
-    you say?'
-  - 'Fox Lady: ...Ah. You must be confusing this place for somewhere else.'
+  - 'Fox Lady: Welcome to the place that you have dreaded the most...in other words,
+    the Veterinarian Office.'
+  - 'Fox Lady: Whether you have fond or terrible memories of this place...well, I
+    suppose here doesn''t matter. Hm?'
+  - 'Fox Lady: After all, this isn''t the same veterinarian office that you''re used
+    to.'
+  - 'Fox Lady: It is too early to tell you what this world consists of yet...'
+  - 'Fox Lady: But you do look a bit clueless, so allow me to give you a hint.'
+  - 'Fox Lady: This place is fickle. '
+  - 
+  - 
+  - 
   - 'Fox Lady: Pay attention, now. This ''place'' that you''re in, is not similar
     to the ''place''  you know.'
-  - 'Fox Lady: To you, this may be the beach that you''ve often visited with your
-    owner. A place where many, beautiful...'
-  - memories were made between the two of you.
-  - 'Fox Lady: Unfortunately for you, that is not the case. This beach has been corrupted.'
-  - 'Fox Lady: This beach has been corrupted by these...beasts. And unfortunately
-    for you, this beach has been...'
-  - taken over by them. In the end, this beach will end up destroying you, if you
-    are not careful.
-  - 'Fox Lady: ...''How do I know this'', you ask?'
-  - 'Fox Lady: ...I will reveal all in the end. But until then, this journey must
-    be completed by you, and you, alone.'
-  - 'Fox Lady: ...Enough chatter. You have work to do. I will simply record your
-    progress from here on.'
-  - 'Fox Lady: Up ahead, there will be enemies that will hinder you on your journey.'
-  - 'Fox Lady: As you have already done, simply move with the WASD keypads.'
-  - 'Fox Lady: There will be platforms to jump on. To jump with those little paws
-    of yours, press the Spacebar key.'
-  - 'Fox Lady: To defeat those enemies, simply bark at them, with the V key.'
-  - 'Fox Lady: Sounds simple, yes?'
-  - 'Fox Lady: ...From that blank expression of yours, you seem to understand. Good.
-    Such an obedient pup.'
-  - 'Fox Lady: Now, run along now. Reach to the end, and return back from whence
-    you came.'
-  - 'Fox Lady: Just as a reminder. Move with the WASD keys. Bark with the V key.
-    Jump with the Spacebar.'
-  - 'Fox Lady: Good luck, now. Fufufufu...'
-  - 'Fox Lady: Ad finem huius somnum exterreri solebat, Clyde.'
   typingSpeed: 0.02
   continueButton: {fileID: 0}
   dialogueManager: {fileID: 0}
@@ -6468,7 +6528,7 @@ Transform:
   m_LocalScale: {x: 0.55555916, y: 0.55555916, z: 0.55555916}
   m_Children: []
   m_Father: {fileID: 854765239}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1404448099
 MonoBehaviour:
@@ -6680,7 +6740,7 @@ RectTransform:
   m_LocalScale: {x: 0.55555916, y: 0.55555916, z: 0.55555916}
   m_Children: []
   m_Father: {fileID: 854765239}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -6887,86 +6947,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1492067589
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1492067590}
-  - component: {fileID: 1492067592}
-  - component: {fileID: 1492067591}
-  m_Layer: 5
-  m_Name: Dialogue Trigger
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1492067590
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1492067589}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20.259998, y: 0.21999979, z: 424.93185}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 607602550}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1492067591
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1492067589}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 3.81, y: 3.63}
-  m_EdgeRadius: 0
---- !u!114 &1492067592
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1492067589}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c47711c1c39bba47b9ebb7e7ffb416f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textDisplay: {fileID: 1466499754}
-  sentences:
-  - 'Fox Lady: Remember this, Clyde: Sometimes the hardest step is the first one.'
-  - 'Fox Lady: But you will never be able to face the truth if you don''t believe
-    it...'
-  typingSpeed: 0.02
-  continueButton: {fileID: 529104579}
-  dialogueManager: {fileID: 1404448097}
-  ManagerScript: {fileID: 1404448099}
-  thisdialogue: {fileID: 1492067589}
 --- !u!1 &1503965229
 GameObject:
   m_ObjectHideFlags: 0
@@ -10137,7 +10117,7 @@ Transform:
   m_LocalPosition: {x: 67.67, y: 3.87, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1316801714}
+  - {fileID: 878044498}
   m_Father: {fileID: 0}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
