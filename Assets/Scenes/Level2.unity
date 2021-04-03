@@ -187,7 +187,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 42
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &39612690
 GameObject:
@@ -380,6 +380,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &78381862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 78381863}
+  m_Layer: 0
+  m_Name: GameObject (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &78381863
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 78381862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.67, y: -1.94, z: -822.137}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 370836943}
+  m_Father: {fileID: 0}
+  m_RootOrder: 29
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &106550693
 GameObject:
   m_ObjectHideFlags: 0
@@ -1538,6 +1569,89 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &370836942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 370836943}
+  - component: {fileID: 370836945}
+  - component: {fileID: 370836944}
+  m_Layer: 0
+  m_Name: Dialogue Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &370836943
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370836942}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8.5784, y: 0.11, z: 0}
+  m_LocalScale: {x: 4.5, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 78381863}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &370836944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370836942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c47711c1c39bba47b9ebb7e7ffb416f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDisplay: {fileID: 1466499754}
+  sentences:
+  - ...You're starting to get angry.
+  - First off, you're in the worst place that you can possibly be in.
+  - Second, this place is more ominous than what it originally was.
+  - Third, nothing still makes sense. It's getting on your nerves.
+  - ...
+  - You have to keep moving. You want to be with your owner again.
+  typingSpeed: 0.02
+  continueButton: {fileID: 529104579}
+  dialogueManager: {fileID: 1404448097}
+  ManagerScript: {fileID: 1404448099}
+  thisdialogue: {fileID: 370836942}
+--- !u!61 &370836945
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370836942}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.7063255, y: 1.3312359}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.8589685, y: 5.872472}
+  m_EdgeRadius: 0
 --- !u!4 &378328692 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4850236349365223928, guid: 1b50b86b5e47cf2469299e2141effee6, type: 3}
@@ -1652,6 +1766,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &410133926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 410133927}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &410133927
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410133926}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -21.691412, y: -1.6932279, z: -822.137}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1842939434}
+  m_Father: {fileID: 0}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &426082959
 GameObject:
   m_ObjectHideFlags: 0
@@ -2235,7 +2380,7 @@ Transform:
   m_LocalScale: {x: 1.7926215, y: 2.3708866, z: 2.891325}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &529104579
 GameObject:
@@ -2555,7 +2700,7 @@ Transform:
   m_Children:
   - {fileID: 152898306}
   m_Father: {fileID: 0}
-  m_RootOrder: 39
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &572382705
 GameObject:
@@ -2801,7 +2946,7 @@ Transform:
   m_Children:
   - {fileID: 929752188}
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &607602548
 GameObject:
@@ -2845,7 +2990,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &660846102
 GameObject:
@@ -2949,7 +3094,7 @@ Transform:
   m_Children:
   - {fileID: 801748182}
   m_Father: {fileID: 0}
-  m_RootOrder: 40
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &660846106
 AudioSource:
@@ -4353,17 +4498,13 @@ MonoBehaviour:
   - 'Fox Lady: After all, this place is not to be trifled with.'
   - 'Fox Lady: This place will be a bit different from the previous place that you
     were in.'
-  - 'Fox Lady: How it is different...well, I won''t say.'
-  - 'Fox Lady: But you do look a bit clueless, so allow me to give you a hint.'
+  - 'Fox Lady: Allow me to give you a hint.'
   - 'Fox Lady: If you are stuck in any shape, or form, simple press the ''TAB'' button
     on the keyboard.'
   - 'Fox Lady: This will restart the entire level, and you will have the ability
     to restart, should you be stuck.'
-  - 'Fox Lady: Isn''t that such a nifty ability? Be grateful that I''ve decided to
-    give it to you.'
   - 'Fox Lady: ...''Thank you'', you say? Such wonderful manners, good boy!'
   - 'Fox Lady: Now then, enough chatter. Keep on going, till you reach the end.'
-  - 'Fox Lady: Good luck~!'
   typingSpeed: 0.02
   continueButton: {fileID: 529104579}
   dialogueManager: {fileID: 1404448097}
@@ -5309,7 +5450,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1.14125, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1247369873
 GameObject:
@@ -5772,7 +5913,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1310451728
 GameObject:
@@ -7760,9 +7901,9 @@ Transform:
   m_LocalPosition: {x: 22.99, y: 5.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1611937132}
+  - {fileID: 1844019995}
   m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1597221997
 AudioSource:
@@ -7999,116 +8140,6 @@ Transform:
   m_Father: {fileID: 1662906818}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1611937131
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1611937132}
-  - component: {fileID: 1611937134}
-  - component: {fileID: 1611937133}
-  m_Layer: 5
-  m_Name: Dialogue Trigger
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1611937132
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1611937131}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1597221996}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1611937133
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1611937131}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 3.81, y: 3.63}
-  m_EdgeRadius: 0
---- !u!114 &1611937134
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1611937131}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c47711c1c39bba47b9ebb7e7ffb416f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textDisplay: {fileID: 1466499754}
-  sentences:
-  - '???: Well, hello there--*COUGH COUGH*...Who are you?'
-  - '???: ...Mm? Not the talkative type, are you? Rather, you seem to be very quiet...'
-  - 'Phillip: That''s alright. It''s good to be wary of strangers. *COUGH* I''m...hmmm...call
-    me Phillip!'
-  - 'Phillip: Oh my...excuse my loud cough, but that is why I''m here. '
-  - 'Phillip: The doctor says I''ll be just fine soon...though, with how this cough
-    is getting worse...*COUGH COUGH*...'
-  - 'Phillip: ...Ah, nevermind me. What about you? You seem perfectly healthy to
-    me.'
-  - 'Phillip: ...''You''re trying to leave''...? Ah, that''s a wonderful idea.'
-  - 'Phillip: Someone as lively and sprightly as you shouldn''t be--*COUGH COUGH*
-    here...'
-  - 'Phillip: You should leave soon, before the doctor thinks that you''re another
-    patient.'
-  - 'Phillip: He''s a merciless one when he sees animals here...but, that is a living.'
-  - 'Phillip: If we have to suffer to be healed, that is what we must go through.
-    Even if it is a measly shot or two, hohoho!'
-  - 'Phillip: *COUGH COUGH*...Hm...however, even then, this place...'
-  - 'Phillip: Ah, forgive me for rambling. This place was a bit different from last
-    time.'
-  - 'Phillip: This place'
-  - 'Phillip: Be careful, now. There are certain obstacles that might hinder your
-    journey, like those dangerous spikes!'
-  - m. Not my business. Well, word of advice. If you're gonna travel through the
-    vents, take care not to loose your way.
-  - m. Not my business. Well, word of advice. If you're gonna travel through the
-    vents, take care not to loose your way.
-  - m. Not my business. Well, word of advice. If you're gonna travel through the
-    vents, take care not to loose your way.
-  - m. Not my business. Well, word of advice. If you're gonna travel through the
-    vents, take care not to loose your way.
-  - m. Not my business. Well, word of advice. If you're gonna travel through the
-    vents, take care not to loose your way.
-  typingSpeed: 0.02
-  continueButton: {fileID: 0}
-  dialogueManager: {fileID: 1404448097}
-  ManagerScript: {fileID: 1404448099}
-  thisdialogue: {fileID: 1611937131}
 --- !u!1 &1615595717
 GameObject:
   m_ObjectHideFlags: 0
@@ -9030,7 +9061,7 @@ Transform:
   - {fileID: 752259427}
   - {fileID: 289337607}
   m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1778515985
 GameObject:
@@ -9181,7 +9212,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1544318001793611088, guid: 831c4d4351f55664083c0e51706e2a8a, type: 3}
       propertyPath: m_RootOrder
-      value: 33
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 1544318001793611088, guid: 831c4d4351f55664083c0e51706e2a8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9494,8 +9525,173 @@ Transform:
   m_LocalScale: {x: 1.625, y: 1.85, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1842939433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1842939434}
+  - component: {fileID: 1842939436}
+  - component: {fileID: 1842939435}
+  m_Layer: 0
+  m_Name: Dialogue Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1842939434
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842939433}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8.5784, y: 0.11, z: 0}
+  m_LocalScale: {x: 4.5, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 410133927}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1842939435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842939433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c47711c1c39bba47b9ebb7e7ffb416f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDisplay: {fileID: 1466499754}
+  sentences:
+  - ...Oh.
+  - Oh no.
+  - There's this sense of dread that's crawling inside of your stomach...
+  - You recognize this smell. The smell of antiseptic. The smell of rubber gloves.
+    The smell of MEDICINE...
+  - You're in what is known within the dog community as one of the TOP 5 places to
+    avoid...!
+  - You need to leave! Now!
+  typingSpeed: 0.02
+  continueButton: {fileID: 529104579}
+  dialogueManager: {fileID: 1404448097}
+  ManagerScript: {fileID: 1404448099}
+  thisdialogue: {fileID: 1842939433}
+--- !u!61 &1842939436
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842939433}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.7063255, y: 1.3312359}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.8589685, y: 5.872472}
+  m_EdgeRadius: 0
+--- !u!1 &1844019994
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1844019995}
+  - component: {fileID: 1844019997}
+  - component: {fileID: 1844019996}
+  m_Layer: 0
+  m_Name: Dialogue Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1844019995
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844019994}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.01, y: -0.14, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1597221996}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1844019996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844019994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c47711c1c39bba47b9ebb7e7ffb416f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDisplay: {fileID: 1466499754}
+  sentences:
+  - '???: *COUGH COUGH*...Ohh? Is that a small puppy, I see? I see, I see...'
+  - '???: *COUGH*...Oh! Where are my manners...I am Phillip. Hohoho~!'
+  - 'Phillip: Are you a patient here, as well? '
+  typingSpeed: 0.02
+  continueButton: {fileID: 529104579}
+  dialogueManager: {fileID: 1404448097}
+  ManagerScript: {fileID: 1404448099}
+  thisdialogue: {fileID: 1844019994}
+--- !u!61 &1844019997
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844019994}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.41, y: 3.21}
+  m_EdgeRadius: 0
 --- !u!1 &1896126013
 GameObject:
   m_ObjectHideFlags: 0
@@ -10089,7 +10285,7 @@ Transform:
   m_Children:
   - {fileID: 1091912887}
   m_Father: {fileID: 0}
-  m_RootOrder: 41
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1974633633
 AudioSource:
@@ -10530,7 +10726,7 @@ Transform:
   m_Children:
   - {fileID: 878044498}
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2025739370
 GameObject:
