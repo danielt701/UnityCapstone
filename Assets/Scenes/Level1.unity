@@ -9078,6 +9078,7 @@ MonoBehaviour:
   - ...That Fox Lady has to be lying, right?
   - She has to be! She may look like your owner, but she's very different...!
   - ...You need to get out of here. Now. You need to go back to your actual owner.
+    Your warm, happy owner!
   typingSpeed: 0.02
   continueButton: {fileID: 1302558898}
   dialogueManager: {fileID: 253581131}
