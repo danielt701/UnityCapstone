@@ -5,11 +5,30 @@ using UnityEngine;
 public class Instantiate : MonoBehaviour
 {
 
-    public Transform Spawnpoint;
-    public GameObject Prefab;
+    private float nextSpawnTime;
 
-    private void OnTriggerEnter2D(Collider2D collider)
+
+    [SerializeField]
+    private GameObject MissilePrefab;
+    [SerializeField]
+    private float spawnDelay = 8;
+
+    private void Update()
     {
-        Instantiate(Prefab, Spawnpoint.position, Spawnpoint.rotation);
+        if (ShouldSpawn())
+        {
+            Spawn();
+        }
+    }
+
+    private void Spawn()
+    {
+        nextSpawnTime = Time.time + spawnDelay;
+        Instantiate(MissilePrefab, transform.position, transform.rotation);
+    }
+
+    private bool ShouldSpawn()
+    {
+        return Time.time >= nextSpawnTime;
     }
 }
