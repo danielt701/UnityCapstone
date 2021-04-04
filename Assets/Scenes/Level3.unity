@@ -2581,7 +2581,18 @@ MonoBehaviour:
   sentences:
   - '???: ...Hrgh? Clyde? Clyde, is that you?'
   - '???: What''s someone who was adopted doin'' in a place, like this?'
-  - 
+  - '???: ...Alright, alright! Stop yapping! You don''t have to shout my name for
+    the entire world to hear! Yes, yes, it''s Hyde!'
+  - 'Hyde: Jeez, the longer I have to hear your yappin'', my ears are gonna fall
+    off.'
+  - 'Hyde: ...But seriously, what are you doin'' here? This place has no business
+    for someone who was adopted.'
+  - 'Hyde: ...Unless, you''ve been dropped off here by your owner?'
+  - 'Hyde: I kid, I kid--that young woman who adopted you looked happy to get you,
+    it would be a disservice to say that.'
+  - 'Hyde: In any case, you''re bothering me. Go and hop, bark, and whatever. '
+  - 'Hyde: Leave the loafing around to the professionals.'
+  - 'Hyde: ...No, I''m not going to trade places with you! Now git!'
   typingSpeed: 0.02
   continueButton: {fileID: 564872559}
   dialogueManager: {fileID: 1534205135}
@@ -2854,7 +2865,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 38.4, y: 0.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 743667609}
   m_Father: {fileID: 0}
   m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3438,6 +3450,90 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &503293928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 503293929}
+  - component: {fileID: 503293931}
+  - component: {fileID: 503293930}
+  m_Layer: 0
+  m_Name: Dialogue Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &503293929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503293928}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.55085, y: -0.17, z: -822.137}
+  m_LocalScale: {x: 0.24943225, y: 0.58741, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1170325469}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &503293930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503293928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c47711c1c39bba47b9ebb7e7ffb416f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDisplay: {fileID: 1756718799}
+  sentences:
+  - 'Fox Lady: Welcome to where you were sold to your owner...the Shelter.'
+  - 'Fox Lady: This is a large area, indeed...Hm? ''It was smaller when you were
+    here''...you say?'
+  - 'Fox Lady: ...Ah, yes. This place has been distorted in your mind.'
+  - 'Fox Lady: ...Don''t look so crestfallen. This place is not your place, remember?'
+  - 'Fox Lady: Keep going, Clyde. Should you falter here, you will never get out
+    of here.'
+  typingSpeed: 0.02
+  continueButton: {fileID: 564872559}
+  dialogueManager: {fileID: 1534205135}
+  ManagerScript: {fileID: 1534205137}
+  thisdialogue: {fileID: 503293928}
+--- !u!61 &503293931
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503293928}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.7063255, y: 1.3312359}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.8589685, y: 5.872472}
+  m_EdgeRadius: 0
 --- !u!1 &503533511
 GameObject:
   m_ObjectHideFlags: 0
@@ -5907,6 +6003,90 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &743667608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 743667609}
+  - component: {fileID: 743667611}
+  - component: {fileID: 743667610}
+  m_Layer: 0
+  m_Name: Dialogue Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &743667609
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743667608}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.51, y: -0.23, z: -822.137}
+  m_LocalScale: {x: 0.24943, y: 0.58741, z: 1}
+  m_Children: []
+  m_Father: {fileID: 339309343}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &743667610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743667608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c47711c1c39bba47b9ebb7e7ffb416f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDisplay: {fileID: 1756718799}
+  sentences:
+  - 'Fox Lady: Welcome to where you were sold to your owner...the Shelter.'
+  - 'Fox Lady: This is a large area, indeed...Hm? ''It was smaller when you were
+    here''...you say?'
+  - 'Fox Lady: ...Ah, yes. This place has been distorted in your mind.'
+  - 'Fox Lady: ...Don''t look so crestfallen. This place is not your place, remember?'
+  - 'Fox Lady: Keep going, Clyde. Should you falter here, you will never get out
+    of here.'
+  typingSpeed: 0.02
+  continueButton: {fileID: 564872559}
+  dialogueManager: {fileID: 1534205135}
+  ManagerScript: {fileID: 1534205137}
+  thisdialogue: {fileID: 743667608}
+--- !u!61 &743667611
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743667608}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.7063255, y: 1.3312359}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.8589685, y: 5.872472}
+  m_EdgeRadius: 0
 --- !u!1 &753963113
 GameObject:
   m_ObjectHideFlags: 0
@@ -7737,9 +7917,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 883772281}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 109.2, y: 7.5, z: 0}
+  m_LocalPosition: {x: 109.24, y: 6.92, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1624478238}
   m_Father: {fileID: 0}
   m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10267,7 +10448,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 38.4, y: 0.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 503293929}
   m_Father: {fileID: 0}
   m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10973,7 +11155,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 196.67, y: -5.43, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1256529862}
   m_Father: {fileID: 0}
   m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11109,6 +11292,90 @@ Transform:
   m_Father: {fileID: 1297492004}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1256529861
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1256529862}
+  - component: {fileID: 1256529864}
+  - component: {fileID: 1256529863}
+  m_Layer: 0
+  m_Name: Dialogue Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1256529862
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256529861}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.54, y: -0.28, z: -822.137}
+  m_LocalScale: {x: 0.24943, y: 0.58741, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1233291003}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1256529863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256529861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c47711c1c39bba47b9ebb7e7ffb416f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDisplay: {fileID: 1756718799}
+  sentences:
+  - 'Fox Lady: Welcome to where you were sold to your owner...the Shelter.'
+  - 'Fox Lady: This is a large area, indeed...Hm? ''It was smaller when you were
+    here''...you say?'
+  - 'Fox Lady: ...Ah, yes. This place has been distorted in your mind.'
+  - 'Fox Lady: ...Don''t look so crestfallen. This place is not your place, remember?'
+  - 'Fox Lady: Keep going, Clyde. Should you falter here, you will never get out
+    of here.'
+  typingSpeed: 0.02
+  continueButton: {fileID: 564872559}
+  dialogueManager: {fileID: 1534205135}
+  ManagerScript: {fileID: 1534205137}
+  thisdialogue: {fileID: 1256529861}
+--- !u!61 &1256529864
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256529861}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.7063255, y: 1.3312359}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.8589685, y: 5.872472}
+  m_EdgeRadius: 0
 --- !u!1 &1259506795
 GameObject:
   m_ObjectHideFlags: 0
@@ -11926,9 +12193,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1325083953}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 41.61, y: 0.16, z: 0}
+  m_LocalPosition: {x: 87, y: 4.31, z: 0}
   m_LocalScale: {x: 0.842414, y: 0.842414, z: 0.842414}
-  m_Children: []
+  m_Children:
+  - {fileID: 1750716571}
   m_Father: {fileID: 0}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14715,6 +14983,90 @@ Transform:
   m_Father: {fileID: 1720465839}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1624478237
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1624478238}
+  - component: {fileID: 1624478240}
+  - component: {fileID: 1624478239}
+  m_Layer: 0
+  m_Name: Dialogue Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1624478238
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624478237}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.51, y: -0.28, z: -822.137}
+  m_LocalScale: {x: 0.24943, y: 0.58741, z: 1}
+  m_Children: []
+  m_Father: {fileID: 883772288}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1624478239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624478237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c47711c1c39bba47b9ebb7e7ffb416f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDisplay: {fileID: 1756718799}
+  sentences:
+  - 'Fox Lady: Welcome to where you were sold to your owner...the Shelter.'
+  - 'Fox Lady: This is a large area, indeed...Hm? ''It was smaller when you were
+    here''...you say?'
+  - 'Fox Lady: ...Ah, yes. This place has been distorted in your mind.'
+  - 'Fox Lady: ...Don''t look so crestfallen. This place is not your place, remember?'
+  - 'Fox Lady: Keep going, Clyde. Should you falter here, you will never get out
+    of here.'
+  typingSpeed: 0.02
+  continueButton: {fileID: 564872559}
+  dialogueManager: {fileID: 1534205135}
+  ManagerScript: {fileID: 1534205137}
+  thisdialogue: {fileID: 1624478237}
+--- !u!61 &1624478240
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624478237}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.7063255, y: 1.3312359}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.8589685, y: 5.872472}
+  m_EdgeRadius: 0
 --- !u!1 &1624767109
 GameObject:
   m_ObjectHideFlags: 0
@@ -16024,6 +16376,88 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1750716570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1750716571}
+  - component: {fileID: 1750716573}
+  - component: {fileID: 1750716572}
+  m_Layer: 0
+  m_Name: Dialogue Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1750716571
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750716570}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.71, y: 0.48, z: -822.137}
+  m_LocalScale: {x: 0.24943, y: 0.58741, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1325083957}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1750716572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750716570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c47711c1c39bba47b9ebb7e7ffb416f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDisplay: {fileID: 1756718799}
+  sentences:
+  - 'Hyde: '
+  - 'Hyde:'
+  - 'Hyde:'
+  - 'Hyde:'
+  - 'Hyde:'
+  typingSpeed: 0.02
+  continueButton: {fileID: 564872559}
+  dialogueManager: {fileID: 1534205135}
+  ManagerScript: {fileID: 1534205137}
+  thisdialogue: {fileID: 1750716570}
+--- !u!61 &1750716573
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750716570}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.7063255, y: 1.3312359}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.8589685, y: 5.872472}
+  m_EdgeRadius: 0
 --- !u!1 &1756718796
 GameObject:
   m_ObjectHideFlags: 0
