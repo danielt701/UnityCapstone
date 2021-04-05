@@ -1216,21 +1216,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 0}
   sentences:
-  - '???: ...Oh my. A small dog such as yourself shouldn''t be here...hello there,
-    Clyde.'
-  - '???: ...Oh? You say I look a bit familiar to someone you know? How strange.'
-  - 'Fox Lady: Allow me to properly introduce myself. I am known as the Fox Lady.
-    Consider me as...your spiritual guide.'
-  - 'Fox Lady: A world such as this is not suited for a small pup, such as yourself.
-    You must leave quickly.'
-  - 'Fox Lady: This place that you think so fondly of...is not similar to the place
-    that you''re thinking of.'
-  - 'Fox Lady: In due time, you will know. But for now, you must go through this
-    area.'
-  - 'Fox Lady: With these many obstacles in your way, remember to jump with the Spacebar
-    button.'
-  - 'Fox Lady: Now, run along now. Reach to the end, and return back from whence
-    you came.'
+  - 'Fox Lady: A nightmare such as this is very unfortunate indeed, hm?'
+  - 'Fox Lady: You have nearly lost yourself to the sadness that has leaked itself
+    in your heart.'
+  - 'Fox Lady: ...Do not fret, young Clyde.'
+  - 'Fox Lady: You are still a pup. Nightmares are normal to have, even if we detest
+    them.'
+  - 'Fox Lady: All you have to do is reach the end, and you will be free.'
+  - 'Fox Lady: You have no time to be moping around, your owner awaits. Run along
+    now.'
   typingSpeed: 0.02
   continueButton: {fileID: 0}
   dialogueManager: {fileID: 0}
@@ -3490,6 +3484,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &837762846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 837762847}
+  m_Layer: 0
+  m_Name: GameObject (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &837762847
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837762846}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.087789, y: 41.03158, z: -1786.8792}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 996847005}
+  m_Father: {fileID: 0}
+  m_RootOrder: 46
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &846867536
 GameObject:
   m_ObjectHideFlags: 0
@@ -4062,6 +4087,91 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 89.394}
+--- !u!1 &996847004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 996847005}
+  - component: {fileID: 996847007}
+  - component: {fileID: 996847006}
+  m_Layer: 5
+  m_Name: Dialogue Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &996847005
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996847004}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -14.137, y: -21.85, z: 0}
+  m_LocalScale: {x: 0.71559143, y: 1.5860018, z: 1}
+  m_Children: []
+  m_Father: {fileID: 837762847}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &996847006
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996847004}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.32902777, y: 0.020569265}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.1519444, y: 2.87578}
+  m_EdgeRadius: 0
+--- !u!114 &996847007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996847004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c47711c1c39bba47b9ebb7e7ffb416f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDisplay: {fileID: 0}
+  sentences:
+  - ...Is there a point to keep going?
+  - Your sad. Very sad.
+  - Your heart is in pieces.
+  - You can't find your owner. She's not here.
+  - This 'place' that the Fox Lady says...
+  - Is the 'place' here different from the place you lived in before?
+  - ...No. Maybe. You're confused.
+  - ...You need to keep going.
+  typingSpeed: 0.02
+  continueButton: {fileID: 0}
+  dialogueManager: {fileID: 0}
+  ManagerScript: {fileID: 0}
+  thisdialogue: {fileID: 996847004}
 --- !u!1 &1000732547
 GameObject:
   m_ObjectHideFlags: 0
@@ -4470,7 +4580,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1126687688}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.25, y: 0.34, z: 0}
+  m_LocalPosition: {x: -1.32, y: 0.19, z: 0}
   m_LocalScale: {x: 0.14999999, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 34363560}
@@ -4516,21 +4626,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 0}
   sentences:
-  - '???: ...Oh my. A small dog such as yourself shouldn''t be here...hello there,
-    Clyde.'
-  - '???: ...Oh? You say I look a bit familiar to someone you know? How strange.'
-  - 'Fox Lady: Allow me to properly introduce myself. I am known as the Fox Lady.
-    Consider me as...your spiritual guide.'
-  - 'Fox Lady: A world such as this is not suited for a small pup, such as yourself.
-    You must leave quickly.'
-  - 'Fox Lady: This place that you think so fondly of...is not similar to the place
-    that you''re thinking of.'
-  - 'Fox Lady: In due time, you will know. But for now, you must go through this
-    area.'
-  - 'Fox Lady: With these many obstacles in your way, remember to jump with the Spacebar
-    button.'
-  - 'Fox Lady: Now, run along now. Reach to the end, and return back from whence
-    you came.'
+  - 'Fox Lady: ...Are you sad, Clyde?'
+  - 'Fox Lady: That the home you''re in--the place that you live in with your owner,
+    has been twisted?'
+  - 'Fox Lady: Do not despair.'
+  - 'Fox Lady: You are almost there. All the way to the end.'
+  - 'Fox Lady: ...Though, consider this for a moment.'
+  - 'Fox Lady: This place is familiar to you, because you know this place.'
+  - 'Fox Lady: And yet, is is twisted beyond belief. The areas you have been in,
+    they ALL have been twisted.'
+  - 'Fox Lady: Where would such memories, that have been bent and churned, would
+    be located...?'
+  - 'Fox Lady: ...Yes. I suppose you realize where you are exactly in.'
+  - 'Fox Lady: This is a nightmare, Clyde. That is all that has been. It has all
+    been in your mind.'
+  - 'Fox Lady: ...Keep going. You will reach the end, soon enough.'
   typingSpeed: 0.02
   continueButton: {fileID: 0}
   dialogueManager: {fileID: 0}
@@ -4609,6 +4719,37 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+--- !u!1 &1177317482
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1177317483}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1177317483
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177317482}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.087789, y: 41.03158, z: -1786.8792}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2015761886}
+  m_Father: {fileID: 0}
+  m_RootOrder: 45
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1240229953
 GameObject:
   m_ObjectHideFlags: 0
@@ -5472,7 +5613,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: a3b1650a9c08dde4a8dac1d071f953e1, type: 3}
-  m_Color: {r: 0.8679245, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.21960786, g: 0.32941177, b: 0.38823533, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6137,6 +6278,92 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2015761885
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2015761886}
+  - component: {fileID: 2015761888}
+  - component: {fileID: 2015761887}
+  m_Layer: 5
+  m_Name: Dialogue Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2015761886
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015761885}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.78, y: -1.49, z: 0}
+  m_LocalScale: {x: 0.14999999, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1177317483}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2015761887
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015761885}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.32902777, y: 0.020569265}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.1519444, y: 2.87578}
+  m_EdgeRadius: 0
+--- !u!114 &2015761888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015761885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c47711c1c39bba47b9ebb7e7ffb416f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDisplay: {fileID: 0}
+  sentences:
+  - ...!!!
+  - Home! It's home!
+  - ...But, where's your owner?
+  - And why does this place feel so cold? So uninviting? So bitter?
+  - What happened to the warm, fuzzy feeling that is always in this apartment? The
+    bright sunlight? Your warm owner?
+  - You feel a crushing sadness in your heart.
+  - ...You can't find your owner. She's not here.
+  - ...You have to keep going.
+  typingSpeed: 0.02
+  continueButton: {fileID: 0}
+  dialogueManager: {fileID: 0}
+  ManagerScript: {fileID: 0}
+  thisdialogue: {fileID: 2015761885}
 --- !u!1 &2026638767
 GameObject:
   m_ObjectHideFlags: 0
