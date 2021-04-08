@@ -486,8 +486,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 78381862}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.67, y: -1.94, z: -822.137}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 7.13, y: -1.94, z: -822.137}
+  m_LocalScale: {x: 0.675, y: 1, z: 1}
   m_Children:
   - {fileID: 370836943}
   m_Father: {fileID: 0}
@@ -1817,7 +1817,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410133926}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.68, y: -1.6932279, z: -822.137}
+  m_LocalPosition: {x: -21.82, y: -1.6932279, z: -822.137}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1842939434}
@@ -2403,7 +2403,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516951599}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.69, y: -1.14, z: 0}
+  m_LocalPosition: {x: 4.68, y: -1.14, z: 0}
   m_LocalScale: {x: 1.7926215, y: 2.3708866, z: 2.891325}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2968,7 +2968,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 572382705}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.82, y: -1.9, z: 0}
+  m_LocalPosition: {x: -7.82, y: -2.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 929752188}
@@ -10565,7 +10565,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1466499754}
   sentences:
-  - ...Oh.
+  - OH.
   - Oh no.
   - There's this sense of dread that's crawling inside of your stomach...
   - You recognize this smell. The smell of antiseptic. The smell of rubber gloves.
