@@ -13,8 +13,8 @@ public class Camera3 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(Mathf.Clamp(targetToFollow.position.x, 18f, 204.5f),
-                                          Mathf.Clamp(targetToFollow.position.y, 0.96f, 77.5f),
+        transform.position = new Vector3(Mathf.Clamp(targetToFollow.position.x, -0.25f, 219f),
+                                          Mathf.Clamp(targetToFollow.position.y, -3f, 82.6f),
                                           transform.position.z);
     }
 }

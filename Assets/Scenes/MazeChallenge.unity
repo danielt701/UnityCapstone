@@ -198,6 +198,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.34
       objectReference: {fileID: 0}
+    - target: {fileID: 411828740368812354, guid: 559942f15b9336e4a9f0e224de032e40, type: 3}
+      propertyPath: m_GravityScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 411828740368812354, guid: 559942f15b9336e4a9f0e224de032e40, type: 3}
+      propertyPath: m_Mass
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 411828740368812356, guid: 559942f15b9336e4a9f0e224de032e40, type: 3}
       propertyPath: m_Name
       value: Player (1) Variant (1)

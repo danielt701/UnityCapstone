@@ -19,6 +19,7 @@ TagManager:
   - GM2
   - GM3
   - GM4
+  - GM2half
   layers:
   - Default
   - TransparentFX
