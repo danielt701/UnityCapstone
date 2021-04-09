@@ -6645,11 +6645,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 411828740368812357, guid: 559942f15b9336e4a9f0e224de032e40, type: 3}
       propertyPath: movementSpeed
-      value: 11
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 411828740368812357, guid: 559942f15b9336e4a9f0e224de032e40, type: 3}
       propertyPath: groundCheckRadius
-      value: 0.6
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 411828740368812357, guid: 559942f15b9336e4a9f0e224de032e40, type: 3}
+      propertyPath: amountOfJumps
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 411828740368812364, guid: 559942f15b9336e4a9f0e224de032e40, type: 3}
       propertyPath: LifeFill
