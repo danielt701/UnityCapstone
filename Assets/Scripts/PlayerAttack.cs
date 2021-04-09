@@ -25,6 +25,7 @@ public class PlayerAttack : MonoBehaviour
             if(Input.GetKey(KeyCode.V))
             {
                 animator.SetTrigger("isBarking");
+                audioSource.PlayOneShot(ClydeBark, 1.0f);
                 Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);
                 for (int i = 0; i < enemiesToDamage.Length; i++)
                 {

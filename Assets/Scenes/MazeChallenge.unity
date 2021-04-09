@@ -222,6 +222,14 @@ PrefabInstance:
       propertyPath: LifeFill
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4170597930749432733, guid: 559942f15b9336e4a9f0e224de032e40, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 79225272}
+    - target: {fileID: 4170597930749432733, guid: 559942f15b9336e4a9f0e224de032e40, type: 3}
+      propertyPath: ClydeBark
+      value: 
+      objectReference: {fileID: 8300000, guid: d7672c1bdf364404e9e8a5c409eb6250, type: 3}
     - target: {fileID: 4348204233628898006, guid: 559942f15b9336e4a9f0e224de032e40, type: 3}
       propertyPath: vet
       value: 
@@ -239,6 +247,11 @@ PrefabInstance:
     - {fileID: 411828740368812355, guid: 559942f15b9336e4a9f0e224de032e40, type: 3}
     - {fileID: 4170597930749432732, guid: 559942f15b9336e4a9f0e224de032e40, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 559942f15b9336e4a9f0e224de032e40, type: 3}
+--- !u!82 &79225272 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4348204233628898014, guid: 559942f15b9336e4a9f0e224de032e40, type: 3}
+  m_PrefabInstance: {fileID: 79225271}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &290939690
 GameObject:
   m_ObjectHideFlags: 0
