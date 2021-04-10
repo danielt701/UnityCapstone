@@ -42,14 +42,15 @@ public class Dialogue : MonoBehaviour
         }
         if (textDisplay.text == sentences[index])
         {
+            //textBox.SetActive(true);
             continueButton.SetActive(true);
-            endButton.SetActive(true);
+            //endButton.SetActive(true);
         }
 
-        if (textDisplay.text != null)
+        /*if (textDisplay.text != null)
         {
             textBox.SetActive(true);
-        }
+        }*/
 
     }
 
@@ -57,6 +58,7 @@ public class Dialogue : MonoBehaviour
     {
         if(collision.CompareTag("Player") && !hasCoroutineStarted)
         {
+            textBox.SetActive(true);
             ManagerScript.currentDialogue = thisdialogue;
             hasCoroutineStarted = true;
             StartCoroutine(Type());
@@ -84,6 +86,7 @@ public class Dialogue : MonoBehaviour
         if(isCompleted == true)
         {
             continueButton.SetActive(true);
+            textBox.SetActive(true);
 
             if (index < sentences.Length - 1)
             {
@@ -95,16 +98,19 @@ public class Dialogue : MonoBehaviour
             {
                 textDisplay.text = "";
                 continueButton.SetActive(false);
+                textBox.SetActive(false);
+                ManagerScript.dialogueEnded();
             }
         }
+
     }
 
-    public void EndDialogue()
+    /*public void EndDialogue()
     {
         if(isFinished == true)
         {
             endButton.SetActive(true);
         }
-    }
+    }*/
     
 }

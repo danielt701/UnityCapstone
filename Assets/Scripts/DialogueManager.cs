@@ -33,7 +33,7 @@ public class DialogueManager : MonoBehaviour
 
     public void dialogueEnded()
     {
-        currentDialogue.GetComponent<Dialogue>().EndDialogue();
+        //currentDialogue.GetComponent<Dialogue>().EndDialogue();
         Move.StopMove = false;
     }
 }

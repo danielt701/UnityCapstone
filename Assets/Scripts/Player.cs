@@ -191,14 +191,22 @@ public class Player : MonoBehaviour
 
     private void CheckMovementDirection()
     {
-        if (isFacingRight && movementInputDirections < 0)
+        if (StopMove == false)
         {
-            Flip();
+            if (isFacingRight && movementInputDirections < 0)
+            {
+                Flip();
+            }
+            else if (!isFacingRight && movementInputDirections > 0)
+            {
+                Flip();
+            }
         }
-        else if (!isFacingRight && movementInputDirections > 0)
+        else
         {
-            Flip();
+
         }
+        
 
     }
 
