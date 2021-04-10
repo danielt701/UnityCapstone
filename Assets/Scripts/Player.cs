@@ -36,6 +36,7 @@ public class Player : MonoBehaviour
     public float movementSpeed = 10.0f;
     public float jumpForce = 16.0f;
     public float groundCheckRadius;
+    public bool StopMove = false;
 
     public LayerMask whatIsGround;
 
@@ -213,7 +214,15 @@ public class Player : MonoBehaviour
 
     private void ApplyMovement()
     {
-        rb.velocity = new Vector2(movementSpeed * movementInputDirections, rb.velocity.y);
+        Debug.Log("stop talking");
+        if (StopMove == false)
+        {
+            rb.velocity = new Vector2(movementSpeed * movementInputDirections, rb.velocity.y);
+        }
+        else if (StopMove == true)
+        {
+            rb.velocity = new Vector2(0,0);
+        }
     }
 
 
@@ -233,5 +242,6 @@ public class Player : MonoBehaviour
     {
         CurrHealth -= dmg;
     }
+
 }
 

@@ -12,18 +12,25 @@ public class Dialogue : MonoBehaviour
 
     public GameObject continueButton;
 
+    public GameObject endButton;
+
     private bool hasCoroutineStarted = false;
 
     private bool isCompleted = false;
+
+    private bool isFinished = false;
 
     public GameObject dialogueManager;
     public DialogueManager ManagerScript;
     public GameObject thisdialogue;
 
+    public GameObject textBox;
+
     private void Start()
     {
         //StartCoroutine(Type());
-        
+        //textBox = GameObject.Find("TextCover");
+        //Debug.Log(textBox);
     }
 
     private void Update()
@@ -36,7 +43,14 @@ public class Dialogue : MonoBehaviour
         if (textDisplay.text == sentences[index])
         {
             continueButton.SetActive(true);
+            endButton.SetActive(true);
         }
+
+        if (textDisplay.text != null)
+        {
+            textBox.SetActive(true);
+        }
+
     }
 
     public void OnTriggerStay2D(Collider2D collision)
@@ -46,11 +60,14 @@ public class Dialogue : MonoBehaviour
             ManagerScript.currentDialogue = thisdialogue;
             hasCoroutineStarted = true;
             StartCoroutine(Type());
+            ManagerScript.dialogueStarted();
         }
+
     }
 
     IEnumerator Type()
     {
+
         foreach(char letter in sentences[index].ToCharArray())
         {
             isCompleted = false;
@@ -80,7 +97,14 @@ public class Dialogue : MonoBehaviour
                 continueButton.SetActive(false);
             }
         }
-            
+    }
+
+    public void EndDialogue()
+    {
+        if(isFinished == true)
+        {
+            endButton.SetActive(true);
+        }
     }
     
 }
