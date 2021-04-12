@@ -12,7 +12,7 @@ public class Dialogue : MonoBehaviour
 
     public GameObject continueButton;
 
-    public GameObject endButton;
+    //public GameObject endButton;
 
     private bool hasCoroutineStarted = false;
 
