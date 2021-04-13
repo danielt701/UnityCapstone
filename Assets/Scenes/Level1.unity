@@ -287,6 +287,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7603909423832340114, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Radius
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7603909423832340115, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -760,6 +764,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7603909423832340114, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Radius
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7603909423832340115, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -988,9 +996,8 @@ MonoBehaviour:
   - 'Fox Lady: ...Hm.'
   - 'Fox Lady: ...Don''t just stand there, pup. Now, hop to it. Don''t waste any
     time.'
-  typingSpeed: 0.02
+  typingSpeed: 0.03
   continueButton: {fileID: 1302558898}
-  endButton: {fileID: 0}
   dialogueManager: {fileID: 253581131}
   ManagerScript: {fileID: 253581133}
   thisdialogue: {fileID: 245449394}
@@ -1284,6 +1291,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7603909423832340114, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Radius
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7603909423832340115, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: groundLayer.m_Bits
       value: 1024
@@ -1523,7 +1534,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 305610406}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.26, y: 0.89, z: 0}
+  m_LocalPosition: {x: -1.26, y: 3.03, z: 0}
   m_LocalScale: {x: 0.15750001, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1080269165}
@@ -1553,7 +1564,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.81, y: 3.63}
+  m_Size: {x: 3, y: 10}
   m_EdgeRadius: 0
 --- !u!114 &305610409
 MonoBehaviour:
@@ -1578,9 +1589,8 @@ MonoBehaviour:
     of me.'
   - 'Fox Lady: ...What a fierce growl. Are you accusing me of lying?'
   - 'Fox Lady: Run along now. It will do you no good to stay here.'
-  typingSpeed: 0.02
+  typingSpeed: 0.03
   continueButton: {fileID: 1302558898}
-  endButton: {fileID: 0}
   dialogueManager: {fileID: 253581131}
   ManagerScript: {fileID: 253581133}
   thisdialogue: {fileID: 305610406}
@@ -1763,6 +1773,10 @@ PrefabInstance:
     - target: {fileID: 1695885842373943022, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603909423832340114, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Radius
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7603909423832340115, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: distance
@@ -2112,7 +2126,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.038571835, y: -1.7768954}
+  m_Offset: {x: 0.038571835, y: -0.74757093}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2123,7 +2137,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 11.835273, y: 2.649914}
+  m_Size: {x: 11.835273, y: 0.59126484}
   m_EdgeRadius: 0
 --- !u!1 &380178300
 GameObject:
@@ -2192,7 +2206,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.06571293, y: -1.5409431}
+  m_Offset: {x: 0.06571293, y: -0.9582672}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2203,7 +2217,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 12.3703575, y: 2.7324295}
+  m_Size: {x: 12.3703575, y: 0.8815841}
   m_EdgeRadius: 0
 --- !u!212 &389649518
 SpriteRenderer:
@@ -2862,7 +2876,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.06571293, y: -1.5409431}
+  m_Offset: {x: 0.06571293, y: -0.74568737}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2873,7 +2887,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 12.3703575, y: 2.7324295}
+  m_Size: {x: 12.3703575, y: 0.5559351}
   m_EdgeRadius: 0
 --- !u!212 &451516819
 SpriteRenderer:
@@ -3077,6 +3091,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7603909423832340114, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Radius
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7603909423832340115, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -3231,7 +3249,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.08717537, y: -0.5152196}
+  m_Offset: {x: -0.08717537, y: -0.65340894}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3242,7 +3260,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 12.035801, y: 0.8417231}
+  m_Size: {x: 12.035801, y: 0.56534445}
   m_EdgeRadius: 0
 --- !u!212 &514467806
 SpriteRenderer:
@@ -4363,7 +4381,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 860444465}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.53, y: 0.71, z: 0}
+  m_LocalPosition: {x: -1.53, y: 2.44, z: 0}
   m_LocalScale: {x: 0.24999, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 925491725}
@@ -4393,7 +4411,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.81, y: 3.63}
+  m_Size: {x: 3.81, y: 10}
   m_EdgeRadius: 0
 --- !u!114 &860444468
 MonoBehaviour:
@@ -4417,10 +4435,9 @@ MonoBehaviour:
   - 'Fox Lady: Mr. Cat, the name of your chew-toy, will await for you at the end.'
   - 'Fox Lady: The moment you touch him, you''ll be sent to your next destination.'
   - 'Fox Lady: Remember that now. Touching your beloved chew-toy means that you will
-    progress. Remember that.'
-  typingSpeed: 0.02
+    progress.'
+  typingSpeed: 0.03
   continueButton: {fileID: 1302558898}
-  endButton: {fileID: 0}
   dialogueManager: {fileID: 253581131}
   ManagerScript: {fileID: 253581133}
   thisdialogue: {fileID: 860444465}
@@ -5458,7 +5475,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.038571835, y: -1.7768954}
+  m_Offset: {x: 0.038571835, y: -0.9900548}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5469,7 +5486,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 11.835273, y: 2.649914}
+  m_Size: {x: 11.835273, y: 0.47673452}
   m_EdgeRadius: 0
 --- !u!212 &988877310
 SpriteRenderer:
@@ -5748,7 +5765,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.06571293, y: -1.5409431}
+  m_Offset: {x: 0.06571293, y: -0.9035794}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5759,7 +5776,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 12.3703575, y: 2.7324295}
+  m_Size: {x: 12.3703575, y: 0.41832006}
   m_EdgeRadius: 0
 --- !u!212 &1050475693
 SpriteRenderer:
@@ -6639,7 +6656,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.08717537, y: -0.5152196}
+  m_Offset: {x: -0.08717537, y: -0.8042588}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -6650,7 +6667,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 12.035801, y: 0.8417231}
+  m_Size: {x: 12.035801, y: 0.26364475}
   m_EdgeRadius: 0
 --- !u!212 &1230899118
 SpriteRenderer:
@@ -7097,7 +7114,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1282129374}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.16, y: 0.16, z: 0}
+  m_LocalPosition: {x: -1.16, y: 2.04, z: 0}
   m_LocalScale: {x: 0.15, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1451653276}
@@ -7127,7 +7144,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.1519444, y: 2.87578}
+  m_Size: {x: 3.1519444, y: 10}
   m_EdgeRadius: 0
 --- !u!114 &1282129377
 MonoBehaviour:
@@ -7146,8 +7163,8 @@ MonoBehaviour:
   - '???: ...Oh my. A small dog such as yourself shouldn''t be here...hello there,
     Clyde.'
   - '???: ...Oh? You say I look a bit familiar to someone you know? How strange.'
-  - 'Fox Lady: Allow me to properly introduce myself. I am known as the Fox Lady.
-    Consider me as...your spiritual guide.'
+  - '???: Allow me to properly introduce myself. I am known as the Fox Lady. Consider
+    me your spiritual guide.'
   - 'Fox Lady: A world such as this is not suited for a small pup, such as yourself.
     You must leave quickly.'
   - 'Fox Lady: This place that you think so fondly of...is not similar to the place
@@ -7158,9 +7175,8 @@ MonoBehaviour:
     button.'
   - 'Fox Lady: Now, run along now. Reach to the end, and return back from whence
     you came.'
-  typingSpeed: 0.02
+  typingSpeed: 0.03
   continueButton: {fileID: 1302558898}
-  endButton: {fileID: 0}
   dialogueManager: {fileID: 253581131}
   ManagerScript: {fileID: 253581133}
   thisdialogue: {fileID: 1282129374}
@@ -7240,8 +7256,8 @@ MonoBehaviour:
   - 'Fox Lady: Ah, hello there.'
   - 'Fox Lady: You see that dark, creature at the bottom? Looking so happy, down
     there? That''s your enemy.'
-  - 'Fox Lady: ...? They look like ''shadow-like things from the square-thing your
-    owner watches''? Well...that is true.'
+  - 'Fox Lady: ...? They look like ''shadow-like things from the glowy-box your owner
+    watches''? Well...almost.'
   - 'Fox Lady: ''You hate those things. They must all be destroyed''...you say? Fufufu,
     how quaint.'
   - 'Fox Lady: Simply bark at them with the V button. Humans ALWAYS quiver in fear
@@ -7250,9 +7266,8 @@ MonoBehaviour:
     You only have three, after all.'
   - 'Fox Lady: When your blue hearts become red...well, I don''t have to spell it
     out for you, do I?'
-  typingSpeed: 0.02
+  typingSpeed: 0.03
   continueButton: {fileID: 1302558898}
-  endButton: {fileID: 0}
   dialogueManager: {fileID: 253581131}
   ManagerScript: {fileID: 253581133}
   thisdialogue: {fileID: 1300947007}
@@ -7614,6 +7629,10 @@ PrefabInstance:
     - target: {fileID: 1695885842373943022, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603909423832340114, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Radius
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7603909423832340115, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: groundLayer.m_Bits
@@ -8510,6 +8529,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7603909423832340114, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Radius
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7603909423832340115, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: distance
       value: 1
@@ -8833,7 +8856,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.08717537, y: -0.5152196}
+  m_Offset: {x: -0.08717537, y: -0.8208984}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -8844,7 +8867,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 12.035801, y: 0.8417231}
+  m_Size: {x: 12.035801, y: 0.23036546}
   m_EdgeRadius: 0
 --- !u!212 &1563985545
 SpriteRenderer:
@@ -8983,7 +9006,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1637374640}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.16, y: 1.59, z: 0}
+  m_LocalPosition: {x: -0.16, y: 3.65, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1447783983}
@@ -9013,7 +9036,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.1519444, y: 2.87578}
+  m_Size: {x: 3.1519444, y: 10}
   m_EdgeRadius: 0
 --- !u!114 &1637374643
 MonoBehaviour:
@@ -9038,10 +9061,9 @@ MonoBehaviour:
     your owner...right?
   - You don't remember the beach looking this ominous...
   - ...This is all very confusing. But look! Your owner is just there!
-  - Move with the WASD keys to reach her.
-  typingSpeed: 0.02
+  - Move with the WD keys to reach her.
+  typingSpeed: 0.03
   continueButton: {fileID: 1302558898}
-  endButton: {fileID: 0}
   dialogueManager: {fileID: 253581131}
   ManagerScript: {fileID: 253581133}
   thisdialogue: {fileID: 1637374640}
@@ -9434,6 +9456,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7603909423832340114, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Radius
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7603909423832340115, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: distance
       value: 1
@@ -9591,7 +9617,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.016792655, y: 0.21467304}
+  m_Offset: {x: 0.057100177, y: 0.116080284}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -9602,7 +9628,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.7764146, y: 1.5907259}
+  m_Size: {x: 1.751338, y: 1.3935404}
   m_EdgeRadius: 0
 --- !u!114 &1715873771
 MonoBehaviour:
@@ -9621,9 +9647,8 @@ MonoBehaviour:
   - Keep an eye out for these power-ups! Power-ups will help you as you try to get
     to the end!
   - This particular, power-up gives you an extra heart.
-  typingSpeed: 0.02
+  typingSpeed: 0.03
   continueButton: {fileID: 1302558898}
-  endButton: {fileID: 0}
   dialogueManager: {fileID: 253581131}
   ManagerScript: {fileID: 253581133}
   thisdialogue: {fileID: 1715873768}
@@ -9770,7 +9795,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1792801692}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.52, y: -0.77, z: -635.6117}
+  m_LocalPosition: {x: -0.52, y: -0.26, z: -635.6117}
   m_LocalScale: {x: 1, y: 0.22332175, z: 1}
   m_Children: []
   m_Father: {fileID: 440928881}
@@ -9800,7 +9825,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5625305, y: 24.358244}
+  m_Size: {x: 0.5625305, y: 30}
   m_EdgeRadius: 0
 --- !u!114 &1792801695
 MonoBehaviour:
@@ -9816,20 +9841,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1137973975}
   sentences:
-  - 'Fox Lady: Isn''t this strange~?'
+  - 'Fox Lady: Isn''t this strange?'
   - 'Fox Lady: This place was made for enjoyment, when you were with your owner.'
   - 'Fox Lady: The two of you would splash around in the ocean waves, play with the
-    sand, find some strange shells...'
+    sand, find some shells...'
   - 'Fox Lady: How unfortunate to see an area made for recreation, to be left as
     a disappointing sight.'
   - 'Fox Lady: ...You look as if I''m lying to you. I am not lying.'
   - 'Fox Lady: I may look similar to your owner, but the fault lies in your own self.'
   - 'Fox Lady: ...No. I will not elaborate. Even if your ''puppy eyes'' are in full
     effect.'
-  - 'Fox Lady: Keep going, and do not falter. Your owner awaits.'
-  typingSpeed: 0.02
+  - 'Fox Lady: You must keep going. Your owner awaits.'
+  typingSpeed: 0.03
   continueButton: {fileID: 1302558898}
-  endButton: {fileID: 0}
   dialogueManager: {fileID: 253581131}
   ManagerScript: {fileID: 253581133}
   thisdialogue: {fileID: 1792801692}
@@ -9888,6 +9912,10 @@ PrefabInstance:
     - target: {fileID: 1695885842373943022, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603909423832340114, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Radius
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7603909423832340115, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: distance
@@ -9975,15 +10003,14 @@ MonoBehaviour:
   - 'Fox Lady: ...What a fearsome growl.'
   - 'Fox Lady: Listen closely, pup. This is not the beach you''ve played in. These
     creatures WILL kill you.'
-  - 'Fox Lady: If you wish to be reunited with your owner...do not deny what is before
-    your eyes, and keep moving.'
+  - 'Fox Lady: If you wish to be reunited with your owner, do not deny what is before
+    your eyes.'
   - 'Fox Lady: The more you deny what is in front of you...the more difficult it
     will be for you to continue.'
   - 'Fox Lady: ...I will not say anymore. You will have to discover this yourself.
     Keep going, now.'
   typingSpeed: 0.02
   continueButton: {fileID: 1302558898}
-  endButton: {fileID: 0}
   dialogueManager: {fileID: 253581131}
   ManagerScript: {fileID: 253581133}
   thisdialogue: {fileID: 1876150051}
@@ -10861,7 +10888,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.06571293, y: -1.5409431}
+  m_Offset: {x: 0.06571293, y: -0.50106454}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -10872,7 +10899,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 12.3703575, y: 2.7324295}
+  m_Size: {x: 12.3703575, y: 0.59150726}
   m_EdgeRadius: 0
 --- !u!212 &2052435270
 SpriteRenderer:
@@ -10946,12 +10973,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 806801189}
     m_Modifications:
+    - target: {fileID: 1695885842373942801, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1695885842373942802, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: m_Name
       value: AI (8)
       objectReference: {fileID: 0}
     - target: {fileID: 1695885842373942802, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695885842373943020, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1695885842373943022, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
@@ -10997,6 +11032,18 @@ PrefabInstance:
     - target: {fileID: 1695885842373943022, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695885842373943023, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603909423832340114, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603909423832340114, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Radius
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7603909423832340115, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: distance
@@ -11403,6 +11450,10 @@ PrefabInstance:
     - target: {fileID: 1695885842373943022, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603909423832340114, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Radius
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7603909423832340115, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: groundLayer.m_Bits
