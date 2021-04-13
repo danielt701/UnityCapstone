@@ -3934,7 +3934,7 @@ MonoBehaviour:
   - 'Fox Lady: ...Hm? ''Her name is Bonnie''...you say?'
   - 'Fox Lady: ...Fufufu. I see. Go and return back to Bonnie, young Clyde. Your
     journey ends here.'
-  typingSpeed: 0.02
+  typingSpeed: 0.001
   continueButton: {fileID: 327817593}
   dialogueManager: {fileID: 300393505}
   ManagerScript: {fileID: 300393506}
@@ -5729,7 +5729,7 @@ MonoBehaviour:
     as me...'
   - 'Phillip: Let''s meet again in the Veterinary Office next time...you might see
     me there again, after all! Hohoho...'
-  typingSpeed: 0.02
+  typingSpeed: 0.001
   continueButton: {fileID: 327817593}
   dialogueManager: {fileID: 300393505}
   ManagerScript: {fileID: 300393506}
@@ -7731,7 +7731,7 @@ MonoBehaviour:
   - 'Hyde: ...? ''You''ll sit and watch your owners, and if they have a kid, watch
     over them''...you say?'
   - 'Hyde: ...Harrumph. Hurry up and go to your owner already, you sap.'
-  typingSpeed: 0.02
+  typingSpeed: 0.001
   continueButton: {fileID: 327817593}
   dialogueManager: {fileID: 300393505}
   ManagerScript: {fileID: 300393506}

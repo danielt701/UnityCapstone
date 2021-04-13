@@ -4760,9 +4760,8 @@ MonoBehaviour:
   - 'Hyde: In any case, you''re bothering me. Go and hop, bark, and whatever. '
   - 'Hyde: Leave the loafing around to the professionals.'
   - 'Hyde: ...No, I''m not going to trade places with you! Now git!'
-  typingSpeed: 0.02
+  typingSpeed: 0.001
   continueButton: {fileID: 564872559}
-  endButton: {fileID: 0}
   dialogueManager: {fileID: 1534205135}
   ManagerScript: {fileID: 1534205137}
   thisdialogue: {fileID: 321897179}
@@ -6477,9 +6476,8 @@ MonoBehaviour:
   - 'Fox Lady: ...Don''t look so crestfallen. This place is not your place, remember?'
   - 'Fox Lady: Keep going, Clyde. Should you falter here, you will never get out
     of here.'
-  typingSpeed: 0.02
+  typingSpeed: 0.001
   continueButton: {fileID: 564872559}
-  endButton: {fileID: 0}
   dialogueManager: {fileID: 1534205135}
   ManagerScript: {fileID: 1534205137}
   thisdialogue: {fileID: 503293928}
@@ -7637,8 +7635,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -19081,9 +19079,8 @@ MonoBehaviour:
   - 'Fox Lady: Ensure that you do not get hurt by the enemies that would travel around
     and hurt you.'
   - 'Fox Lady: Best of luck, Clyde. You are nearly there.'
-  typingSpeed: 0.02
+  typingSpeed: 0.001
   continueButton: {fileID: 564872559}
-  endButton: {fileID: 0}
   dialogueManager: {fileID: 1534205135}
   ManagerScript: {fileID: 1534205137}
   thisdialogue: {fileID: 1256529861}
@@ -24540,9 +24537,8 @@ MonoBehaviour:
   - 'Fox Lady:  How ridiculous.'
   - 'Fox Lady:  ...Apologies. I was feeling a bit heated there. Your progress has
     been reported. Continue on, Clyde.'
-  typingSpeed: 0.02
+  typingSpeed: 0.001
   continueButton: {fileID: 564872559}
-  endButton: {fileID: 0}
   dialogueManager: {fileID: 1534205135}
   ManagerScript: {fileID: 1534205137}
   thisdialogue: {fileID: 1624478237}
@@ -26932,9 +26928,8 @@ MonoBehaviour:
     short-term.'
   - 'Hyde: ...Ahhhh! Don''t make me say this corny crap to you! Go on, get! Stop
     making those puppy eyes at me!'
-  typingSpeed: 0.02
+  typingSpeed: 0.001
   continueButton: {fileID: 564872559}
-  endButton: {fileID: 0}
   dialogueManager: {fileID: 1534205135}
   ManagerScript: {fileID: 1534205137}
   thisdialogue: {fileID: 1750716570}
@@ -27235,8 +27230,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

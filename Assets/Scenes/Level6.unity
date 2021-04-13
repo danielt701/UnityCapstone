@@ -6558,9 +6558,8 @@ MonoBehaviour:
     is not here...a pity.'
   - 'Fox Lady: Keep moving to the end, Clyde. Everything for what you fight for is
     for your owner, after all.'
-  typingSpeed: 0.02
+  typingSpeed: 0.001
   continueButton: {fileID: 664500185}
-  endButton: {fileID: 0}
   dialogueManager: {fileID: 127185895}
   ManagerScript: {fileID: 127185896}
   thisdialogue: {fileID: 1152476295}
@@ -6995,9 +6994,8 @@ MonoBehaviour:
   - 'Fox Lady: Fail to do so and...well, you will return to the place that you were
     in before.'
   - 'Fox Lady: Good luck, Clyde. Keep on moving.'
-  typingSpeed: 0.02
+  typingSpeed: 0.001
   continueButton: {fileID: 664500185}
-  endButton: {fileID: 0}
   dialogueManager: {fileID: 127185895}
   ManagerScript: {fileID: 127185896}
   thisdialogue: {fileID: 1211526234}
@@ -7110,9 +7108,8 @@ MonoBehaviour:
   - 'Fox Lady: ...Hm...it appears your anger has dissapated. Good good, continue
     on, like that.'
   - 'Fox Lady: Good luck, Clyde. Keep on moving.'
-  typingSpeed: 0.02
+  typingSpeed: 0.001
   continueButton: {fileID: 664500185}
-  endButton: {fileID: 0}
   dialogueManager: {fileID: 127185895}
   ManagerScript: {fileID: 127185896}
   thisdialogue: {fileID: 1216290830}

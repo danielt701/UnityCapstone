@@ -1546,9 +1546,8 @@ MonoBehaviour:
   - Second, this place is more ominous than what it originally was.
   - Third, nothing still makes sense. It's getting on your nerves.
   - ......You have to keep moving. You want to be with your owner again.
-  typingSpeed: 0.02
+  typingSpeed: 0.001
   continueButton: {fileID: 529104579}
-  endButton: {fileID: 0}
   dialogueManager: {fileID: 1404448097}
   ManagerScript: {fileID: 1404448099}
   thisdialogue: {fileID: 370836942}
@@ -3706,9 +3705,8 @@ MonoBehaviour:
   - 'Phillip: Go through him, and you''ll finally be able to leave the area.'
   - 'Phillip: If you are still stuck, remember to hit the ''TAB'' button.'
   - 'Phillip: *COUGH COUGH*...Good luck, Clyde.'
-  typingSpeed: 0.02
+  typingSpeed: 0.001
   continueButton: {fileID: 529104579}
-  endButton: {fileID: 0}
   dialogueManager: {fileID: 1404448097}
   ManagerScript: {fileID: 1404448099}
   thisdialogue: {fileID: 677016124}
@@ -4631,9 +4629,8 @@ MonoBehaviour:
     at him.'
   - 'Fox Lady: Keep going, now. Maybe after you see him again, you might get a sliver
     of an answer.'
-  typingSpeed: 0.02
+  typingSpeed: 0.001
   continueButton: {fileID: 529104579}
-  endButton: {fileID: 0}
   dialogueManager: {fileID: 1404448097}
   ManagerScript: {fileID: 1404448099}
   thisdialogue: {fileID: 878044497}
@@ -4909,9 +4906,8 @@ MonoBehaviour:
     to restart, should you be stuck.'
   - 'Fox Lady: ...''Thank you'', you say? Such wonderful manners, good boy!'
   - 'Fox Lady: Now then, enough chatter. Keep on going, till you reach the end.'
-  typingSpeed: 0.02
+  typingSpeed: 0.001
   continueButton: {fileID: 529104579}
-  endButton: {fileID: 0}
   dialogueManager: {fileID: 1404448097}
   ManagerScript: {fileID: 1404448099}
   thisdialogue: {fileID: 929752187}
@@ -5108,9 +5104,8 @@ MonoBehaviour:
   - 'Phillip: One day, let us meet again when you are less angry, and we can talk
     more about what life can offer.'
   - 'Phillip: *COUGH COUGH* Your owner awaits, young Clyde.'
-  typingSpeed: 0.02
+  typingSpeed: 0.001
   continueButton: {fileID: 529104579}
-  endButton: {fileID: 0}
   dialogueManager: {fileID: 1404448097}
   ManagerScript: {fileID: 1404448099}
   thisdialogue: {fileID: 1013907519}
@@ -7119,9 +7114,8 @@ MonoBehaviour:
     would appear?'
   - 'Fox Lady: ...That is all I will reveal.'
   - 'Fox Lady: Go and run to the end, Clyde. '
-  typingSpeed: 0.02
+  typingSpeed: 0.001
   continueButton: {fileID: 529104579}
-  endButton: {fileID: 0}
   dialogueManager: {fileID: 1404448097}
   ManagerScript: {fileID: 1404448099}
   thisdialogue: {fileID: 1348073544}
@@ -11006,9 +11000,8 @@ MonoBehaviour:
   - You're in what is known within the dog community as one of the TOP 5 places to
     avoid...!
   - You need to leave! Now!
-  typingSpeed: 0.02
+  typingSpeed: 0.001
   continueButton: {fileID: 529104579}
-  endButton: {fileID: 0}
   dialogueManager: {fileID: 1404448097}
   ManagerScript: {fileID: 1404448099}
   thisdialogue: {fileID: 1842939433}
@@ -11106,9 +11099,8 @@ MonoBehaviour:
     ahead.'
   - 'Phillip: Getting injured in a place where others are meant to be healed *COUGH*...is
     a strange, twist of irony, hm?'
-  typingSpeed: 0.02
+  typingSpeed: 0.001
   continueButton: {fileID: 529104579}
-  endButton: {fileID: 0}
   dialogueManager: {fileID: 1404448097}
   ManagerScript: {fileID: 1404448099}
   thisdialogue: {fileID: 1844019994}
