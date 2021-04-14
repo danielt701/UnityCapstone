@@ -6552,12 +6552,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 880098585}
   sentences:
-  - 'Fox Lady: This place is straightforward, no?'
-  - 'Fox Lady: It appears that your mind is slowly becoming accustomed to everything...'
-  - 'Fox Lady: ...Or not. You look sad, Clyde...ah. You are sad because your owner
-    is not here...a pity.'
-  - 'Fox Lady: Keep moving to the end, Clyde. Everything for what you fight for is
-    for your owner, after all.'
+  - 'Fox Lady: Did you enjoy your little tete-a-tete?'
+  - 'Fox Lady: Every person--dog even, needs a bit of a break.'
+  - 'Fox Lady: Take deep, slow breaths and transition over to the next stage, young
+    pup.'
+  - 'Fox Lady: You will reach your owner, soon.'
   typingSpeed: 0.001
   continueButton: {fileID: 664500185}
   dialogueManager: {fileID: 127185895}
@@ -7102,12 +7101,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 880098585}
   sentences:
-  - 'Fox Lady: Welcome to the chute. Consider this a...small challenge, if you will.'
-  - 'Fox Lady: You will have to go through this area in order to proceed to the next
-    place, Clyde.'
-  - 'Fox Lady: ...Hm...it appears your anger has dissapated. Good good, continue
-    on, like that.'
-  - 'Fox Lady: Good luck, Clyde. Keep on moving.'
+  - 'Fox Lady: This is a very simplistic area, is it not?'
+  - 'Fox Lady: There is nothing remarkable about this area, other than how it serves
+    as a small challenge.'
+  - 'Fox Lady: A very easy challenge, but a challenge nonetheless.'
+  - 'Fox Lady: Though, I suppose a small freebie such as this is a bit refreshing
+    every now and then, hm?'
+  - 'Fox Lady: Take the time to relax your mind for a bit, small pup. Everyone needs
+    a break now and then.'
   typingSpeed: 0.001
   continueButton: {fileID: 664500185}
   dialogueManager: {fileID: 127185895}
@@ -10369,6 +10370,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1804276384}
     m_Modifications:
+    - target: {fileID: 1695885842373942801, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1695885842373942802, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: m_Name
       value: AI (9)
