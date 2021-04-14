@@ -4826,8 +4826,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1466499754}
   sentences:
-  - 'Fox Lady: Ah, so you were able to escape, after all.'
-  - 'Fox Lady: That maze...see it as a reflection, of your mind.'
   - 'Fox Lady: Constantly running, turning, jumping--you''re certainly stressed,
     aren''t you?'
   - 'Fox Lady: Keep that up, and you will never be reunited with your owner.'
