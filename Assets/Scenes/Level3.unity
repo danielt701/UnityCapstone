@@ -730,6 +730,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7603909423832340114, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Radius
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7603909423832340115, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: distance
       value: 2
@@ -2478,7 +2482,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0021128207, y: 0.004232049}
+  m_Offset: {x: 0.0021128058, y: -0.040365204}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2489,7 +2493,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9832182, y: 0.9776404}
+  m_Size: {x: 0.9832182, y: 0.88844585}
   m_EdgeRadius: 0
 --- !u!212 &130594779
 SpriteRenderer:
@@ -3054,6 +3058,10 @@ PrefabInstance:
     - target: {fileID: 1695885842373943022, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603909423832340114, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Radius
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7603909423832340115, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: distance
@@ -4726,8 +4734,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 321897179}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.17, y: 1.06, z: -822.137}
-  m_LocalScale: {x: 0.4640625, y: 1, z: 1}
+  m_LocalPosition: {x: -0.17, y: 0.39446, z: -822.137}
+  m_LocalScale: {x: 0.4640625, y: 1.4999, z: 1}
   m_Children: []
   m_Father: {fileID: 1525412057}
   m_RootOrder: 0
@@ -4748,15 +4756,17 @@ MonoBehaviour:
   sentences:
   - '???: ...Hrgh? Clyde? Clyde, is that you?'
   - '???: What''s someone who was adopted doin'' in a place, like this?'
-  - '???: ...Alright, alright! Stop yapping! You don''t have to shout my name for
-    the entire world to hear! Yes, yes, it''s Hyde!'
+  - '???: ...Alright, alright! Stop yapping!'
+  - '???: You don''t have to shout my name for the entire world to hear! Yes, yes,
+    it''s Hyde!'
   - 'Hyde: Jeez, the longer I have to hear your yappin'', my ears are gonna fall
     off.'
   - 'Hyde: ...But seriously, what are you doin'' here? This place has no business
     for someone who was adopted.'
   - 'Hyde: ...Unless, you''ve been dropped off here by your owner?'
-  - 'Hyde: I kid, I kid--that young woman who adopted you looked happy to get you,
-    it would be a disservice to say that.'
+  - 'Hyde: I kid, I kid.'
+  - 'Hyde: That young woman who adopted you looked happy to get you, it would be
+    a disservice to say that.'
   - 'Hyde: In any case, you''re bothering me. Go and hop, bark, and whatever. '
   - 'Hyde: Leave the loafing around to the professionals.'
   - 'Hyde: ...No, I''m not going to trade places with you! Now git!'
@@ -4846,6 +4856,10 @@ PrefabInstance:
     - target: {fileID: 1695885842373943022, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603909423832340114, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Radius
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7603909423832340115, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: distance
@@ -6808,6 +6822,10 @@ PrefabInstance:
     - target: {fileID: 1695885842373943022, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603909423832340114, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Radius
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7603909423832340115, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: distance
@@ -8794,6 +8812,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7603909423832340114, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Radius
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7603909423832340115, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: distance
       value: 2
@@ -9039,9 +9061,9 @@ EdgeCollider2D:
   - {x: -6.354838, y: -0.7774742}
   - {x: -6.37964, y: -0.73259294}
   - {x: -5.913368, y: -0.08924149}
-  - {x: -4.9032226, y: 0.51395226}
-  - {x: -0.33731973, y: 0.4386658}
-  - {x: 5.2367167, y: 0.49301386}
+  - {x: -5.7513947, y: 0.02591753}
+  - {x: -0.06988357, y: 0.026371807}
+  - {x: 5.721387, y: 0.12194361}
   - {x: 5.8031545, y: 0.048930813}
   - {x: 5.917901, y: -0.050492615}
   m_AdjacentStartPoint: {x: 0, y: 0}
@@ -9482,7 +9504,7 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 5.904678, y: -0.0051686764}
+  - {x: 6.0224986, y: -0.19426331}
   - {x: 6.179547, y: -0.6586967}
   - {x: 5.505402, y: -0.6276313}
   - {x: 4.6534843, y: -2.7042496}
@@ -9491,11 +9513,12 @@ EdgeCollider2D:
   - {x: -6.354838, y: -0.7774742}
   - {x: -6.37964, y: -0.73259294}
   - {x: -5.913368, y: -0.08924149}
-  - {x: -4.9032226, y: 0.51395226}
-  - {x: -0.33731973, y: 0.4386658}
-  - {x: 5.2367167, y: 0.49301386}
-  - {x: 5.8031545, y: 0.048930813}
-  - {x: 5.917901, y: -0.050492615}
+  - {x: -5.897282, y: -0.12027338}
+  - {x: -0.0018209144, y: -0.25698993}
+  - {x: 0.11298181, y: -0.21649417}
+  - {x: 5.7105007, y: -0.037149966}
+  - {x: 5.834576, y: -0.024605397}
+  - {x: 6.035731, y: -0.08200813}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -9559,7 +9582,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 697251589}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 42.01543, y: 1.6876459, z: 823.1857}
+  m_LocalPosition: {x: 42.01543, y: 0.29, z: 823.1857}
   m_LocalScale: {x: 0.4194458, y: 0.31360435, z: 0.31360435}
   m_Children: []
   m_Father: {fileID: 943786295}
@@ -11756,6 +11779,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7603909423832340114, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Radius
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7603909423832340115, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: distance
       value: 2
@@ -11928,6 +11955,10 @@ PrefabInstance:
     - target: {fileID: 1695885842373943022, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603909423832340114, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Radius
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7603909423832340115, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: distance
@@ -12971,6 +13002,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7603909423832340114, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Radius
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7603909423832340115, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: distance
       value: 2
@@ -13008,7 +13043,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0000053942204, y: -0.00000020861626}
+  m_Offset: {x: -0.0000053942204, y: -0.048313946}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -13019,7 +13054,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.98745066, y: 0.9861049}
+  m_Size: {x: 0.98745066, y: 0.88947743}
   m_EdgeRadius: 0
 --- !u!212 &877464562
 SpriteRenderer:
@@ -15068,7 +15103,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0026744604, y: 0.008048579}
+  m_Offset: {x: 0.0026744604, y: -0.036548525}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -15079,7 +15114,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9884188, y: 0.979221}
+  m_Size: {x: 0.9884188, y: 0.89002675}
   m_EdgeRadius: 0
 --- !u!212 &1037627903
 SpriteRenderer:
@@ -15618,7 +15653,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0009574294, y: 0.0036811233}
+  m_Offset: {x: 0.0009574294, y: -0.03371723}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -15629,7 +15664,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.99469125, y: 0.98024654}
+  m_Size: {x: 0.99469125, y: 0.90544987}
   m_EdgeRadius: 0
 --- !u!212 &1046176579
 SpriteRenderer:
@@ -16542,6 +16577,10 @@ PrefabInstance:
     - target: {fileID: 1695885842373943022, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603909423832340114, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Radius
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7603909423832340115, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: distance
@@ -17908,7 +17947,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: dabca0ac792464d4792d037e98aa8176, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -19049,8 +19088,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1256529861}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.532, y: -0.28, z: -822.137}
-  m_LocalScale: {x: 0.24943, y: 0.58741, z: 1}
+  m_LocalPosition: {x: -0.532, y: -1.5931, z: -822.137}
+  m_LocalScale: {x: 0.24943, y: 2.8072872, z: 1}
   m_Children: []
   m_Father: {fileID: 1233291003}
   m_RootOrder: 0
@@ -19070,8 +19109,8 @@ MonoBehaviour:
   textDisplay: {fileID: 1756718799}
   sentences:
   - 'Fox Lady: ...Hmm. You look better.'
-  - 'Fox Lady: Have you finally realized that bargaining everything away will only
-    give you a minsicule of happiness?'
+  - 'Fox Lady: Have you finally realized that bargaining everything away will get
+    you nothing?'
   - 'Fox Lady: ...Whether you have or not, you must keep going to the end. Your owner
     awaits.'
   - 'Fox Lady: A word of advice. Press the ''E'' button when you are near the arrows
@@ -19582,7 +19621,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 1
   m_Sprite: {fileID: 2909148312262444143, guid: 7859b0aa8110b8741938492c6af76fd6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -20965,7 +21004,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: bc2f601e24be2ca4fba8a8e5034e0f9d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -22038,7 +22077,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 0519745fd6f21e84ba313f9da2e2666c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -22409,7 +22448,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0057659745, y: -0.011537224}
+  m_Offset: {x: 0.0057659745, y: -0.052417904}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -22420,7 +22459,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.99353445, y: 0.99908954}
+  m_Size: {x: 0.99353445, y: 0.9173282}
   m_EdgeRadius: 0
 --- !u!212 &1483079305
 SpriteRenderer:
@@ -22665,7 +22704,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0054650903, y: -0.008389592}
+  m_Offset: {x: 0.0054650903, y: -0.067282826}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -22676,7 +22715,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.99138165, y: 1.9832208}
+  m_Size: {x: 0.99138165, y: 1.8654344}
   m_EdgeRadius: 0
 --- !u!1 &1495636397
 GameObject:
@@ -22721,11 +22760,11 @@ EdgeCollider2D:
   - {x: -6.354838, y: -0.7774742}
   - {x: -6.37964, y: -0.73259294}
   - {x: -5.913368, y: -0.08924149}
-  - {x: -4.9032226, y: 0.51395226}
-  - {x: -0.33731973, y: 0.4386658}
-  - {x: 5.2367167, y: 0.49301386}
+  - {x: -5.8330917, y: 0.08839315}
+  - {x: -0.026338555, y: -0.029205114}
+  - {x: 5.789342, y: 0.099493355}
   - {x: 5.8031545, y: 0.048930813}
-  - {x: 5.917901, y: -0.050492615}
+  - {x: 5.995742, y: -0.36276492}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -23179,7 +23218,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 1
   m_Sprite: {fileID: 2909148312262444143, guid: 7859b0aa8110b8741938492c6af76fd6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -24369,7 +24408,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.000082820654, y: 0.001208812}
+  m_Offset: {x: -0.000082820654, y: -0.046839193}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -24380,7 +24419,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9944237, y: 0.98441654}
+  m_Size: {x: 0.9944237, y: 0.88832057}
   m_EdgeRadius: 0
 --- !u!212 &1611700617
 SpriteRenderer:
@@ -24535,8 +24574,7 @@ MonoBehaviour:
   - 'Fox Lady:  Will you give everything up for someone who you can see in the end?
     For an easy way out?'
   - 'Fox Lady:  How ridiculous.'
-  - 'Fox Lady:  ...Apologies. I was feeling a bit heated there. Your progress has
-    been reported. Continue on, Clyde.'
+  - 'Fox Lady:  ...hm. Your progress has been recorded. Continue on, Clyde.'
   typingSpeed: 0.001
   continueButton: {fileID: 564872559}
   dialogueManager: {fileID: 1534205135}
@@ -24817,9 +24855,9 @@ EdgeCollider2D:
   - {x: -6.354838, y: -0.7774742}
   - {x: -6.37964, y: -0.73259294}
   - {x: -5.913368, y: -0.08924149}
-  - {x: -4.9032226, y: 0.51395226}
-  - {x: -0.33731973, y: 0.4386658}
-  - {x: 5.2367167, y: 0.49301386}
+  - {x: -5.1429367, y: 0.22008693}
+  - {x: -0.35730523, y: 0.27837604}
+  - {x: 5.4164968, y: 0.27929413}
   - {x: 5.8031545, y: 0.048930813}
   - {x: 5.917901, y: -0.050492615}
   m_AdjacentStartPoint: {x: 0, y: 0}
@@ -24922,7 +24960,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0028773546, y: 0.005768582}
+  m_Offset: {x: 0.0028773546, y: -0.03882876}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -24933,7 +24971,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9877646, y: 0.9875525}
+  m_Size: {x: 0.9877646, y: 0.8983578}
   m_EdgeRadius: 0
 --- !u!212 &1646929245
 SpriteRenderer:
@@ -25927,6 +25965,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7603909423832340114, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Radius
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7603909423832340115, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: distance
       value: 2
@@ -26044,7 +26086,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: dc630a70537f066479e6811b9c69de3d, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.7
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -26914,10 +26956,9 @@ MonoBehaviour:
   - 'Hyde: ...What''s up with you. I don''t think I''ve seen you so sad in your life.'
   - 'Hyde: ...Oi. Don''t you dare think about giving up ''everything'' just so you
     can be with your owner.'
-  - 'Hyde: Giving up everything would just mean that you''re also giving up your
-    owner.'
-  - 'Hyde: Come on, wake up!  You don''t wanna just trade something away so your
-    owner won''t recognize you, right?'
+  - 'Hyde: Would you give up your owner too?'
+  - 'Hyde: Wake up!  You don''t wanna just trade something away so your owner won''t
+    recognize you!'
   - 'Hyde: Ah. Your tail is wagging again. There''s that stupid smile on your face.'
   - 'Hyde: Keep moving, you idiot. '
   - 'Hyde: Don''t just give something up for something that''s going to make you
@@ -27393,7 +27434,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0010605752, y: -0.0010478497}
+  m_Offset: {x: -0.001060605, y: -0.042568177}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -27404,7 +27445,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0079234, y: 1.9979043}
+  m_Size: {x: 1.0079234, y: 1.9148636}
   m_EdgeRadius: 0
 --- !u!212 &1764013666
 SpriteRenderer:
@@ -27608,6 +27649,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7603909423832340114, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Radius
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7603909423832340115, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: distance
       value: 2
@@ -27645,7 +27690,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0021049082, y: 0}
+  m_Offset: {x: 0.0021049082, y: -0.033447966}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -27656,7 +27701,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9826687, y: 0.9769125}
+  m_Size: {x: 0.9826687, y: 0.91001654}
   m_EdgeRadius: 0
 --- !u!212 &1778583164
 SpriteRenderer:
@@ -28560,6 +28605,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7603909423832340114, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Radius
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7603909423832340115, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: distance
       value: 2
@@ -28597,7 +28646,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0036464185, y: 0.00031659007}
+  m_Offset: {x: 0.0036464334, y: -0.053703293}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -28608,7 +28657,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.99011123, y: 0.9864804}
+  m_Size: {x: 0.99011123, y: 0.8784406}
   m_EdgeRadius: 0
 --- !u!212 &1879400864
 SpriteRenderer:
@@ -29625,6 +29674,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7603909423832340114, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Radius
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7603909423832340115, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: distance
       value: 2
@@ -29768,6 +29821,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7603909423832340114, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Radius
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7603909423832340115, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: distance
       value: 2
@@ -29828,6 +29885,10 @@ PrefabInstance:
     - target: {fileID: 1695885842373943022, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603909423832340114, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Radius
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7603909423832340115, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: distance
@@ -30721,6 +30782,10 @@ PrefabInstance:
     - target: {fileID: 1695885842373943022, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603909423832340114, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
+      propertyPath: m_Radius
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7603909423832340115, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
       propertyPath: distance
