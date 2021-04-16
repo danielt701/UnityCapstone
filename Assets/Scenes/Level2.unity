@@ -1552,6 +1552,8 @@ MonoBehaviour:
   ManagerScript: {fileID: 1404448099}
   thisdialogue: {fileID: 370836942}
   textBox: {fileID: 1474919570}
+  audioSource: {fileID: 0}
+  Voice: {fileID: 0}
 --- !u!61 &370836945
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3710,6 +3712,8 @@ MonoBehaviour:
   ManagerScript: {fileID: 1404448099}
   thisdialogue: {fileID: 677016124}
   textBox: {fileID: 1474919570}
+  audioSource: {fileID: 660846106}
+  Voice: {fileID: 8300000, guid: 87c99e17582a5a143b22c7c6b188dc81, type: 3}
 --- !u!61 &677016127
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4784,6 +4788,8 @@ MonoBehaviour:
   ManagerScript: {fileID: 1404448099}
   thisdialogue: {fileID: 878044497}
   textBox: {fileID: 1474919570}
+  audioSource: {fileID: 2023428307}
+  Voice: {fileID: 8300000, guid: 4520ac7d5e92bc24280722a81893b934, type: 3}
 --- !u!1 &892646645
 GameObject:
   m_ObjectHideFlags: 0
@@ -5059,6 +5065,8 @@ MonoBehaviour:
   ManagerScript: {fileID: 1404448099}
   thisdialogue: {fileID: 929752187}
   textBox: {fileID: 1474919570}
+  audioSource: {fileID: 572382706}
+  Voice: {fileID: 8300000, guid: 4520ac7d5e92bc24280722a81893b934, type: 3}
 --- !u!61 &929752190
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5257,6 +5265,8 @@ MonoBehaviour:
   ManagerScript: {fileID: 1404448099}
   thisdialogue: {fileID: 1013907519}
   textBox: {fileID: 1474919570}
+  audioSource: {fileID: 1974633633}
+  Voice: {fileID: 8300000, guid: 87c99e17582a5a143b22c7c6b188dc81, type: 3}
 --- !u!61 &1013907522
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7267,6 +7277,8 @@ MonoBehaviour:
   ManagerScript: {fileID: 1404448099}
   thisdialogue: {fileID: 1348073544}
   textBox: {fileID: 1474919570}
+  audioSource: {fileID: 1306585845}
+  Voice: {fileID: 8300000, guid: 4520ac7d5e92bc24280722a81893b934, type: 3}
 --- !u!61 &1348073547
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11148,6 +11160,8 @@ MonoBehaviour:
   ManagerScript: {fileID: 1404448099}
   thisdialogue: {fileID: 1842939433}
   textBox: {fileID: 1474919570}
+  audioSource: {fileID: 0}
+  Voice: {fileID: 0}
 --- !u!61 &1842939436
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11246,6 +11260,8 @@ MonoBehaviour:
   ManagerScript: {fileID: 1404448099}
   thisdialogue: {fileID: 1844019994}
   textBox: {fileID: 1474919570}
+  audioSource: {fileID: 1597221997}
+  Voice: {fileID: 8300000, guid: 87c99e17582a5a143b22c7c6b188dc81, type: 3}
 --- !u!61 &1844019997
 BoxCollider2D:
   m_ObjectHideFlags: 0

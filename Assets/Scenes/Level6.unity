@@ -6705,6 +6705,8 @@ MonoBehaviour:
   ManagerScript: {fileID: 127185896}
   thisdialogue: {fileID: 1152476295}
   textBox: {fileID: 1414513393}
+  audioSource: {fileID: 1052963100}
+  Voice: {fileID: 8300000, guid: 4520ac7d5e92bc24280722a81893b934, type: 3}
 --- !u!61 &1152476298
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7303,6 +7305,8 @@ MonoBehaviour:
   ManagerScript: {fileID: 127185896}
   thisdialogue: {fileID: 1211526234}
   textBox: {fileID: 1414513393}
+  audioSource: {fileID: 1738401913}
+  Voice: {fileID: 8300000, guid: 4520ac7d5e92bc24280722a81893b934, type: 3}
 --- !u!61 &1211526237
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7419,6 +7423,8 @@ MonoBehaviour:
   ManagerScript: {fileID: 127185896}
   thisdialogue: {fileID: 1216290830}
   textBox: {fileID: 1414513393}
+  audioSource: {fileID: 240949674}
+  Voice: {fileID: 8300000, guid: 4520ac7d5e92bc24280722a81893b934, type: 3}
 --- !u!61 &1216290833
 BoxCollider2D:
   m_ObjectHideFlags: 0

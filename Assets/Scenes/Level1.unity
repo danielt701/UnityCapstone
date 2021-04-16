@@ -1002,6 +1002,8 @@ MonoBehaviour:
   ManagerScript: {fileID: 253581133}
   thisdialogue: {fileID: 245449394}
   textBox: {fileID: 1938076820}
+  audioSource: {fileID: 370794877}
+  Voice: {fileID: 8300000, guid: 4520ac7d5e92bc24280722a81893b934, type: 3}
 --- !u!1 &252845321
 GameObject:
   m_ObjectHideFlags: 0
@@ -1595,6 +1597,8 @@ MonoBehaviour:
   ManagerScript: {fileID: 253581133}
   thisdialogue: {fileID: 305610406}
   textBox: {fileID: 1938076820}
+  audioSource: {fileID: 1080269167}
+  Voice: {fileID: 8300000, guid: 4520ac7d5e92bc24280722a81893b934, type: 3}
 --- !u!4 &327960700 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1695885842373943022, guid: dffba2d318e573c40bc0de7c1d375a45, type: 3}
@@ -4323,6 +4327,8 @@ MonoBehaviour:
   ManagerScript: {fileID: 253581133}
   thisdialogue: {fileID: 860444465}
   textBox: {fileID: 1938076820}
+  audioSource: {fileID: 925491727}
+  Voice: {fileID: 8300000, guid: 4520ac7d5e92bc24280722a81893b934, type: 3}
 --- !u!1 &891925610
 GameObject:
   m_ObjectHideFlags: 0
@@ -6972,6 +6978,8 @@ MonoBehaviour:
   ManagerScript: {fileID: 253581133}
   thisdialogue: {fileID: 1282129374}
   textBox: {fileID: 1938076820}
+  audioSource: {fileID: 1451653280}
+  Voice: {fileID: 8300000, guid: 4520ac7d5e92bc24280722a81893b934, type: 3}
 --- !u!1 &1300947007
 GameObject:
   m_ObjectHideFlags: 0
@@ -7063,6 +7071,8 @@ MonoBehaviour:
   ManagerScript: {fileID: 253581133}
   thisdialogue: {fileID: 1300947007}
   textBox: {fileID: 1938076820}
+  audioSource: {fileID: 945847604}
+  Voice: {fileID: 8300000, guid: 4520ac7d5e92bc24280722a81893b934, type: 3}
 --- !u!1 &1302558898
 GameObject:
   m_ObjectHideFlags: 0
@@ -8859,6 +8869,8 @@ MonoBehaviour:
   ManagerScript: {fileID: 253581133}
   thisdialogue: {fileID: 1637374640}
   textBox: {fileID: 1938076820}
+  audioSource: {fileID: 0}
+  Voice: {fileID: 0}
 --- !u!1 &1644582396
 GameObject:
   m_ObjectHideFlags: 0
@@ -9444,6 +9456,8 @@ MonoBehaviour:
   ManagerScript: {fileID: 253581133}
   thisdialogue: {fileID: 1715873768}
   textBox: {fileID: 1938076820}
+  audioSource: {fileID: 0}
+  Voice: {fileID: 0}
 --- !u!1 &1792801692
 GameObject:
   m_ObjectHideFlags: 0
@@ -9533,6 +9547,8 @@ MonoBehaviour:
   ManagerScript: {fileID: 253581133}
   thisdialogue: {fileID: 1792801692}
   textBox: {fileID: 1938076820}
+  audioSource: {fileID: 440928875}
+  Voice: {fileID: 8300000, guid: 4520ac7d5e92bc24280722a81893b934, type: 3}
 --- !u!1001 &1810574498
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9690,6 +9706,8 @@ MonoBehaviour:
   ManagerScript: {fileID: 253581133}
   thisdialogue: {fileID: 1876150051}
   textBox: {fileID: 1938076820}
+  audioSource: {fileID: 569992954}
+  Voice: {fileID: 8300000, guid: 4520ac7d5e92bc24280722a81893b934, type: 3}
 --- !u!1001 &1880266301
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -26,6 +26,9 @@ public class Dialogue : MonoBehaviour
 
     public GameObject textBox;
 
+    public AudioSource audioSource;
+    public AudioClip Voice;
+
     private void Start()
     {
         //StartCoroutine(Type());
@@ -91,6 +94,7 @@ public class Dialogue : MonoBehaviour
             if (index < sentences.Length - 1)
             {
                 index++;
+                audioSource.PlayOneShot(Voice, 0.8f);
                 textDisplay.text = "";
                 StartCoroutine(Type());
             }

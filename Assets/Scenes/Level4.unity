@@ -1315,6 +1315,8 @@ MonoBehaviour:
   ManagerScript: {fileID: 1250469020}
   thisdialogue: {fileID: 189826826}
   textBox: {fileID: 1705381450}
+  audioSource: {fileID: 106368794}
+  Voice: {fileID: 8300000, guid: 4520ac7d5e92bc24280722a81893b934, type: 3}
 --- !u!1 &215578456
 GameObject:
   m_ObjectHideFlags: 0
@@ -5364,6 +5366,8 @@ MonoBehaviour:
   ManagerScript: {fileID: 1250469020}
   thisdialogue: {fileID: 996847004}
   textBox: {fileID: 1705381450}
+  audioSource: {fileID: 0}
+  Voice: {fileID: 0}
 --- !u!1 &1000732547
 GameObject:
   m_ObjectHideFlags: 0
@@ -5777,6 +5781,8 @@ MonoBehaviour:
   ManagerScript: {fileID: 1250469020}
   thisdialogue: {fileID: 1126687688}
   textBox: {fileID: 1705381450}
+  audioSource: {fileID: 34363555}
+  Voice: {fileID: 8300000, guid: 4520ac7d5e92bc24280722a81893b934, type: 3}
 --- !u!1 &1162563939
 GameObject:
   m_ObjectHideFlags: 0
@@ -9336,6 +9342,8 @@ MonoBehaviour:
   ManagerScript: {fileID: 1250469020}
   thisdialogue: {fileID: 2015761885}
   textBox: {fileID: 1705381450}
+  audioSource: {fileID: 0}
+  Voice: {fileID: 0}
 --- !u!1 &2026638767
 GameObject:
   m_ObjectHideFlags: 0

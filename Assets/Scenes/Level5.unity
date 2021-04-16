@@ -4037,6 +4037,8 @@ MonoBehaviour:
   ManagerScript: {fileID: 300393506}
   thisdialogue: {fileID: 648598113}
   textBox: {fileID: 1872449554}
+  audioSource: {fileID: 186416937}
+  Voice: {fileID: 8300000, guid: 4520ac7d5e92bc24280722a81893b934, type: 3}
 --- !u!4 &667433702 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 411828740368812353, guid: 559942f15b9336e4a9f0e224de032e40, type: 3}
@@ -5832,6 +5834,8 @@ MonoBehaviour:
   ManagerScript: {fileID: 300393506}
   thisdialogue: {fileID: 1062599172}
   textBox: {fileID: 1872449554}
+  audioSource: {fileID: 1317606287}
+  Voice: {fileID: 8300000, guid: 87c99e17582a5a143b22c7c6b188dc81, type: 3}
 --- !u!61 &1062599175
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7858,6 +7862,8 @@ MonoBehaviour:
   ManagerScript: {fileID: 300393506}
   thisdialogue: {fileID: 1499422107}
   textBox: {fileID: 1872449554}
+  audioSource: {fileID: 1926749554}
+  Voice: {fileID: 8300000, guid: 570bc98eb83234141ac5f6be14ed6bc9, type: 3}
 --- !u!61 &1499422110
 BoxCollider2D:
   m_ObjectHideFlags: 0
