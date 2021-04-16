@@ -4800,6 +4800,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 154631725, guid: 29251afba25b38043906170e3f08bd7e, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2057411038, guid: 29251afba25b38043906170e3f08bd7e, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4170597931731553566, guid: 29251afba25b38043906170e3f08bd7e, type: 3}
       propertyPath: ClydeBark
       value: 
@@ -4823,6 +4831,10 @@ PrefabInstance:
     - target: {fileID: 7645103477823781385, guid: 29251afba25b38043906170e3f08bd7e, type: 3}
       propertyPath: m_Name
       value: Player DodgeVariant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7645103477823781385, guid: 29251afba25b38043906170e3f08bd7e, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7645103477823781388, guid: 29251afba25b38043906170e3f08bd7e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4867,6 +4879,10 @@ PrefabInstance:
     - target: {fileID: 7645103477823781388, guid: 29251afba25b38043906170e3f08bd7e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7645103478648366516, guid: 29251afba25b38043906170e3f08bd7e, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7645103477823781378, guid: 29251afba25b38043906170e3f08bd7e, type: 3}

@@ -20,6 +20,7 @@ TagManager:
   - GM3
   - GM4
   - GM2half
+  - GAP
   layers:
   - Default
   - TransparentFX
@@ -59,4 +60,7 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: InFront
+    uniqueID: 782559545
     locked: 0

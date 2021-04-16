@@ -6569,13 +6569,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 71010141, guid: 559942f15b9336e4a9f0e224de032e40, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 71010144, guid: 559942f15b9336e4a9f0e224de032e40, type: 3}
       propertyPath: m_Radius
       value: 1.45
       objectReference: {fileID: 0}
+    - target: {fileID: 2007851182, guid: 559942f15b9336e4a9f0e224de032e40, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2007851183, guid: 559942f15b9336e4a9f0e224de032e40, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 411828739542914809, guid: 559942f15b9336e4a9f0e224de032e40, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 411828740368812353, guid: 559942f15b9336e4a9f0e224de032e40, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6628,6 +6640,10 @@ PrefabInstance:
     - target: {fileID: 411828740368812356, guid: 559942f15b9336e4a9f0e224de032e40, type: 3}
       propertyPath: m_Name
       value: Player (1) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 411828740368812356, guid: 559942f15b9336e4a9f0e224de032e40, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 411828740368812357, guid: 559942f15b9336e4a9f0e224de032e40, type: 3}
       propertyPath: movementSpeed

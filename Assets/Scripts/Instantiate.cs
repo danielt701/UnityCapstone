@@ -9,7 +9,7 @@ public class Instantiate : MonoBehaviour
 
 
     [SerializeField]
-    private GameObject MissilePrefab;
+    public GameObject MissilePrefab;
     [SerializeField]
     private float spawnDelay = 8;
 
