@@ -65,6 +65,7 @@ public class Dialogue : MonoBehaviour
             ManagerScript.currentDialogue = thisdialogue;
             hasCoroutineStarted = true;
             StartCoroutine(Type());
+            audioSource.PlayOneShot(Voice, 0.8f);
             ManagerScript.dialogueStarted();
         }
 
