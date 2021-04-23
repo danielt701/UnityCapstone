@@ -1820,7 +1820,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 664838707}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.94, y: 0.16, z: -10}
+  m_LocalPosition: {x: -24.8, y: 0.16, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4558,7 +4558,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 765c60d1adb191b4e88f4daaffe88793, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b53cd83f143e8e444946c8dcdee65974, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4577,7 +4577,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1587911890}
   m_LocalRotation: {x: -0, y: -0, z: -0.9306285, w: 0.36596537}
-  m_LocalPosition: {x: -52.7, y: -1.03, z: 1187.7852}
+  m_LocalPosition: {x: -23.4, y: -1.03, z: 1187.7852}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2117485305}
@@ -6392,7 +6392,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7645103477823781388, guid: 29251afba25b38043906170e3f08bd7e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.29
+      value: -32.16
       objectReference: {fileID: 0}
     - target: {fileID: 7645103477823781388, guid: 29251afba25b38043906170e3f08bd7e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6464,7 +6464,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9033566368879939342, guid: 24038af2715b3e341a1c4c6961fc7cf4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -52.18
+      value: -22.88
       objectReference: {fileID: 0}
     - target: {fileID: 9033566368879939342, guid: 24038af2715b3e341a1c4c6961fc7cf4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6514,5 +6514,9 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9033566368879939377, guid: 24038af2715b3e341a1c4c6961fc7cf4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b53cd83f143e8e444946c8dcdee65974, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24038af2715b3e341a1c4c6961fc7cf4, type: 3}
