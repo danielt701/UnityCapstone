@@ -112,10 +112,10 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: -0.04, y: 0.22}
-      - {x: -0.34, y: -0.41}
-      - {x: -0.34, y: -0.5}
-      - {x: 0.35, y: -0.5}
-      - {x: 0.28, y: -0.28}
+      - {x: -0.0776999, y: -0.4030529}
+      - {x: -0.06550875, y: -0.46574256}
+      - {x: 0.1209863, y: -0.45676452}
+      - {x: 0.118152216, y: -0.28148794}
       - {x: 0.03, y: 0.22}
 --- !u!114 &52734700784242936
 MonoBehaviour:
@@ -150,7 +150,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &4781830505689848806
 MonoBehaviour:
   m_ObjectHideFlags: 0
