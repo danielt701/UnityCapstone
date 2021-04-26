@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 52734700784242933}
   - component: {fileID: 52734700784242938}
-  - component: {fileID: 52734700784242939}
   - component: {fileID: 52734700784242936}
   - component: {fileID: 52734700784242937}
   - component: {fileID: 4781830505689848806}
+  - component: {fileID: 8735172791376116180}
   m_Layer: 0
   m_Name: LaunchSpikeRight
   m_TagString: Enemy
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 765c60d1adb191b4e88f4daaffe88793, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b53cd83f143e8e444946c8dcdee65974, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -86,37 +86,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &52734700784242939
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 52734700784242942}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.04, y: 0.22}
-      - {x: -0.0776999, y: -0.4030529}
-      - {x: -0.06550875, y: -0.46574256}
-      - {x: 0.1209863, y: -0.45676452}
-      - {x: 0.118152216, y: -0.28148794}
-      - {x: 0.03, y: 0.22}
 --- !u!114 &52734700784242936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,3 +133,46 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1
+--- !u!68 &8735172791376116180
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52734700784242942}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.08749078, y: -0.29367188}
+  - {x: -0.11014555, y: -0.25977102}
+  - {x: -0.11232167, y: -0.056237213}
+  - {x: -0.11012076, y: 0.25590155}
+  - {x: -0.0702723, y: 0.27733195}
+  - {x: -0.060151953, y: 0.31271026}
+  - {x: -0.03346573, y: 0.34594157}
+  - {x: -0.02035702, y: 0.46705258}
+  - {x: 0.010627411, y: 0.3454414}
+  - {x: 0.09868102, y: 0.23452069}
+  - {x: 0.1059552, y: -0.25104386}
+  - {x: 0.064336196, y: -0.3118075}
+  - {x: 0.092001975, y: -0.3717532}
+  - {x: 0.0645384, y: -0.39424303}
+  - {x: 0.02754005, y: -0.40576482}
+  - {x: 0.028312828, y: -0.44375968}
+  - {x: -0.010381043, y: -0.47262084}
+  - {x: -0.040571015, y: -0.44977906}
+  - {x: -0.046817105, y: -0.4301819}
+  - {x: -0.105593115, y: -0.38761768}
+  - {x: -0.11993283, y: -0.36151984}
+  - {x: -0.08151355, y: -0.29828146}
+  - {x: -0.08664446, y: -0.2927939}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0

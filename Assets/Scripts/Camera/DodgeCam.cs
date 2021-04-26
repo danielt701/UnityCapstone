@@ -11,7 +11,7 @@ public class DodgeCam : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(Mathf.Clamp(targetToFollow.position.x, -22.5f, 67f),
+        transform.position = new Vector3(Mathf.Clamp(targetToFollow.position.x, -23.91f, 67f),
                                          Mathf.Clamp(targetToFollow.position.y, 0.02f, 0.16f),
                                          transform.position.z);
     }

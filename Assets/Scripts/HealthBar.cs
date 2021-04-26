@@ -44,7 +44,7 @@ public class HealthBar : MonoBehaviour
     {
         if (Life < 1f)
         {
-            Life += 0.2f;
+            Life += 0.35f;
             LifeFill.fillAmount = Life;
         } 
     }
@@ -54,7 +54,7 @@ public class HealthBar : MonoBehaviour
     {
         if (Life > 0f)
         {
-            Life -= 0.2f;
+            Life -= 0.35f;
             LifeFill.fillAmount = Life;
             animator.SetBool("isHurt", true);
         }
@@ -90,7 +90,7 @@ public class HealthBar : MonoBehaviour
                 {
                     if (Life < 1f)
                     {
-                        Life += 0.2f;
+                        Life += 0.35f;
                         LifeFill.fillAmount = Life;
                     }
                 }

@@ -20,6 +20,22 @@ public class MovingPlat : MonoBehaviour
         nextPos = startPos.position;
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "Player")
+        {
+            GetComponent<BoxCollider2D>().transform.SetParent(transform);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if(collision.tag == "Player")
+        {
+            GetComponent<BoxCollider2D>().transform.SetParent(null);
+        }
+    }
+
     // Update is called once per frame
     void FixedUpdate()
     {
