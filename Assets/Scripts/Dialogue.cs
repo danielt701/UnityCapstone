@@ -34,6 +34,7 @@ public class Dialogue : MonoBehaviour
         //StartCoroutine(Type());
         //textBox = GameObject.Find("TextCover");
         //Debug.Log(textBox);
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -73,8 +74,7 @@ public class Dialogue : MonoBehaviour
 
     IEnumerator Type()
     {
-
-        foreach(char letter in sentences[index].ToCharArray())
+        foreach (char letter in sentences[index].ToCharArray())
         {
             isCompleted = false;
             textDisplay.text += letter;
@@ -87,7 +87,8 @@ public class Dialogue : MonoBehaviour
 
     public void NextSentence()
     {
-        if(isCompleted == true)
+        //audioSource.Play();
+        if (isCompleted == true)
         {
             continueButton.SetActive(true);
             textBox.SetActive(true);
@@ -95,7 +96,7 @@ public class Dialogue : MonoBehaviour
             if (index < sentences.Length - 1)
             {
                 index++;
-                audioSource.PlayOneShot(Voice, 0.8f);
+                //audioSource.PlayOneShot(Voice, 0.8f);
                 textDisplay.text = "";
                 StartCoroutine(Type());
             }
