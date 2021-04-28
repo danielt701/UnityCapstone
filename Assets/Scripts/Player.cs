@@ -183,7 +183,7 @@ public class Player : MonoBehaviour
         {
             Jump();
             animator.SetBool("isJumping", true);
-            audioSource.PlayOneShot(ClydeJump, 1.0f);
+            audioSource.PlayOneShot(ClydeJump, 0.8f);
         }
         
 
