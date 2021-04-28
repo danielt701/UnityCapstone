@@ -23,7 +23,7 @@ public class MissileStraight : MonoBehaviour
 
     private void Update()
     {
-        
+       
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -32,13 +32,20 @@ public class MissileStraight : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        if (CompareTag("Player"))
+        {
+            Destroy(gameObject);
+        }
+
+
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         if(collision.CompareTag("Platform"))
         {
-            GetComponent<PolygonCollider2D>().enabled = true;
+            GetComponent<BoxCollider2D>().enabled = true;
         }
     }
 

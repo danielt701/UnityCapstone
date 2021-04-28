@@ -26,6 +26,11 @@ public class SpikeRight : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        if(collision.CompareTag("Player"))
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
