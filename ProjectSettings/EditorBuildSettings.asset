@@ -27,11 +27,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Level4.unity
     guid: 911f4cdd136d7ee4cadf520928661774
   - enabled: 1
-    path: Assets/Scenes/Level5.unity
-    guid: 3415ff0f681ef2e4bacdf640823a1e4b
+    path: Assets/Scenes/Scene5again.unity
+    guid: 2f5d218a3d52c6746b04f18ac20cccdd
   - enabled: 1
     path: Assets/Scenes/End.unity
     guid: 38f17aa8cb191d34aae4829e1eee0661
+  - enabled: 0
+    path: Assets/Scenes/Level5.unity
+    guid: 3415ff0f681ef2e4bacdf640823a1e4b
   - enabled: 0
     path: Assets/Scenes/MazeChallenge.unity
     guid: 8175cccc2de1c0a40b4fed3941ad1b0d
