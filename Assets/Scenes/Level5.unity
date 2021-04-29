@@ -3087,9 +3087,8 @@ MonoBehaviour:
     every time.'
   - 'Fox Lady: Unless you wish to go through with this, again?'
   - 'Fox Lady: ...That''s what I thought. Now, shoo. It''s off to your owner.'
-  - 'Fox Lady: ...Hm? ''Her name is Bonnie''...you say?'
-  - 'Fox Lady: ...Fufufu. I see. Go and return back to Bonnie, young Clyde. Your
-    journey ends here.'
+  - 'Fox Lady: ...Hm? ''What is your name''..you say?'
+  - 'Fox Lady: ...Fufufu. It''s Kimiko. Now run along, young pup.'
   typingSpeed: 0.001
   continueButton: {fileID: 327817593}
   dialogueManager: {fileID: 300393505}
