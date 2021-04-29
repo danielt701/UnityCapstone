@@ -2977,7 +2977,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: d0aca9afc9ad96a46be9de77da98e97d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9855,7 +9855,7 @@ MonoBehaviour:
   - ...? Where are you?
   - Let's see...let's think about this.
   - Your name is Clyde. You're a small puppy.
-  - You...can't remember as to what had happened. Did something happen?
+  - You...can't remember what happened. Or...did...something happen?
   - ...You can leave that for later.
   - You recognize this place. This is the same beach that you've often visited with
     your owner...right?
