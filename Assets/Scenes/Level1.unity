@@ -1271,7 +1271,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 245449394}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.4200134, y: -0.92000055, z: -635.6117}
+  m_LocalPosition: {x: 0.76, y: -1.56, z: -635.6117}
   m_LocalScale: {x: 2.275, y: 0.11497488, z: 1}
   m_Children: []
   m_Father: {fileID: 370794883}
@@ -1875,7 +1875,11 @@ MonoBehaviour:
   - 'Fox Lady: And if you mess up...your little, fluffy body will appear in front
     of me.'
   - 'Fox Lady: ...What a fierce growl. Are you accusing me of lying?'
-  - 'Fox Lady: Run along now. It will do you no good to stay here.'
+  - 'Fox Lady: Then, how about this. With the ''ESC'' button, you will be able to
+    a multitude of tasks.'
+  - 'Fox Lady: You can change the volume. You can leave. You can return back here.'
+  - 'Fox Lady: Try it out, should you need a break.'
+  - 'Fox Lady: Now, run along. Keep going, small pup.'
   typingSpeed: 0.001
   continueButton: {fileID: 1302558898}
   dialogueManager: {fileID: 253581131}
@@ -2110,7 +2114,7 @@ SpriteRenderer:
   m_SortingOrder: 1
   m_Sprite: {fileID: 1740057754180603910, guid: 04dec29f82a35be4b988f4ad1f80ca9a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1.98, y: 2.53}
@@ -2127,7 +2131,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 370794876}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 83.01, y: -0.78999996, z: 723.28204}
+  m_LocalPosition: {x: 114.31, y: 1.77, z: 723.28204}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 245449395}
@@ -2887,7 +2891,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 440928874}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -98.99, y: 10.39, z: 723.28204}
+  m_LocalPosition: {x: -104.67, y: 6.77, z: 723.28204}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1792801693}
@@ -4897,8 +4901,8 @@ MonoBehaviour:
   - 'Fox Lady: Ah, yes. You must be sick and tired of me now, but this is important.'
   - 'Fox Lady: At the end of your journey, you will come across a cat-like item at
     the end of the level.'
-  - 'Fox Lady: I am sure you will recognize it. It''s your personal, chew-toy after
-    all.'
+  - 'Fox Lady: I have one right here. I am sure you will recognize it. It''s your
+    personal, chew-toy after all.'
   - 'Fox Lady: Mr. Cat, the name of your chew-toy, will await for you at the end.'
   - 'Fox Lady: The moment you touch him, you''ll be sent to your next destination.'
   - 'Fox Lady: Remember that now. Touching your beloved chew-toy means that you will
@@ -12817,7 +12821,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1544318001793611088, guid: 831c4d4351f55664083c0e51706e2a8a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 52.759995
+      value: 48.58
       objectReference: {fileID: 0}
     - target: {fileID: 1544318001793611088, guid: 831c4d4351f55664083c0e51706e2a8a, type: 3}
       propertyPath: m_LocalPosition.y

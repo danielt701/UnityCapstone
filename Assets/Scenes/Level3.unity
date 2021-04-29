@@ -794,7 +794,7 @@ Transform:
   - {fileID: 509601176}
   - {fileID: 412253397}
   m_Father: {fileID: 401561554}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180.105}
 --- !u!1 &39256814
 GameObject:
@@ -1243,7 +1243,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 0094b7f4fe2325d4ab77e6ed3acac804, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3234,7 +3234,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: f0cee18122d86174193ac1769e48e95d, type: 3}
-  m_Color: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5154,7 +5154,7 @@ Transform:
   - {fileID: 39256815}
   - {fileID: 626502953}
   m_Father: {fileID: 401561554}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180.105}
 --- !u!1 &318921185
 GameObject:
@@ -5257,7 +5257,7 @@ Transform:
   - {fileID: 448454375}
   - {fileID: 982833381}
   m_Father: {fileID: 401561554}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180.105}
 --- !u!1 &321897179
 GameObject:
@@ -6431,6 +6431,7 @@ Transform:
   m_LocalPosition: {x: 48.57, y: 2.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1764715454}
   - {fileID: 1525412057}
   - {fileID: 973400994}
   - {fileID: 606107385}
@@ -6589,7 +6590,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 471f86f561c85354f8d7bd9172fd9f11, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -9004,7 +9005,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6268640214266824646, guid: f7b218c01bdb4834882aa8654fc33fc9, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6268640214266824646, guid: f7b218c01bdb4834882aa8654fc33fc9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9872,7 +9873,7 @@ Transform:
   m_Children:
   - {fileID: 1074370324}
   m_Father: {fileID: 401561554}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &606107386
 BoxCollider2D:
@@ -10818,7 +10819,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: f0cee18122d86174193ac1769e48e95d, type: 3}
-  m_Color: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -13525,7 +13526,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 67fe27d9e101482459aee2bb6fcff127, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -14880,7 +14881,7 @@ Transform:
   m_Children:
   - {fileID: 1624478238}
   m_Father: {fileID: 401561554}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &886663623
 GameObject:
@@ -15254,7 +15255,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: f0cee18122d86174193ac1769e48e95d, type: 3}
-  m_Color: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -15638,7 +15639,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 401561554}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &979024012
 GameObject:
@@ -17833,7 +17834,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: f0cee18122d86174193ac1769e48e95d, type: 3}
-  m_Color: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -18024,7 +18025,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: f0cee18122d86174193ac1769e48e95d, type: 3}
-  m_Color: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -19414,7 +19415,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: fc22e528255e382409843987d3e9a5af, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -19651,8 +19652,99 @@ Transform:
   m_Children:
   - {fileID: 503293929}
   m_Father: {fileID: 401561554}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1170604852
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1170604853}
+  - component: {fileID: 1170604855}
+  - component: {fileID: 1170604854}
+  m_Layer: 5
+  m_Name: Dialogue Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1170604853
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170604852}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 15.692, y: 4.67, z: 0}
+  m_LocalScale: {x: 0.158125, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1764715454}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1170604854
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170604852}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.32902777, y: 0.020569265}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.1519444, y: 10}
+  m_EdgeRadius: 0
+--- !u!114 &1170604855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170604852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c47711c1c39bba47b9ebb7e7ffb416f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDisplay: {fileID: 1756718799}
+  sentences:
+  - ...Oh! It's this place! Where you were born!
+  - You remember the loud barks, the constant shouting, dogs getting adopted...
+  - It's the place where you lived in until your owner bought you!
+  - You hated this place! Why are you here again? The shouting was so annoying!
+  - Well, you sort of hate this place. You made a friend here!
+  - ...Though, this place is a lot larger than you remember. And a lot darker.
+  - You're getting goosebumps. You'll give up everything at this point just to leave
+    this place.
+  - Your chew toys, your sanity--anything to leave this place and to return back
+    to your owner!
+  - ...You have to keep going.
+  typingSpeed: 0.001
+  continueButton: {fileID: 564872559}
+  dialogueManager: {fileID: 1534205135}
+  ManagerScript: {fileID: 1534205137}
+  thisdialogue: {fileID: 1170604852}
+  textBox: {fileID: 339469971}
+  audioSource: {fileID: 0}
+  Voice: {fileID: 0}
 --- !u!1 &1173419538
 GameObject:
   m_ObjectHideFlags: 0
@@ -20096,7 +20188,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f1531597d179137488b67ef96f3a8cf1, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -20513,7 +20605,7 @@ Transform:
   m_Children:
   - {fileID: 1256529862}
   m_Father: {fileID: 401561554}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1234507045
 PrefabInstance:
@@ -21847,7 +21939,7 @@ Transform:
   m_Children:
   - {fileID: 1750716571}
   m_Father: {fileID: 401561554}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1326287985
 GameObject:
@@ -22303,7 +22395,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1544318001793611088, guid: 831c4d4351f55664083c0e51706e2a8a, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1544318001793611088, guid: 831c4d4351f55664083c0e51706e2a8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -23652,7 +23744,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 46b66181748500f4fa02fea22f945189, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -25730,7 +25822,7 @@ Transform:
   m_Children:
   - {fileID: 321897180}
   m_Father: {fileID: 401561554}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1525412058
 MonoBehaviour:
@@ -27162,6 +27254,8 @@ MonoBehaviour:
   sentences:
   - 'Fox Lady: Was this harder for you? Or are you giving up?'
   - 'Fox Lady: ''What do you mean''...you say? You know exactly what I mean.'
+  - 'Fox Lady: Even if getting here is easier, it does not mean your mental state
+    is immune to this.'
   - 'Fox Lady: I will commend you for getting this far--past your denial, your anger
     even.'
   - 'Fox Lady: But to see you in this state, where you''re desperate to give everything
@@ -27171,8 +27265,9 @@ MonoBehaviour:
   - 'Fox Lady: Giving up your toys? Your ability to bark? Your hugs? Your everything?'
   - 'Fox Lady:  Will you give everything up for someone who you can see in the end?
     For an easy way out?'
-  - 'Fox Lady:  How ridiculous.'
-  - 'Fox Lady:  ...Hm. Your progress has been recorded. Continue on, Clyde.'
+  - 'Fox Lady:  How ridiculous. Even in death, you would bargain your own life away.'
+  - 'Fox Lady:  Do what you will. Your life has been wasted.'
+  - 'Fox Lady:  ...Your progress has been recorded. Continue on, Clyde.'
   typingSpeed: 0.001
   continueButton: {fileID: 564872559}
   dialogueManager: {fileID: 1534205135}
@@ -27400,7 +27495,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.03755392, y: -0.045257926}
+  m_Offset: {x: 0.017323598, y: -0.045257926}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -27411,7 +27506,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.91348696, y: 0.9082719}
+  m_Size: {x: 0.95394754, y: 0.9082719}
   m_EdgeRadius: 0
 --- !u!50 &1624767113
 Rigidbody2D:
@@ -29459,7 +29554,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 7c0074f050437a24592a28f53516cfd7, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -30161,6 +30256,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1764715453
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1764715454}
+  m_Layer: 0
+  m_Name: Dialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1764715454
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764715453}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -61.77, y: -6.576548, z: -635.6117}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1170604853}
+  m_Father: {fileID: 401561554}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1767612327
 GameObject:
   m_ObjectHideFlags: 0
@@ -30219,7 +30345,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 31fc0fb7e00b0684d8c329d3e102a1f9, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -30742,7 +30868,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1f504d92449e7984f87179202b4b2738, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -31531,7 +31657,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 67fe27d9e101482459aee2bb6fcff127, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -31882,7 +32008,7 @@ Transform:
   - {fileID: 1962549849}
   - {fileID: 2056887855}
   m_Father: {fileID: 401561554}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1946860022
 MonoBehaviour:
@@ -32966,7 +33092,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6268640214266824646, guid: f7b218c01bdb4834882aa8654fc33fc9, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 6268640214266824646, guid: f7b218c01bdb4834882aa8654fc33fc9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -33081,7 +33207,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 0b657881e19ace343b60eac451eee25f, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -33369,7 +33495,7 @@ Transform:
   - {fileID: 1058878152}
   - {fileID: 222401079}
   m_Father: {fileID: 401561554}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2066686635
 MonoBehaviour:

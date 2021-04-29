@@ -2695,7 +2695,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 0094b7f4fe2325d4ab77e6ed3acac804, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
   m_FlipX: 0
   m_FlipY: 1
   m_DrawMode: 0
@@ -7424,7 +7424,7 @@ MonoBehaviour:
   textDisplay: {fileID: 880098585}
   sentences:
   - 'Fox Lady: Did you enjoy your little tete-a-tete?'
-  - 'Fox Lady: Take deep, slow breaths before continuing.'
+  - 'Fox Lady: Take deep, slow breaths before continuing. Take all the time you need.'
   - 'Fox Lady: You will reach your owner, soon.'
   typingSpeed: 0.001
   continueButton: {fileID: 664500185}
@@ -7955,11 +7955,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 880098585}
   sentences:
-  - 'Fox Lady: Welcome to the chute. Consider this a...small challenge.'
-  - 'Fox Lady: You will have to go through this area in order to proceed to the next
-    place, Clyde.'
-  - 'Fox Lady: Fail to do so and...well, you know what happens...'
-  - 'Fox Lady: Good luck, Clyde. Keep on moving.'
+  - 'Fox Lady: Welcome to the chute. Do be careful, the floor..rather, your footstools
+    are fragile.'
+  - 'Fox Lady: If you time it wrong, your life will surely end by those sharp spikes
+    at the bottom.'
+  - 'Fox Lady: Through here, you will be able to reach to the next area.'
+  - 'Fox Lady: I hope you are prepared for what is to come when you reach that area.'
+  - 'Fox Lady: But for now, continue onward. Good luck, young, foolish pup.'
   typingSpeed: 0.001
   continueButton: {fileID: 664500185}
   dialogueManager: {fileID: 127185895}
@@ -8168,10 +8170,12 @@ MonoBehaviour:
   textDisplay: {fileID: 880098585}
   sentences:
   - 'Fox Lady: This is a very simplistic area, is it not?'
-  - 'Fox Lady: A very easy challenge, but a challenge nonetheless.'
+  - 'Fox Lady: Consider this...practice, for the future. You will see what I mean
+    when you see it.'
   - 'Fox Lady: Though, I suppose a small freebie such as this is a bit refreshing
     every now and then, hm?'
-  - 'Fox Lady: Take the time to relax your mind for a bit, small pup.'
+  - 'Fox Lady: Take the time to relax your mind for a bit. It will only get harder
+    from there.'
   typingSpeed: 0.001
   continueButton: {fileID: 664500185}
   dialogueManager: {fileID: 127185895}
@@ -10148,7 +10152,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 0094b7f4fe2325d4ab77e6ed3acac804, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -13654,7 +13658,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 0094b7f4fe2325d4ab77e6ed3acac804, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -14016,7 +14020,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 67fe27d9e101482459aee2bb6fcff127, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
