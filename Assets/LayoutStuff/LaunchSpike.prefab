@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 432347049623172692}
   - component: {fileID: 432347049623172695}
   - component: {fileID: 432347049623172690}
-  - component: {fileID: 2316089758874303858}
   - component: {fileID: 4196714640776645604}
   m_Layer: 0
   m_Name: LaunchSpike
@@ -99,6 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  faster: 50
 --- !u!50 &432347049623172690
 Rigidbody2D:
   serializedVersion: 4
@@ -111,7 +111,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 5
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -120,19 +120,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 6
---- !u!114 &2316089758874303858
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 432347049623172697}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f96cea811d3030044989cacb0f45777c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 1
 --- !u!61 &4196714640776645604
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -146,7 +133,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.008751381, y: -0.015367493}
+  m_Offset: {x: -0.008751377, y: -0.046494514}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -157,5 +144,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.1523194, y: 0.49463764}
+  m_Size: {x: 0.1523194, y: 0.61020285}
   m_EdgeRadius: 0

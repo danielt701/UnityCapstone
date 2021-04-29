@@ -10,6 +10,10 @@ public class HealthBar : MonoBehaviour
     public Image img;
     public Animator animator;
 
+    private float damageTimeout = 2f;
+    private bool canTakeDamage = true;
+    private bool canGetHealth = true;
+
     [SerializeField] Image LifeFill;
 
     float Life = 1f;  // life between 0 and 1
@@ -26,6 +30,11 @@ public class HealthBar : MonoBehaviour
         {
             RemoveLife();
 
+            canTakeDamage = false;
+
+            StartCoroutine(TimeDelay());
+
+
             audioSource.PlayOneShot(ClydeYelp, 0.8f);
             audioSource.PlayOneShot(EnemyAttack, 0.7f);
         }
@@ -34,15 +43,27 @@ public class HealthBar : MonoBehaviour
         {
             AddLife();
 
+            canGetHealth = false;
+
+            StartCoroutine(TimeDelay());
+
             audioSource.PlayOneShot(PowerUpUse, 2.0f);
         }
 
        
     }
 
+    IEnumerator TimeDelay()
+    {
+        yield return new WaitForSeconds(0.8f);
+        canTakeDamage = true;
+        canGetHealth = true;
+    }
+    
+
     void AddLife ()
     {
-        if (Life < 1f)
+        if (canGetHealth && Life < 1f)
         {
             Life += 0.35f;
             LifeFill.fillAmount = Life;
@@ -52,11 +73,13 @@ public class HealthBar : MonoBehaviour
 
     public void RemoveLife()
     {
-        if (Life > 0f)
+        if (canTakeDamage && Life > 0f)
         {
             Life -= 0.35f;
             LifeFill.fillAmount = Life;
             animator.SetBool("isHurt", true);
+
+           
         }
 
 
@@ -86,12 +109,15 @@ public class HealthBar : MonoBehaviour
 
                 Debug.Log(hit.transform.name);
     
-            if (tag == "Bone")
+            if (canGetHealth && tag == "Bone")
                 {
                     if (Life < 1f)
                     {
                         Life += 0.35f;
                         LifeFill.fillAmount = Life;
+                       
+                        
+                    
                     }
                 }
             }

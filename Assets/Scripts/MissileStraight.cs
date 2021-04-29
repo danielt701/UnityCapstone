@@ -5,6 +5,7 @@ using UnityEngine;
 public class MissileStraight : MonoBehaviour
 {
     public float speed = 10.0f;
+    public float faster = 50.0f;
     private Rigidbody2D rb;
     private Vector2 screenBounds;
 
@@ -33,9 +34,9 @@ public class MissileStraight : MonoBehaviour
             Destroy(gameObject);
         }
 
-        if (CompareTag("Player"))
+        if (collision.CompareTag("Player"))
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
         }
 
 
