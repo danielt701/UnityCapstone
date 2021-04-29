@@ -2708,7 +2708,7 @@ GameObject:
   - component: {fileID: 145735490}
   m_Layer: 0
   m_Name: PatrolAdvanced2
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9652,7 +9652,7 @@ GameObject:
   - component: {fileID: 597764048}
   m_Layer: 0
   m_Name: enemyblob2_constantmove
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12893,7 +12893,7 @@ GameObject:
   - component: {fileID: 766992542}
   m_Layer: 0
   m_Name: PatrolAdvanced
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16842,7 +16842,7 @@ GameObject:
   - component: {fileID: 1045573636}
   m_Layer: 0
   m_Name: enemyblob2_constantmove
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23772,7 +23772,7 @@ GameObject:
   - component: {fileID: 1426022842}
   m_Layer: 0
   m_Name: enemyblob2_diffvariant 1_0 (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30430,7 +30430,7 @@ GameObject:
   - component: {fileID: 1778632804}
   m_Layer: 0
   m_Name: enemyblob2_diffvariant 1_0 (35)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33949,7 +33949,7 @@ GameObject:
   - component: {fileID: 2123342315}
   m_Layer: 0
   m_Name: enemyblob2_diffvariant 1_0 (3)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
