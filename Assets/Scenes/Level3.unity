@@ -7762,7 +7762,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1756718799}
   sentences:
-  - 'Fox Lady: Welcome to where you were sold to your owner...the Shelter.'
+  - 'Fox Lady: Welcome to the Shelter, I see that you remember this place.'
   - 'Fox Lady: This is a large area, indeed...Hm? ''It was smaller when you were
     here''...you say?'
   - 'Fox Lady: ...Ah, yes. This place has been distorted in your mind.'
@@ -19511,9 +19511,9 @@ MonoBehaviour:
   - It's the place where you lived in until your owner bought you!
   - You hated this place! Why are you here again? The shouting was so annoying!
   - Well, you sort of hate this place. You made a friend here!
-  - ...Though, this place is a lot larger than you remember. And a lot darker.
-  - You're getting goosebumps. You'll give up everything at this point just to leave
-    this place.
+  - ...Though, this place is a lot larger than you remember. And it's a lot darker
+    too.
+  - You're getting goosebumps. How much more does it take to go back?
   - Your chew toys, your sanity--anything to leave this place and to return back
     to your owner!
   - ...You have to keep going.
@@ -27047,7 +27047,6 @@ MonoBehaviour:
     For an easy way out?'
   - 'Fox Lady:  How ridiculous. Even in death, you would bargain your own life away.'
   - 'Fox Lady:  Do what you will. Your life has been wasted.'
-  - 'Fox Lady:  ...Your progress has been recorded. Continue on, Clyde.'
   typingSpeed: 0.001
   continueButton: {fileID: 564872559}
   dialogueManager: {fileID: 1534205135}
@@ -29759,7 +29758,6 @@ MonoBehaviour:
   - 'Hyde: Would you give up your owner too?'
   - 'Hyde: Wake up!  You don''t wanna just trade something away so your owner won''t
     recognize you!'
-  - 'Hyde: Ah. Your tail is wagging again. There''s that stupid smile on your face.'
   - 'Hyde: Keep moving, you idiot. '
   - 'Hyde: Don''t just give something up for something that''s going to make you
     feel better for a second.'

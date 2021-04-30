@@ -6053,13 +6053,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 711686814}
   sentences:
-  - ...Is there a point to keep going? You're slower than normal...but that's a given.
-  - Your sad. Very sad.
+  - Where could Bonnie be?
+  - Your sad. Very sad. She's not here.
   - Your heart is in pieces.
   - You can't find your owner. She's not here.
   - This 'place' that the Fox Lady says...
   - Is the 'place' here different from the place you lived in before?
-  - ...No. Maybe. You're confused.
+  - ...No. Maybe. You're confused. She has to be home, right?
   - ...You need to keep going.
   typingSpeed: 0.001
   continueButton: {fileID: 428049706}
@@ -6658,17 +6658,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 711686814}
   sentences:
-  - 'Fox Lady: ...Are you sad, Clyde?'
-  - 'Fox Lady: That the home you''re in--the place that you live in with your owner,
-    has been twisted?'
-  - 'Fox Lady: Do not despair.'
+  - 'Fox Lady: ...Hello there, Clyde.'
   - 'Fox Lady: You are almost there. All the way to the end.'
-  - 'Fox Lady: ...Though, consider this for a moment.'
+  - 'Fox Lady: ...No. I''m sorry. I am not your owner still.'
+  - 'Fox Lady: My apologies. I am the only one in this house.'
+  - 'Fox Lady: I am sure you will see her again.'
+  - 'Fox Lady: ...Though, consider this for a moment. '
   - 'Fox Lady: This place is familiar to you, because you know this place.'
   - 'Fox Lady: And yet, is is twisted beyond belief. The areas you have been in,
     they ALL have been twisted.'
-  - 'Fox Lady: Where would such memories, that have been bent and churned, would
-    be located...?'
+  - 'Fox Lady: But have you noticed? How you will always come back after dying?'
   - 'Fox Lady: ...Yes. I suppose you realize where you are exactly in. Your life
     wasn''t in peril at all.'
   - 'Fox Lady: This is a nightmare, Clyde. That is all that has been. It has all
@@ -11112,7 +11111,7 @@ MonoBehaviour:
   - ...!!!
   - Home! It's home!
   - ...But, where's your owner?
-  - And why does this place feel so cold? So uninviting? So bitter?
+  - Why does this place feel so cold? So uninviting? So bitter?
   - What happened to the warm, fuzzy feeling that used to be here?
   - You feel a crushing sadness in your heart.
   - ...You can't find your owner. She's not here.

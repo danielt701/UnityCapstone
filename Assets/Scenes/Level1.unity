@@ -1876,8 +1876,9 @@ MonoBehaviour:
     of me.'
   - 'Fox Lady: ...What a fierce growl. Are you accusing me of lying?'
   - 'Fox Lady: Then, how about this. With the ''ESC'' button, you will be able to
-    a multitude of tasks.'
-  - 'Fox Lady: You can change the volume. You can leave. You can return back here.'
+    do a multitude of tasks.'
+  - 'Fox Lady: You can change the volume, you can leave, and you can return back
+    here.'
   - 'Fox Lady: Try it out, should you need a break.'
   - 'Fox Lady: Now, run along. Keep going, small pup.'
   typingSpeed: 0.001
@@ -10811,8 +10812,8 @@ MonoBehaviour:
   sentences:
   - 'Fox Lady: Isn''t this strange?'
   - 'Fox Lady: This place was made for enjoyment, when you were with your owner.'
-  - 'Fox Lady: The two of you would splash around in the ocean waves, play with the
-    sand, find some shells...'
+  - 'Fox Lady: The two of you would splash around in the waves, play with the sand,
+    and find some shells...'
   - 'Fox Lady: How unfortunate to see an area made for recreation, to be left as
     a disappointing sight.'
   - 'Fox Lady: ...You look as if I''m lying to you. I am not lying.'
