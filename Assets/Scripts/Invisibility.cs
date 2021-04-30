@@ -33,6 +33,7 @@ public class Invisibility : MonoBehaviour
             col.a = 1;
             character.color = col;
             vet.GetComponent<Collider2D>().enabled = true;
+            enemy.GetComponent<Collider2D>().enabled = true;
         }
     }
 
@@ -48,6 +49,7 @@ public class Invisibility : MonoBehaviour
             // hiding the player damage
 
             vet.GetComponent<Collider2D>().enabled = false;
+            enemy.GetComponent<Collider2D>().enabled = false;
          
         }
     }
