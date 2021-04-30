@@ -10129,7 +10129,8 @@ MonoBehaviour:
     your owner...right?
   - You don't remember the beach looking this ominous...
   - ...This is all very confusing. But look! Your owner is just there!
-  - Move with the AD keys to reach her.
+  - Move with the AD keys to reach her. Press the Spacebar or use your mouse to continue
+    the dialouge.
   typingSpeed: 0.001
   continueButton: {fileID: 1302558898}
   dialogueManager: {fileID: 253581131}
