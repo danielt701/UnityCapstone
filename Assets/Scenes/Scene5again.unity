@@ -8963,9 +8963,9 @@ MonoBehaviour:
     every time.'
   - 'Fox Lady: Unless you wish to go through with this, again?'
   - 'Fox Lady: ...That''s what I thought. Now, shoo. It''s off to your owner.'
-  - 'Fox Lady: ...Hm? ''Her name is Bonnie''...you say?'
-  - 'Fox Lady: ...Fufufu. I see. Go and return back to Bonnie, young Clyde. Your
-    journey ends here.'
+  - 'Fox Lady: ...Hm? ''What is your name''...you ask?'
+  - 'Fox Lady: ...Fufufu. It''s Kimiko. No run along back to your owner Bonnie, young
+    pup.'
   typingSpeed: 0.001
   continueButton: {fileID: 368607481}
   dialogueManager: {fileID: 1629634557}
@@ -10579,7 +10579,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1544318001793611088, guid: 831c4d4351f55664083c0e51706e2a8a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1584.96
+      value: -1587.94
       objectReference: {fileID: 0}
     - target: {fileID: 1544318001793611088, guid: 831c4d4351f55664083c0e51706e2a8a, type: 3}
       propertyPath: m_LocalPosition.y

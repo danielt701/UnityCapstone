@@ -3977,6 +3977,7 @@ MonoBehaviour:
   sentences:
   - Get to the exit!
   - Watch out for the incoming syringes!
+  - Use the invisibility power-up to get pass through the wall!
   typingSpeed: 0.001
   continueButton: {fileID: 1998328190}
   dialogueManager: {fileID: 2078901841}
