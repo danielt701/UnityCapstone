@@ -15,6 +15,11 @@ public class InvisButton : MonoBehaviour
 
     }
 
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        Destroy(gameObject);
+    }
+
     public void Use()
     {
         Instantiate(invisibilityOn, player.position, Quaternion.identity);
