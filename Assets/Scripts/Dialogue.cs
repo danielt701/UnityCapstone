@@ -9,7 +9,6 @@ public class Dialogue : MonoBehaviour
     public string[] sentences;
     private int index;
     public float typingSpeed;
-
     public GameObject continueButton;
 
     //public GameObject endButton;
@@ -50,9 +49,9 @@ public class Dialogue : MonoBehaviour
             continueButton.SetActive(true);
             //endButton.SetActive(true);
         }
-
+       if (Input.GetKeyDown("space")) ManagerScript.NextDialogue();
         /*if (textDisplay.text != null)
-        {
+        {on
             textBox.SetActive(true);
         }*/
 
@@ -75,6 +74,15 @@ public class Dialogue : MonoBehaviour
 
     }
 
+/**
+    void finishTyping()
+    {
+        remainingStr = sentences[index].Substring(curLetter);
+        foreach (char letter in remainingStr)
+            textDisplay.text += letter;
+        isCompleted = true;
+    }
+*/
     IEnumerator Type()
     {
         foreach (char letter in sentences[index].ToCharArray())
